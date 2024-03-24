@@ -1,0 +1,2484 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/hidekiai/projects/kakasi/kakasi/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+$(ACLOCAL_M4)	Makefile.in	/^$(ACLOCAL_M4): @MAINTAINER_MODE_TRUE@ $(am__aclocal_m4_deps)$/;"	t
+$(ACLOCAL_M4)	lib/Makefile.in	/^$(ACLOCAL_M4): @MAINTAINER_MODE_TRUE@ $(am__aclocal_m4_deps)$/;"	t
+$(ACLOCAL_M4)	man/Makefile.in	/^$(ACLOCAL_M4): @MAINTAINER_MODE_TRUE@ $(am__aclocal_m4_deps)$/;"	t
+$(ACLOCAL_M4)	src/Makefile.in	/^$(ACLOCAL_M4): @MAINTAINER_MODE_TRUE@ $(am__aclocal_m4_deps)$/;"	t
+$(ACLOCAL_M4)	tests/Makefile.in	/^$(ACLOCAL_M4): @MAINTAINER_MODE_TRUE@ $(am__aclocal_m4_deps)$/;"	t
+$(ACLOCAL_M4)	tests/data/Makefile.in	/^$(ACLOCAL_M4): @MAINTAINER_MODE_TRUE@ $(am__aclocal_m4_deps)$/;"	t
+$(RECURSIVE_CLEAN_TARGETS)	Makefile.in	/^$(RECURSIVE_CLEAN_TARGETS):$/;"	t
+$(RECURSIVE_CLEAN_TARGETS)	tests/Makefile.in	/^$(RECURSIVE_CLEAN_TARGETS):$/;"	t
+$(RECURSIVE_TARGETS)	Makefile.in	/^$(RECURSIVE_TARGETS):$/;"	t
+$(RECURSIVE_TARGETS)	tests/Makefile.in	/^$(RECURSIVE_TARGETS):$/;"	t
+$(am__aclocal_m4_deps)	Makefile.in	/^$(am__aclocal_m4_deps):$/;"	t
+$(am__aclocal_m4_deps)	lib/Makefile.in	/^$(am__aclocal_m4_deps):$/;"	t
+$(am__aclocal_m4_deps)	man/Makefile.in	/^$(am__aclocal_m4_deps):$/;"	t
+$(am__aclocal_m4_deps)	src/Makefile.in	/^$(am__aclocal_m4_deps):$/;"	t
+$(am__aclocal_m4_deps)	tests/Makefile.in	/^$(am__aclocal_m4_deps):$/;"	t
+$(am__aclocal_m4_deps)	tests/data/Makefile.in	/^$(am__aclocal_m4_deps):$/;"	t
+$(srcdir)/Makefile.in	Makefile.in	/^$(srcdir)\/Makefile.in: @MAINTAINER_MODE_TRUE@ $(srcdir)\/Makefile.am  $(am__configure_deps)$/;"	t
+$(srcdir)/Makefile.in	lib/Makefile.in	/^$(srcdir)\/Makefile.in: @MAINTAINER_MODE_TRUE@ $(srcdir)\/Makefile.am  $(am__configure_deps)$/;"	t
+$(srcdir)/Makefile.in	man/Makefile.in	/^$(srcdir)\/Makefile.in: @MAINTAINER_MODE_TRUE@ $(srcdir)\/Makefile.am  $(am__configure_deps)$/;"	t
+$(srcdir)/Makefile.in	src/Makefile.in	/^$(srcdir)\/Makefile.in: @MAINTAINER_MODE_TRUE@ $(srcdir)\/Makefile.am  $(am__configure_deps)$/;"	t
+$(srcdir)/Makefile.in	tests/Makefile.in	/^$(srcdir)\/Makefile.in: @MAINTAINER_MODE_TRUE@ $(srcdir)\/Makefile.am  $(am__configure_deps)$/;"	t
+$(srcdir)/Makefile.in	tests/data/Makefile.in	/^$(srcdir)\/Makefile.in: @MAINTAINER_MODE_TRUE@ $(srcdir)\/Makefile.am  $(am__configure_deps)$/;"	t
+$(srcdir)/config.h.in	Makefile.in	/^$(srcdir)\/config.h.in: @MAINTAINER_MODE_TRUE@ $(am__configure_deps) $/;"	t
+$(top_builddir)/config.status	Makefile.in	/^$(top_builddir)\/config.status: $(top_srcdir)\/configure $(CONFIG_STATUS_DEPENDENCIES)$/;"	t
+$(top_builddir)/config.status	lib/Makefile.in	/^$(top_builddir)\/config.status: $(top_srcdir)\/configure $(CONFIG_STATUS_DEPENDENCIES)$/;"	t
+$(top_builddir)/config.status	man/Makefile.in	/^$(top_builddir)\/config.status: $(top_srcdir)\/configure $(CONFIG_STATUS_DEPENDENCIES)$/;"	t
+$(top_builddir)/config.status	src/Makefile.in	/^$(top_builddir)\/config.status: $(top_srcdir)\/configure $(CONFIG_STATUS_DEPENDENCIES)$/;"	t
+$(top_builddir)/config.status	tests/Makefile.in	/^$(top_builddir)\/config.status: $(top_srcdir)\/configure $(CONFIG_STATUS_DEPENDENCIES)$/;"	t
+$(top_builddir)/config.status	tests/data/Makefile.in	/^$(top_builddir)\/config.status: $(top_srcdir)\/configure $(CONFIG_STATUS_DEPENDENCIES)$/;"	t
+$(top_srcdir)/configure	Makefile.in	/^$(top_srcdir)\/configure: @MAINTAINER_MODE_TRUE@ $(am__configure_deps)$/;"	t
+$(top_srcdir)/configure	lib/Makefile.in	/^$(top_srcdir)\/configure: @MAINTAINER_MODE_TRUE@ $(am__configure_deps)$/;"	t
+$(top_srcdir)/configure	man/Makefile.in	/^$(top_srcdir)\/configure: @MAINTAINER_MODE_TRUE@ $(am__configure_deps)$/;"	t
+$(top_srcdir)/configure	src/Makefile.in	/^$(top_srcdir)\/configure: @MAINTAINER_MODE_TRUE@ $(am__configure_deps)$/;"	t
+$(top_srcdir)/configure	tests/Makefile.in	/^$(top_srcdir)\/configure: @MAINTAINER_MODE_TRUE@ $(am__configure_deps)$/;"	t
+$(top_srcdir)/configure	tests/data/Makefile.in	/^$(top_srcdir)\/configure: @MAINTAINER_MODE_TRUE@ $(am__configure_deps)$/;"	t
+*lt_preloaded_setup	configure	/^static const void *lt_preloaded_setup() {$/;"	f
+*lt_preloaded_setup	ltmain.sh	/^static const void *lt_preloaded_setup() {$/;"	f
+-g	configure	/^  alias -g '${1+"$@"}'='"$@"'$/;"	a
+-g	configure	/^  alias -g '\\${1+\\"\\$@\\"}'='\\"\\$@\\"'$/;"	a
+-g	ltmain.sh	/^  alias -g '${1+"$@"}'='"$@"'$/;"	a
+-g	ltmain.sh	/^  alias -g '\\${1+\\"\\$@\\"}'='\\"\\$@\\"'$/;"	a
+.c.lo	lib/Makefile.in	/^.c.lo:$/;"	t
+.c.lo	src/Makefile.in	/^.c.lo:$/;"	t
+.c.o	lib/Makefile.in	/^.c.o:$/;"	t
+.c.o	src/Makefile.in	/^.c.o:$/;"	t
+.c.obj	lib/Makefile.in	/^.c.obj:$/;"	t
+.c.obj	src/Makefile.in	/^.c.obj:$/;"	t
+ACLOCAL	Makefile.in	/^ACLOCAL = @ACLOCAL@$/;"	m
+ACLOCAL	lib/Makefile.in	/^ACLOCAL = @ACLOCAL@$/;"	m
+ACLOCAL	man/Makefile.in	/^ACLOCAL = @ACLOCAL@$/;"	m
+ACLOCAL	src/Makefile.in	/^ACLOCAL = @ACLOCAL@$/;"	m
+ACLOCAL	tests/Makefile.in	/^ACLOCAL = @ACLOCAL@$/;"	m
+ACLOCAL	tests/data/Makefile.in	/^ACLOCAL = @ACLOCAL@$/;"	m
+ACLOCAL_M4	Makefile.in	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	lib/Makefile.in	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	man/Makefile.in	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	src/Makefile.in	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	tests/Makefile.in	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	tests/data/Makefile.in	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+AC_DISABLE_SHARED	aclocal.m4	/^AC_DEFUN([AC_DISABLE_SHARED],$/;"	m
+AC_DISABLE_STATIC	aclocal.m4	/^AC_DEFUN([AC_DISABLE_STATIC],$/;"	m
+AC_ENABLE_SHARED	aclocal.m4	/^AC_DEFUN([AC_ENABLE_SHARED],$/;"	m
+AC_ENABLE_STATIC	aclocal.m4	/^AC_DEFUN([AC_ENABLE_STATIC],$/;"	m
+AC_LIB_APPENDTOVAR	aclocal.m4	/^AC_DEFUN([AC_LIB_APPENDTOVAR],$/;"	m
+AC_LIB_FROMPACKAGE	aclocal.m4	/^AC_DEFUN([AC_LIB_FROMPACKAGE],$/;"	m
+AC_LIB_HAVE_LINKFLAGS	aclocal.m4	/^AC_DEFUN([AC_LIB_HAVE_LINKFLAGS],$/;"	m
+AC_LIB_LINKFLAGS	aclocal.m4	/^AC_DEFUN([AC_LIB_LINKFLAGS],$/;"	m
+AC_LIB_LINKFLAGS_BODY	aclocal.m4	/^AC_DEFUN([AC_LIB_LINKFLAGS_BODY],$/;"	m
+AC_LIB_LINKFLAGS_FROM_LIBS	aclocal.m4	/^AC_DEFUN([AC_LIB_LINKFLAGS_FROM_LIBS],$/;"	m
+AC_LIB_PREFIX	aclocal.m4	/^AC_DEFUN([AC_LIB_PREFIX],$/;"	m
+AC_LIB_PREPARE_MULTILIB	aclocal.m4	/^AC_DEFUN([AC_LIB_PREPARE_MULTILIB],$/;"	m
+AC_LIB_PREPARE_PREFIX	aclocal.m4	/^AC_DEFUN([AC_LIB_PREPARE_PREFIX],$/;"	m
+AC_LIB_PROG_LD	aclocal.m4	/^AC_DEFUN([AC_LIB_PROG_LD],$/;"	m
+AC_LIB_PROG_LD_GNU	aclocal.m4	/^AC_DEFUN([AC_LIB_PROG_LD_GNU],$/;"	m
+AC_LIB_RPATH	aclocal.m4	/^AC_DEFUN([AC_LIB_RPATH],$/;"	m
+AC_LIB_WITH_FINAL_PREFIX	aclocal.m4	/^AC_DEFUN([AC_LIB_WITH_FINAL_PREFIX],$/;"	m
+AMTAR	Makefile.in	/^AMTAR = @AMTAR@$/;"	m
+AMTAR	lib/Makefile.in	/^AMTAR = @AMTAR@$/;"	m
+AMTAR	man/Makefile.in	/^AMTAR = @AMTAR@$/;"	m
+AMTAR	src/Makefile.in	/^AMTAR = @AMTAR@$/;"	m
+AMTAR	tests/Makefile.in	/^AMTAR = @AMTAR@$/;"	m
+AMTAR	tests/data/Makefile.in	/^AMTAR = @AMTAR@$/;"	m
+AM_AUTOMAKE_VERSION	aclocal.m4	/^AC_DEFUN([AM_AUTOMAKE_VERSION],$/;"	m
+AM_AUX_DIR_EXPAND	aclocal.m4	/^AC_DEFUN([AM_AUX_DIR_EXPAND],$/;"	m
+AM_CONDITIONAL	aclocal.m4	/^AC_DEFUN([AM_CONDITIONAL],$/;"	m
+AM_DEP_TRACK	aclocal.m4	/^AC_DEFUN([AM_DEP_TRACK],$/;"	m
+AM_ICONV_LINK	aclocal.m4	/^AC_DEFUN([AM_ICONV_LINK],$/;"	m
+AM_ICONV_LINKFLAGS_BODY	aclocal.m4	/^AC_DEFUN([AM_ICONV_LINKFLAGS_BODY],$/;"	m
+AM_INIT_AUTOMAKE	aclocal.m4	/^AC_DEFUN([AM_INIT_AUTOMAKE],$/;"	m
+AM_MAINTAINER_MODE	aclocal.m4	/^AC_DEFUN([AM_MAINTAINER_MODE],$/;"	m
+AM_MAKE_INCLUDE	aclocal.m4	/^AC_DEFUN([AM_MAKE_INCLUDE],$/;"	m
+AM_MISSING_HAS_RUN	aclocal.m4	/^AC_DEFUN([AM_MISSING_HAS_RUN],$/;"	m
+AM_MISSING_PROG	aclocal.m4	/^AC_DEFUN([AM_MISSING_PROG],$/;"	m
+AM_OUTPUT_DEPENDENCY_COMMANDS	aclocal.m4	/^AC_DEFUN([AM_OUTPUT_DEPENDENCY_COMMANDS],$/;"	m
+AM_PROG_INSTALL_SH	aclocal.m4	/^AC_DEFUN([AM_PROG_INSTALL_SH],$/;"	m
+AM_PROG_INSTALL_STRIP	aclocal.m4	/^AC_DEFUN([AM_PROG_INSTALL_STRIP],$/;"	m
+AM_PROG_MKDIR_P	aclocal.m4	/^AC_DEFUN([AM_PROG_MKDIR_P],$/;"	m
+AM_RECURSIVE_TARGETS	Makefile.in	/^AM_RECURSIVE_TARGETS = $(RECURSIVE_TARGETS:-recursive=) \\$/;"	m
+AM_RECURSIVE_TARGETS	tests/Makefile.in	/^AM_RECURSIVE_TARGETS = $(RECURSIVE_TARGETS:-recursive=) \\$/;"	m
+AM_SANITY_CHECK	aclocal.m4	/^AC_DEFUN([AM_SANITY_CHECK],$/;"	m
+AM_SET_CURRENT_AUTOMAKE_VERSION	aclocal.m4	/^AC_DEFUN([AM_SET_CURRENT_AUTOMAKE_VERSION],$/;"	m
+AM_SET_DEPDIR	aclocal.m4	/^AC_DEFUN([AM_SET_DEPDIR],$/;"	m
+AM_SET_LEADING_DOT	aclocal.m4	/^AC_DEFUN([AM_SET_LEADING_DOT],$/;"	m
+AM_SUBST_NOTMAKE	aclocal.m4	/^AC_DEFUN([AM_SUBST_NOTMAKE], [_AM_SUBST_NOTMAKE($@)])$/;"	m
+AR	Makefile.in	/^AR = @AR@$/;"	m
+AR	lib/Makefile.in	/^AR = @AR@$/;"	m
+AR	man/Makefile.in	/^AR = @AR@$/;"	m
+AR	src/Makefile.in	/^AR = @AR@$/;"	m
+AR	tests/Makefile.in	/^AR = @AR@$/;"	m
+AR	tests/data/Makefile.in	/^AR = @AR@$/;"	m
+ASCII	src/kakasi.h	/^#define ASCII /;"	d
+AUTHOR	man/kakasi.1	/^.SH AUTHOR$/;"	s	title:KAKASI
+AUTOCONF	Makefile.in	/^AUTOCONF = @AUTOCONF@$/;"	m
+AUTOCONF	lib/Makefile.in	/^AUTOCONF = @AUTOCONF@$/;"	m
+AUTOCONF	man/Makefile.in	/^AUTOCONF = @AUTOCONF@$/;"	m
+AUTOCONF	src/Makefile.in	/^AUTOCONF = @AUTOCONF@$/;"	m
+AUTOCONF	tests/Makefile.in	/^AUTOCONF = @AUTOCONF@$/;"	m
+AUTOCONF	tests/data/Makefile.in	/^AUTOCONF = @AUTOCONF@$/;"	m
+AUTOHEADER	Makefile.in	/^AUTOHEADER = @AUTOHEADER@$/;"	m
+AUTOHEADER	lib/Makefile.in	/^AUTOHEADER = @AUTOHEADER@$/;"	m
+AUTOHEADER	man/Makefile.in	/^AUTOHEADER = @AUTOHEADER@$/;"	m
+AUTOHEADER	src/Makefile.in	/^AUTOHEADER = @AUTOHEADER@$/;"	m
+AUTOHEADER	tests/Makefile.in	/^AUTOHEADER = @AUTOHEADER@$/;"	m
+AUTOHEADER	tests/data/Makefile.in	/^AUTOHEADER = @AUTOHEADER@$/;"	m
+AUTOMAKE	Makefile.in	/^AUTOMAKE = @AUTOMAKE@$/;"	m
+AUTOMAKE	lib/Makefile.in	/^AUTOMAKE = @AUTOMAKE@$/;"	m
+AUTOMAKE	man/Makefile.in	/^AUTOMAKE = @AUTOMAKE@$/;"	m
+AUTOMAKE	src/Makefile.in	/^AUTOMAKE = @AUTOMAKE@$/;"	m
+AUTOMAKE	tests/Makefile.in	/^AUTOMAKE = @AUTOMAKE@$/;"	m
+AUTOMAKE	tests/data/Makefile.in	/^AUTOMAKE = @AUTOMAKE@$/;"	m
+AUTOMAKE_OPTIONS	Makefile.am	/^AUTOMAKE_OPTIONS = 1.4 no-dependencies$/;"	m
+AUTOMAKE_OPTIONS	Makefile.in	/^AUTOMAKE_OPTIONS = 1.4 no-dependencies$/;"	m
+AUTOMAKE_OPTIONS	lib/Makefile.am	/^AUTOMAKE_OPTIONS = 1.4 no-dependencies$/;"	m
+AUTOMAKE_OPTIONS	lib/Makefile.in	/^AUTOMAKE_OPTIONS = 1.4 no-dependencies$/;"	m
+AUTOMAKE_OPTIONS	man/Makefile.am	/^AUTOMAKE_OPTIONS = 1.4 no-dependencies$/;"	m
+AUTOMAKE_OPTIONS	man/Makefile.in	/^AUTOMAKE_OPTIONS = 1.4 no-dependencies$/;"	m
+AUTOMAKE_OPTIONS	src/Makefile.am	/^AUTOMAKE_OPTIONS = 1.4 no-dependencies$/;"	m
+AUTOMAKE_OPTIONS	src/Makefile.in	/^AUTOMAKE_OPTIONS = 1.4 no-dependencies$/;"	m
+AUTOMAKE_OPTIONS	tests/Makefile.am	/^AUTOMAKE_OPTIONS = 1.4 no-dependencies$/;"	m
+AUTOMAKE_OPTIONS	tests/Makefile.in	/^AUTOMAKE_OPTIONS = 1.4 no-dependencies$/;"	m
+AUTOMAKE_OPTIONS	tests/data/Makefile.am	/^AUTOMAKE_OPTIONS = 1.4 no-dependencies$/;"	m
+AUTOMAKE_OPTIONS	tests/data/Makefile.in	/^AUTOMAKE_OPTIONS = 1.4 no-dependencies$/;"	m
+AWK	Makefile.in	/^AWK = @AWK@$/;"	m
+AWK	lib/Makefile.in	/^AWK = @AWK@$/;"	m
+AWK	man/Makefile.in	/^AWK = @AWK@$/;"	m
+AWK	src/Makefile.in	/^AWK = @AWK@$/;"	m
+AWK	tests/Makefile.in	/^AWK = @AWK@$/;"	m
+AWK	tests/data/Makefile.in	/^AWK = @AWK@$/;"	m
+BUFLEN	lib/libdict.c	/^#define BUFLEN /;"	d	file:
+BUFLEN	src/dict.c	/^#define BUFLEN /;"	d	file:
+BUFSIZE	lib/libitaiji.c	/^#define BUFSIZE /;"	d	file:
+BUFSIZE	src/itaiji.c	/^#define BUFSIZE /;"	d	file:
+BUGS	man/kakasi.1	/^.SH BUGS$/;"	s	title:KAKASI
+Buildroot	kakasi.spec	/^Buildroot: %{_tmppath}\/%{name}-%{ver}-buildroot$/;"	t
+Buildroot	kakasi.spec.in	/^Buildroot: %{_tmppath}\/%{name}-%{ver}-buildroot$/;"	t
+CC	Makefile.in	/^CC = @CC@$/;"	m
+CC	lib/Makefile.in	/^CC = @CC@$/;"	m
+CC	man/Makefile.in	/^CC = @CC@$/;"	m
+CC	src/Makefile.in	/^CC = @CC@$/;"	m
+CC	tests/Makefile.in	/^CC = @CC@$/;"	m
+CC	tests/data/Makefile.in	/^CC = @CC@$/;"	m
+CCDEPMODE	Makefile.in	/^CCDEPMODE = @CCDEPMODE@$/;"	m
+CCDEPMODE	lib/Makefile.in	/^CCDEPMODE = @CCDEPMODE@$/;"	m
+CCDEPMODE	man/Makefile.in	/^CCDEPMODE = @CCDEPMODE@$/;"	m
+CCDEPMODE	src/Makefile.in	/^CCDEPMODE = @CCDEPMODE@$/;"	m
+CCDEPMODE	tests/Makefile.in	/^CCDEPMODE = @CCDEPMODE@$/;"	m
+CCDEPMODE	tests/data/Makefile.in	/^CCDEPMODE = @CCDEPMODE@$/;"	m
+CCLD	lib/Makefile.in	/^CCLD = $(CC)$/;"	m
+CCLD	src/Makefile.in	/^CCLD = $(CC)$/;"	m
+CELLALLOC	lib/libdict.c	/^#define CELLALLOC /;"	d	file:
+CELLALLOC	src/dict.c	/^#define CELLALLOC /;"	d	file:
+CFLAGS	Makefile.in	/^CFLAGS = @CFLAGS@$/;"	m
+CFLAGS	lib/Makefile.in	/^CFLAGS = @CFLAGS@$/;"	m
+CFLAGS	man/Makefile.in	/^CFLAGS = @CFLAGS@$/;"	m
+CFLAGS	src/Makefile.in	/^CFLAGS = @CFLAGS@$/;"	m
+CFLAGS	tests/Makefile.in	/^CFLAGS = @CFLAGS@$/;"	m
+CFLAGS	tests/data/Makefile.in	/^CFLAGS = @CFLAGS@$/;"	m
+CLEANFILES	Makefile.am	/^CLEANFILES = kanwadict$/;"	m
+CLEANFILES	Makefile.in	/^CLEANFILES = kanwadict$/;"	m
+COMPILE	lib/Makefile.in	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+COMPILE	src/Makefile.in	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	Makefile.in	/^CONFIG_CLEAN_FILES = kakasi-config kakasi.spec$/;"	m
+CONFIG_CLEAN_FILES	lib/Makefile.in	/^CONFIG_CLEAN_FILES = makefile.msc$/;"	m
+CONFIG_CLEAN_FILES	man/Makefile.in	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	src/Makefile.in	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	tests/Makefile.in	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	tests/data/Makefile.in	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	Makefile.in	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	lib/Makefile.in	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	man/Makefile.in	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	src/Makefile.in	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	tests/Makefile.in	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	tests/data/Makefile.in	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_HEADER	Makefile.in	/^CONFIG_HEADER = config.h$/;"	m
+CONFIG_HEADER	lib/Makefile.in	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CONFIG_HEADER	man/Makefile.in	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CONFIG_HEADER	src/Makefile.in	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CONFIG_HEADER	tests/Makefile.in	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CONFIG_HEADER	tests/data/Makefile.in	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CONVERSION	man/kakasi.1	/^.SH CONVERSION DESIGNATED CHARACTER SET$/;"	s	title:KAKASI
+COPYRIGHT	man/kakasi-config.1	/^.SH COPYRIGHT$/;"	s	title:KAKASI
+CPP	Makefile.in	/^CPP = @CPP@$/;"	m
+CPP	lib/Makefile.in	/^CPP = @CPP@$/;"	m
+CPP	man/Makefile.in	/^CPP = @CPP@$/;"	m
+CPP	src/Makefile.in	/^CPP = @CPP@$/;"	m
+CPP	tests/Makefile.in	/^CPP = @CPP@$/;"	m
+CPP	tests/data/Makefile.in	/^CPP = @CPP@$/;"	m
+CPPFLAGS	Makefile.in	/^CPPFLAGS = @CPPFLAGS@$/;"	m
+CPPFLAGS	lib/Makefile.in	/^CPPFLAGS = @CPPFLAGS@$/;"	m
+CPPFLAGS	man/Makefile.in	/^CPPFLAGS = @CPPFLAGS@$/;"	m
+CPPFLAGS	src/Makefile.in	/^CPPFLAGS = @CPPFLAGS@$/;"	m
+CPPFLAGS	tests/Makefile.in	/^CPPFLAGS = @CPPFLAGS@$/;"	m
+CPPFLAGS	tests/data/Makefile.in	/^CPPFLAGS = @CPPFLAGS@$/;"	m
+CTAGS	Makefile.in	/^CTAGS = ctags$/;"	m
+CTAGS	Makefile.in	/^CTAGS: ctags-recursive $(HEADERS) $(SOURCES) config.h.in $(TAGS_DEPENDENCIES) \\$/;"	t
+CTAGS	lib/Makefile.in	/^CTAGS = ctags$/;"	m
+CTAGS	lib/Makefile.in	/^CTAGS:  $(HEADERS) $(SOURCES)  $(TAGS_DEPENDENCIES) \\$/;"	t
+CTAGS	man/Makefile.in	/^CTAGS:$/;"	t
+CTAGS	src/Makefile.in	/^CTAGS = ctags$/;"	m
+CTAGS	src/Makefile.in	/^CTAGS:  $(HEADERS) $(SOURCES)  $(TAGS_DEPENDENCIES) \\$/;"	t
+CTAGS	tests/Makefile.in	/^CTAGS = ctags$/;"	m
+CTAGS	tests/Makefile.in	/^CTAGS: ctags-recursive $(HEADERS) $(SOURCES)  $(TAGS_DEPENDENCIES) \\$/;"	t
+CTAGS	tests/data/Makefile.in	/^CTAGS:$/;"	t
+CYGPATH_W	Makefile.in	/^CYGPATH_W = @CYGPATH_W@$/;"	m
+CYGPATH_W	lib/Makefile.in	/^CYGPATH_W = @CYGPATH_W@$/;"	m
+CYGPATH_W	man/Makefile.in	/^CYGPATH_W = @CYGPATH_W@$/;"	m
+CYGPATH_W	src/Makefile.in	/^CYGPATH_W = @CYGPATH_W@$/;"	m
+CYGPATH_W	tests/Makefile.in	/^CYGPATH_W = @CYGPATH_W@$/;"	m
+CYGPATH_W	tests/data/Makefile.in	/^CYGPATH_W = @CYGPATH_W@$/;"	m
+Character	src/kakasi.h	/^} Character;$/;"	t	typeref:struct:character
+Copyright	kakasi.spec	/^Copyright: GPL$/;"	t
+Copyright	kakasi.spec.in	/^Copyright: GPL$/;"	t
+DATA	Makefile.in	/^DATA = $(dict_DATA)$/;"	m
+DEC	src/kakasi.h	/^#define DEC /;"	d
+DEFAULT_INCLUDES	lib/Makefile.in	/^DEFAULT_INCLUDES = -I.@am__isrc@ -I$(top_builddir)$/;"	m
+DEFAULT_INCLUDES	src/Makefile.in	/^DEFAULT_INCLUDES = -I.@am__isrc@ -I$(top_builddir)$/;"	m
+DEFS	Makefile.in	/^DEFS = @DEFS@$/;"	m
+DEFS	lib/Makefile.am	/^DEFS = -DLIBRARY -DHAVE_CONFIG_H \\$/;"	m
+DEFS	lib/Makefile.in	/^DEFS = -DLIBRARY -DHAVE_CONFIG_H \\$/;"	m
+DEFS	man/Makefile.in	/^DEFS = @DEFS@$/;"	m
+DEFS	src/Makefile.am	/^DEFS = -DHAVE_CONFIG_H \\$/;"	m
+DEFS	src/Makefile.in	/^DEFS = -DHAVE_CONFIG_H \\$/;"	m
+DEFS	tests/Makefile.in	/^DEFS = @DEFS@$/;"	m
+DEFS	tests/data/Makefile.in	/^DEFS = @DEFS@$/;"	m
+DEPDIR	Makefile.in	/^DEPDIR = @DEPDIR@$/;"	m
+DEPDIR	lib/Makefile.in	/^DEPDIR = @DEPDIR@$/;"	m
+DEPDIR	man/Makefile.in	/^DEPDIR = @DEPDIR@$/;"	m
+DEPDIR	src/Makefile.in	/^DEPDIR = @DEPDIR@$/;"	m
+DEPDIR	tests/Makefile.in	/^DEPDIR = @DEPDIR@$/;"	m
+DEPDIR	tests/data/Makefile.in	/^DEPDIR = @DEPDIR@$/;"	m
+DESCRIPTION	man/kakasi-config.1	/^.SH DESCRIPTION$/;"	s	title:KAKASI
+DESCRIPTION	man/kakasi.1	/^.SH DESCRIPTION$/;"	s	title:KAKASI
+DIAGNOSTICS	man/kakasi.1	/^.SH DIAGNOSTICS$/;"	s	title:KAKASI
+DICTIONARIES	man/kakasi.1	/^.SH DICTIONARIES$/;"	s	title:KAKASI
+DISTCLEANFILES	lib/Makefile.am	/^DISTCLEANFILES = ${libkakasi_la_SOURCES}$/;"	m
+DISTCLEANFILES	lib/Makefile.in	/^DISTCLEANFILES = ${libkakasi_la_SOURCES}$/;"	m
+DISTFILES	Makefile.in	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	lib/Makefile.in	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	man/Makefile.in	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	src/Makefile.in	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	tests/Makefile.in	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	tests/data/Makefile.in	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_ARCHIVES	Makefile.in	/^DIST_ARCHIVES = $(distdir).tar.gz$/;"	m
+DIST_COMMON	Makefile.in	/^DIST_COMMON = README $(am__configure_deps) $(srcdir)\/Makefile.am \\$/;"	m
+DIST_COMMON	lib/Makefile.in	/^DIST_COMMON = $(include_HEADERS) $(srcdir)\/Makefile.am \\$/;"	m
+DIST_COMMON	man/Makefile.in	/^DIST_COMMON = $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in$/;"	m
+DIST_COMMON	src/Makefile.in	/^DIST_COMMON = $(noinst_HEADERS) $(srcdir)\/Makefile.am \\$/;"	m
+DIST_COMMON	tests/Makefile.in	/^DIST_COMMON = $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in$/;"	m
+DIST_COMMON	tests/data/Makefile.in	/^DIST_COMMON = $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in$/;"	m
+DIST_SOURCES	Makefile.in	/^DIST_SOURCES =$/;"	m
+DIST_SOURCES	lib/Makefile.in	/^DIST_SOURCES = $(libkakasi_la_SOURCES)$/;"	m
+DIST_SOURCES	man/Makefile.in	/^DIST_SOURCES =$/;"	m
+DIST_SOURCES	src/Makefile.in	/^DIST_SOURCES = $(atoc_conv_SOURCES) $(kakasi_SOURCES) \\$/;"	m
+DIST_SOURCES	tests/Makefile.in	/^DIST_SOURCES =$/;"	m
+DIST_SOURCES	tests/data/Makefile.in	/^DIST_SOURCES =$/;"	m
+DIST_SUBDIRS	Makefile.in	/^DIST_SUBDIRS = $(SUBDIRS)$/;"	m
+DIST_SUBDIRS	tests/Makefile.in	/^DIST_SUBDIRS = $(SUBDIRS)$/;"	m
+DLLTOOL	Makefile.in	/^DLLTOOL = @DLLTOOL@$/;"	m
+DLLTOOL	lib/Makefile.in	/^DLLTOOL = @DLLTOOL@$/;"	m
+DLLTOOL	man/Makefile.in	/^DLLTOOL = @DLLTOOL@$/;"	m
+DLLTOOL	src/Makefile.in	/^DLLTOOL = @DLLTOOL@$/;"	m
+DLLTOOL	tests/Makefile.in	/^DLLTOOL = @DLLTOOL@$/;"	m
+DLLTOOL	tests/data/Makefile.in	/^DLLTOOL = @DLLTOOL@$/;"	m
+DSYMUTIL	Makefile.in	/^DSYMUTIL = @DSYMUTIL@$/;"	m
+DSYMUTIL	lib/Makefile.in	/^DSYMUTIL = @DSYMUTIL@$/;"	m
+DSYMUTIL	man/Makefile.in	/^DSYMUTIL = @DSYMUTIL@$/;"	m
+DSYMUTIL	src/Makefile.in	/^DSYMUTIL = @DSYMUTIL@$/;"	m
+DSYMUTIL	tests/Makefile.in	/^DSYMUTIL = @DSYMUTIL@$/;"	m
+DSYMUTIL	tests/data/Makefile.in	/^DSYMUTIL = @DSYMUTIL@$/;"	m
+DUMPBIN	Makefile.in	/^DUMPBIN = @DUMPBIN@$/;"	m
+DUMPBIN	lib/Makefile.in	/^DUMPBIN = @DUMPBIN@$/;"	m
+DUMPBIN	man/Makefile.in	/^DUMPBIN = @DUMPBIN@$/;"	m
+DUMPBIN	src/Makefile.in	/^DUMPBIN = @DUMPBIN@$/;"	m
+DUMPBIN	tests/Makefile.in	/^DUMPBIN = @DUMPBIN@$/;"	m
+DUMPBIN	tests/data/Makefile.in	/^DUMPBIN = @DUMPBIN@$/;"	m
+E2a	lib/libee2.c	/^E2a(c, n)$/;"	f
+E2a	src/ee2.c	/^E2a(c, n)$/;"	f
+E2alphabet	lib/libee2.c	/^E2alphabet(c, n, type)$/;"	f	file:
+E2alphabet	src/ee2.c	/^E2alphabet(c, n, type)$/;"	f	file:
+E2alphabet_copy	lib/libee2.c	/^E2alphabet_copy(n, str, type)$/;"	f	file:
+E2alphabet_copy	src/ee2.c	/^E2alphabet_copy(n, str, type)$/;"	f	file:
+E2j	lib/libee2.c	/^E2j(c, n)$/;"	f
+E2j	src/ee2.c	/^E2j(c, n)$/;"	f
+EACH_YOMI	configure.in	/^test "${eachyomi}" = yes && AC_DEFINE(EACH_YOMI, 1, [EACH_YOMI])$/;"	d
+ECHO_C	Makefile.in	/^ECHO_C = @ECHO_C@$/;"	m
+ECHO_C	lib/Makefile.in	/^ECHO_C = @ECHO_C@$/;"	m
+ECHO_C	man/Makefile.in	/^ECHO_C = @ECHO_C@$/;"	m
+ECHO_C	src/Makefile.in	/^ECHO_C = @ECHO_C@$/;"	m
+ECHO_C	tests/Makefile.in	/^ECHO_C = @ECHO_C@$/;"	m
+ECHO_C	tests/data/Makefile.in	/^ECHO_C = @ECHO_C@$/;"	m
+ECHO_N	Makefile.in	/^ECHO_N = @ECHO_N@$/;"	m
+ECHO_N	lib/Makefile.in	/^ECHO_N = @ECHO_N@$/;"	m
+ECHO_N	man/Makefile.in	/^ECHO_N = @ECHO_N@$/;"	m
+ECHO_N	src/Makefile.in	/^ECHO_N = @ECHO_N@$/;"	m
+ECHO_N	tests/Makefile.in	/^ECHO_N = @ECHO_N@$/;"	m
+ECHO_N	tests/data/Makefile.in	/^ECHO_N = @ECHO_N@$/;"	m
+ECHO_T	Makefile.in	/^ECHO_T = @ECHO_T@$/;"	m
+ECHO_T	lib/Makefile.in	/^ECHO_T = @ECHO_T@$/;"	m
+ECHO_T	man/Makefile.in	/^ECHO_T = @ECHO_T@$/;"	m
+ECHO_T	src/Makefile.in	/^ECHO_T = @ECHO_T@$/;"	m
+ECHO_T	tests/Makefile.in	/^ECHO_T = @ECHO_T@$/;"	m
+ECHO_T	tests/data/Makefile.in	/^ECHO_T = @ECHO_T@$/;"	m
+EGREP	Makefile.in	/^EGREP = @EGREP@$/;"	m
+EGREP	lib/Makefile.in	/^EGREP = @EGREP@$/;"	m
+EGREP	man/Makefile.in	/^EGREP = @EGREP@$/;"	m
+EGREP	src/Makefile.in	/^EGREP = @EGREP@$/;"	m
+EGREP	tests/Makefile.in	/^EGREP = @EGREP@$/;"	m
+EGREP	tests/data/Makefile.in	/^EGREP = @EGREP@$/;"	m
+ELIDE_CODE	src/getopt.c	/^#  define ELIDE_CODE$/;"	d	file:
+ELIDE_CODE	src/getopt1.c	/^#define ELIDE_CODE$/;"	d	file:
+END	configure	/^cat > confinc << 'END'$/;"	h
+ENVIRONMENT	man/kakasi.1	/^.SH ENVIRONMENT VARIABLES$/;"	s	title:KAKASI
+EOF	config.guess	/^		    sed 's\/^		\/\/' << EOF >$dummy.c$/;"	h
+EOF	config.guess	/^		sed 's\/^		\/\/' << EOF >$dummy.c$/;"	h
+EOF	config.guess	/^	sed 's\/^	\/\/' << EOF >$dummy.c$/;"	h
+EOF	config.guess	/^cat >$dummy.c <<EOF$/;"	h
+EOF	config.guess	/^cat >&2 <<EOF$/;"	h
+EOF	config.rpath	/^sed -e 's\/^\\([a-zA-Z0-9_]*\\)=\/acl_cv_\\1=\/' <<EOF$/;"	h
+EOF	ltmain.sh	/^		cat <<"EOF"$/;"	h
+EOF	ltmain.sh	/^	      cat <<"EOF"$/;"	h
+EOF	ltmain.sh	/^	      cat <<EOF$/;"	h
+EOF	ltmain.sh	/^	    cat <<"EOF"$/;"	h
+EOF	ltmain.sh	/^	    cat <<EOF$/;"	h
+EOF	ltmain.sh	/^	  cat > conftest.c <<EOF$/;"	h
+EOF	ltmain.sh	/^	cat <<EOF$/;"	h
+EOF	ltmain.sh	/^            cat <<"EOF"$/;"	h
+EOF	ltmain.sh	/^      cat >${write_libobj}T <<EOF$/;"	h
+ETAGS	Makefile.in	/^ETAGS = etags$/;"	m
+ETAGS	lib/Makefile.in	/^ETAGS = etags$/;"	m
+ETAGS	src/Makefile.in	/^ETAGS = etags$/;"	m
+ETAGS	tests/Makefile.in	/^ETAGS = etags$/;"	m
+EUC	src/kakasi.h	/^#define EUC /;"	d
+EXEEXT	Makefile.in	/^EXEEXT = @EXEEXT@$/;"	m
+EXEEXT	lib/Makefile.in	/^EXEEXT = @EXEEXT@$/;"	m
+EXEEXT	man/Makefile.in	/^EXEEXT = @EXEEXT@$/;"	m
+EXEEXT	src/Makefile.in	/^EXEEXT = @EXEEXT@$/;"	m
+EXEEXT	tests/Makefile.in	/^EXEEXT = @EXEEXT@$/;"	m
+EXEEXT	tests/data/Makefile.in	/^EXEEXT = @EXEEXT@$/;"	m
+EXTRA_DIRS	Makefile.am	/^EXTRA_DIRS = doc$/;"	m
+EXTRA_DIRS	Makefile.in	/^EXTRA_DIRS = doc$/;"	m
+EXTRA_DIST	Makefile.am	/^EXTRA_DIST = config.rpath INSTALL-ja README-ja ONEWS maintMakefile \\$/;"	m
+EXTRA_DIST	Makefile.in	/^EXTRA_DIST = config.rpath INSTALL-ja README-ja ONEWS maintMakefile \\$/;"	m
+EXTRA_DIST	lib/Makefile.am	/^EXTRA_DIST = kakasi.def makefile.msc.in$/;"	m
+EXTRA_DIST	lib/Makefile.in	/^EXTRA_DIST = kakasi.def makefile.msc.in$/;"	m
+EXTRA_DIST	man/Makefile.am	/^EXTRA_DIST = $(man_MANS) kakasi.1.ja kakasi.cat kakasi.cat.ja$/;"	m
+EXTRA_DIST	man/Makefile.in	/^EXTRA_DIST = $(man_MANS) kakasi.1.ja kakasi.cat kakasi.cat.ja$/;"	m
+EXTRA_DIST	tests/Makefile.am	/^EXTRA_DIST = $(TESTS) env.sh$/;"	m
+EXTRA_DIST	tests/Makefile.in	/^EXTRA_DIST = $(TESTS) env.sh$/;"	m
+EXTRA_DIST	tests/data/Makefile.am	/^EXTRA_DIST = hira-first-in.txt  hira-first-out.txt$/;"	m
+EXTRA_DIST	tests/data/Makefile.in	/^EXTRA_DIST = hira-first-in.txt  hira-first-out.txt$/;"	m
+FGREP	Makefile.in	/^FGREP = @FGREP@$/;"	m
+FGREP	lib/Makefile.in	/^FGREP = @FGREP@$/;"	m
+FGREP	man/Makefile.in	/^FGREP = @FGREP@$/;"	m
+FGREP	src/Makefile.in	/^FGREP = @FGREP@$/;"	m
+FGREP	tests/Makefile.in	/^FGREP = @FGREP@$/;"	m
+FGREP	tests/data/Makefile.in	/^FGREP = @FGREP@$/;"	m
+FILES	man/kakasi.1	/^.SH FILES$/;"	s	title:KAKASI
+GETOPT_INTERFACE_VERSION	src/getopt.c	/^#define GETOPT_INTERFACE_VERSION /;"	d	file:
+GETOPT_INTERFACE_VERSION	src/getopt1.c	/^#define GETOPT_INTERFACE_VERSION /;"	d	file:
+GRAPHIC	src/kakasi.h	/^#define GRAPHIC /;"	d
+GREP	Makefile.in	/^GREP = @GREP@$/;"	m
+GREP	lib/Makefile.in	/^GREP = @GREP@$/;"	m
+GREP	man/Makefile.in	/^GREP = @GREP@$/;"	m
+GREP	src/Makefile.in	/^GREP = @GREP@$/;"	m
+GREP	tests/Makefile.in	/^GREP = @GREP@$/;"	m
+GREP	tests/data/Makefile.in	/^GREP = @GREP@$/;"	m
+GTAGS	Makefile.in	/^GTAGS:$/;"	t
+GTAGS	lib/Makefile.in	/^GTAGS:$/;"	t
+GTAGS	src/Makefile.in	/^GTAGS:$/;"	t
+GTAGS	tests/Makefile.in	/^GTAGS:$/;"	t
+GZIP_ENV	Makefile.in	/^GZIP_ENV = --best$/;"	m
+Group	kakasi.spec	/^Group: Applications\/Text$/;"	t
+Group	kakasi.spec	/^Group: Development\/Libraries$/;"	t
+Group	kakasi.spec.in	/^Group: Applications\/Text$/;"	t
+Group	kakasi.spec.in	/^Group: Development\/Libraries$/;"	t
+H2H	lib/libhh2.c	/^H2H(c, n)$/;"	f
+H2H	src/hh2.c	/^H2H(c, n)$/;"	f
+H2K	lib/libhh2.c	/^H2K(c, n)$/;"	f
+H2K	src/hh2.c	/^H2K(c, n)$/;"	f
+H2a	lib/libhh2.c	/^H2a(c, n)$/;"	f
+H2a	src/hh2.c	/^H2a(c, n)$/;"	f
+H2j	lib/libhh2.c	/^H2j(c, n)$/;"	f
+H2j	src/hh2.c	/^H2j(c, n)$/;"	f
+H2k	lib/libhh2.c	/^H2k(c, n)$/;"	f
+H2k	src/hh2.c	/^H2k(c, n)$/;"	f
+H2rom	lib/libhh2.c	/^H2rom(c, n, type)$/;"	f
+H2rom	src/hh2.c	/^H2rom(c, n, type)$/;"	f
+H2rom_buflen	lib/libhh2.c	/^#define H2rom_buflen /;"	d	file:
+H2rom_buflen	src/hh2.c	/^#define H2rom_buflen /;"	d	file:
+H2rom_h_table	lib/libhh2.c	/^}, H2rom_h_table[] = { $/;"	v	typeref:struct:H2rom_tbl[]
+H2rom_h_table	src/hh2.c	/^}, H2rom_h_table[] = { $/;"	v	typeref:struct:H2rom_tbl[]
+H2rom_h_table_old	lib/libhh2.c	/^H2rom_h_table_old[] = { $/;"	v	typeref:struct:H2rom_tbl[]
+H2rom_h_table_old	src/hh2.c	/^H2rom_h_table_old[] = { $/;"	v	typeref:struct:H2rom_tbl[]
+H2rom_k_table	lib/libhh2.c	/^}, H2rom_k_table[] = { $/;"	v	typeref:struct:H2rom_tbl[]
+H2rom_k_table	src/hh2.c	/^}, H2rom_k_table[] = { $/;"	v	typeref:struct:H2rom_tbl[]
+H2rom_k_table_old	lib/libhh2.c	/^}, H2rom_k_table_old[] = { $/;"	v	typeref:struct:H2rom_tbl[]
+H2rom_k_table_old	src/hh2.c	/^}, H2rom_k_table_old[] = { $/;"	v	typeref:struct:H2rom_tbl[]
+H2rom_tbl	lib/libhh2.c	/^struct H2rom_tbl {$/;"	s	file:
+H2rom_tbl	src/hh2.c	/^struct H2rom_tbl {$/;"	s	file:
+HEADERS	lib/Makefile.in	/^HEADERS = $(include_HEADERS)$/;"	m
+HEADERS	src/Makefile.in	/^HEADERS = $(noinst_HEADERS)$/;"	m
+HEPBURN	src/kakasi.h	/^#define HEPBURN /;"	d
+IALLOCSIZE	lib/libdict.c	/^#define IALLOCSIZE /;"	d	file:
+IALLOCSIZE	src/dict.c	/^#define IALLOCSIZE /;"	d	file:
+ID	Makefile.in	/^ID: $(HEADERS) $(SOURCES) $(LISP) $(TAGS_FILES)$/;"	t
+ID	lib/Makefile.in	/^ID: $(HEADERS) $(SOURCES) $(LISP) $(TAGS_FILES)$/;"	t
+ID	src/Makefile.in	/^ID: $(HEADERS) $(SOURCES) $(LISP) $(TAGS_FILES)$/;"	t
+ID	tests/Makefile.in	/^ID: $(HEADERS) $(SOURCES) $(LISP) $(TAGS_FILES)$/;"	t
+INCLUDES	lib/Makefile.am	/^INCLUDES = -I.. -I..\/src$/;"	m
+INCLUDES	lib/Makefile.in	/^INCLUDES = -I.. -I..\/src$/;"	m
+INCLUDES	src/Makefile.am	/^INCLUDES = -I..$/;"	m
+INCLUDES	src/Makefile.in	/^INCLUDES = -I..$/;"	m
+INSTALL	Makefile.in	/^INSTALL = @INSTALL@$/;"	m
+INSTALL	lib/Makefile.in	/^INSTALL = @INSTALL@$/;"	m
+INSTALL	man/Makefile.in	/^INSTALL = @INSTALL@$/;"	m
+INSTALL	src/Makefile.in	/^INSTALL = @INSTALL@$/;"	m
+INSTALL	tests/Makefile.in	/^INSTALL = @INSTALL@$/;"	m
+INSTALL	tests/data/Makefile.in	/^INSTALL = @INSTALL@$/;"	m
+INSTALL_DATA	Makefile.in	/^INSTALL_DATA = @INSTALL_DATA@$/;"	m
+INSTALL_DATA	lib/Makefile.in	/^INSTALL_DATA = @INSTALL_DATA@$/;"	m
+INSTALL_DATA	man/Makefile.in	/^INSTALL_DATA = @INSTALL_DATA@$/;"	m
+INSTALL_DATA	src/Makefile.in	/^INSTALL_DATA = @INSTALL_DATA@$/;"	m
+INSTALL_DATA	tests/Makefile.in	/^INSTALL_DATA = @INSTALL_DATA@$/;"	m
+INSTALL_DATA	tests/data/Makefile.in	/^INSTALL_DATA = @INSTALL_DATA@$/;"	m
+INSTALL_HEADER	Makefile.in	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	lib/Makefile.in	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	man/Makefile.in	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	src/Makefile.in	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	tests/Makefile.in	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	tests/data/Makefile.in	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile.in	/^INSTALL_PROGRAM = @INSTALL_PROGRAM@$/;"	m
+INSTALL_PROGRAM	lib/Makefile.in	/^INSTALL_PROGRAM = @INSTALL_PROGRAM@$/;"	m
+INSTALL_PROGRAM	man/Makefile.in	/^INSTALL_PROGRAM = @INSTALL_PROGRAM@$/;"	m
+INSTALL_PROGRAM	src/Makefile.in	/^INSTALL_PROGRAM = @INSTALL_PROGRAM@$/;"	m
+INSTALL_PROGRAM	tests/Makefile.in	/^INSTALL_PROGRAM = @INSTALL_PROGRAM@$/;"	m
+INSTALL_PROGRAM	tests/data/Makefile.in	/^INSTALL_PROGRAM = @INSTALL_PROGRAM@$/;"	m
+INSTALL_SCRIPT	Makefile.in	/^INSTALL_SCRIPT = @INSTALL_SCRIPT@$/;"	m
+INSTALL_SCRIPT	lib/Makefile.in	/^INSTALL_SCRIPT = @INSTALL_SCRIPT@$/;"	m
+INSTALL_SCRIPT	man/Makefile.in	/^INSTALL_SCRIPT = @INSTALL_SCRIPT@$/;"	m
+INSTALL_SCRIPT	src/Makefile.in	/^INSTALL_SCRIPT = @INSTALL_SCRIPT@$/;"	m
+INSTALL_SCRIPT	tests/Makefile.in	/^INSTALL_SCRIPT = @INSTALL_SCRIPT@$/;"	m
+INSTALL_SCRIPT	tests/data/Makefile.in	/^INSTALL_SCRIPT = @INSTALL_SCRIPT@$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile.in	/^INSTALL_STRIP_PROGRAM = @INSTALL_STRIP_PROGRAM@$/;"	m
+INSTALL_STRIP_PROGRAM	lib/Makefile.in	/^INSTALL_STRIP_PROGRAM = @INSTALL_STRIP_PROGRAM@$/;"	m
+INSTALL_STRIP_PROGRAM	man/Makefile.in	/^INSTALL_STRIP_PROGRAM = @INSTALL_STRIP_PROGRAM@$/;"	m
+INSTALL_STRIP_PROGRAM	src/Makefile.in	/^INSTALL_STRIP_PROGRAM = @INSTALL_STRIP_PROGRAM@$/;"	m
+INSTALL_STRIP_PROGRAM	tests/Makefile.in	/^INSTALL_STRIP_PROGRAM = @INSTALL_STRIP_PROGRAM@$/;"	m
+INSTALL_STRIP_PROGRAM	tests/data/Makefile.in	/^INSTALL_STRIP_PROGRAM = @INSTALL_STRIP_PROGRAM@$/;"	m
+ITAIJIDICT	lib/libitaiji.c	/^#define ITAIJIDICT /;"	d	file:
+ITAIJIDICT	src/itaiji.c	/^#define ITAIJIDICT /;"	d	file:
+J2H	lib/libjj2.c	/^J2H(c, n)$/;"	f
+J2H	src/jj2.c	/^J2H(c, n)$/;"	f
+J2HBUF	lib/libjj2.c	/^#define J2HBUF /;"	d	file:
+J2HBUF	src/jj2.c	/^#define J2HBUF /;"	d	file:
+J2K	lib/libjj2.c	/^J2K(c, n)$/;"	f
+J2K	src/jj2.c	/^J2K(c, n)$/;"	f
+J2READ	lib/libjj2.c	/^#define J2READ /;"	d	file:
+J2READ	src/jj2.c	/^#define J2READ /;"	d	file:
+J2_cletter	lib/libjj2.c	/^J2_cletter(l, c1, c2)$/;"	f	file:
+J2_cletter	src/jj2.c	/^J2_cletter(l, c1, c2)$/;"	f	file:
+J2a	lib/libjj2.c	/^J2a(c, n)$/;"	f
+J2a	src/jj2.c	/^J2a(c, n)$/;"	f
+J2append	lib/libjj2.c	/^J2append(n, str)$/;"	f	file:
+J2append	src/jj2.c	/^J2append(n, str)$/;"	f	file:
+J2convert	lib/libjj2.c	/^J2convert(m, n, proc)$/;"	f	file:
+J2convert	src/jj2.c	/^J2convert(m, n, proc)$/;"	f	file:
+J2j	lib/libjj2.c	/^J2j(c, n)$/;"	f
+J2j	src/jj2.c	/^J2j(c, n)$/;"	f
+J2k	lib/libjj2.c	/^J2k(c, n)$/;"	f
+J2k	src/jj2.c	/^J2k(c, n)$/;"	f
+JIS78	src/kakasi.h	/^#define JIS78 /;"	d
+JIS83	src/kakasi.h	/^#define JIS83 /;"	d
+JISROMAN	src/kakasi.h	/^#define JISROMAN /;"	d
+K2H	lib/libkk2.c	/^K2H(c, n)$/;"	f
+K2H	src/kk2.c	/^K2H(c, n)$/;"	f
+K2K	lib/libkk2.c	/^K2K(c, n)$/;"	f
+K2K	src/kk2.c	/^K2K(c, n)$/;"	f
+K2a	lib/libkk2.c	/^K2a(c, n)$/;"	f
+K2a	src/kk2.c	/^K2a(c, n)$/;"	f
+K2j	lib/libkk2.c	/^K2j(c, n)$/;"	f
+K2j	src/kk2.c	/^K2j(c, n)$/;"	f
+K2k	lib/libkk2.c	/^K2k(c, n)$/;"	f
+K2k	src/kk2.c	/^K2k(c, n)$/;"	f
+K2rom	lib/libkk2.c	/^K2rom(c, n, type)$/;"	f
+K2rom	src/kk2.c	/^K2rom(c, n, type)$/;"	f
+K2rom_buflen	lib/libkk2.c	/^#define K2rom_buflen /;"	d	file:
+K2rom_buflen	src/kk2.c	/^#define K2rom_buflen /;"	d	file:
+K2rom_h_table	lib/libkk2.c	/^}, K2rom_h_table[] = { $/;"	v	typeref:struct:K2rom_tbl[]
+K2rom_h_table	src/kk2.c	/^}, K2rom_h_table[] = { $/;"	v	typeref:struct:K2rom_tbl[]
+K2rom_h_table_old	lib/libkk2.c	/^K2rom_h_table_old[] = { $/;"	v	typeref:struct:K2rom_tbl[]
+K2rom_h_table_old	src/kk2.c	/^K2rom_h_table_old[] = { $/;"	v	typeref:struct:K2rom_tbl[]
+K2rom_k_table	lib/libkk2.c	/^}, K2rom_k_table[] = { $/;"	v	typeref:struct:K2rom_tbl[]
+K2rom_k_table	src/kk2.c	/^}, K2rom_k_table[] = { $/;"	v	typeref:struct:K2rom_tbl[]
+K2rom_k_table_old	lib/libkk2.c	/^}, K2rom_k_table_old[] = { $/;"	v	typeref:struct:K2rom_tbl[]
+K2rom_k_table_old	src/kk2.c	/^}, K2rom_k_table_old[] = { $/;"	v	typeref:struct:K2rom_tbl[]
+K2rom_tbl	lib/libkk2.c	/^struct K2rom_tbl {$/;"	s	file:
+K2rom_tbl	src/kk2.c	/^struct K2rom_tbl {$/;"	s	file:
+KAKASI	man/kakasi-config.1	/^.TH KAKASI 1 "28 January 2001"$/;"	t
+KAKASI	man/kakasi.1	/^.TH KAKASI 1 LOCAL$/;"	t
+KAKASIBUF	src/kakasi.h	/^#define KAKASIBUF /;"	d
+KAKASI_ATTR	lib/libkakasi.c	/^#define KAKASI_ATTR /;"	d	file:
+KAKASI_ATTR	lib/libkakasi.c	/^#define KAKASI_ATTR$/;"	d	file:
+KAKASI_ATTR	src/kakasi.c	/^#define KAKASI_ATTR /;"	d	file:
+KAKASI_ATTR	src/kakasi.c	/^#define KAKASI_ATTR$/;"	d	file:
+KAKASI_CHECK_CFLAGS	configure.in	/^AC_DEFUN([KAKASI_CHECK_CFLAGS],$/;"	m
+KAKASI_DICT_OPT_ENCODING	src/kakasi.h	/^#define KAKASI_DICT_OPT_ENCODING	/;"	d
+KAKASI_DICT_OPT_END	src/kakasi.h	/^#define KAKASI_DICT_OPT_END	/;"	d
+KANJI	man/kakasi.1	/^.SH KANJI CODING CONVERSION$/;"	s	title:KAKASI
+KANWADICT	lib/libdict.c	/^#define KANWADICT /;"	d	file:
+KANWADICT	src/dict.c	/^#define KANWADICT /;"	d	file:
+KATAKANA	src/kakasi.h	/^#define KATAKANA /;"	d
+KUNREI	src/kakasi.h	/^#define KUNREI /;"	d
+LD	Makefile.in	/^LD = @LD@$/;"	m
+LD	lib/Makefile.in	/^LD = @LD@$/;"	m
+LD	man/Makefile.in	/^LD = @LD@$/;"	m
+LD	src/Makefile.in	/^LD = @LD@$/;"	m
+LD	tests/Makefile.in	/^LD = @LD@$/;"	m
+LD	tests/data/Makefile.in	/^LD = @LD@$/;"	m
+LDFLAGS	Makefile.in	/^LDFLAGS = @LDFLAGS@$/;"	m
+LDFLAGS	lib/Makefile.in	/^LDFLAGS = @LDFLAGS@$/;"	m
+LDFLAGS	man/Makefile.in	/^LDFLAGS = @LDFLAGS@$/;"	m
+LDFLAGS	src/Makefile.in	/^LDFLAGS = @LDFLAGS@$/;"	m
+LDFLAGS	tests/Makefile.in	/^LDFLAGS = @LDFLAGS@$/;"	m
+LDFLAGS	tests/data/Makefile.in	/^LDFLAGS = @LDFLAGS@$/;"	m
+LIBICONV	Makefile.in	/^LIBICONV = @LIBICONV@$/;"	m
+LIBICONV	lib/Makefile.in	/^LIBICONV = @LIBICONV@$/;"	m
+LIBICONV	man/Makefile.in	/^LIBICONV = @LIBICONV@$/;"	m
+LIBICONV	src/Makefile.in	/^LIBICONV = @LIBICONV@$/;"	m
+LIBICONV	tests/Makefile.in	/^LIBICONV = @LIBICONV@$/;"	m
+LIBICONV	tests/data/Makefile.in	/^LIBICONV = @LIBICONV@$/;"	m
+LIBOBJS	Makefile.in	/^LIBOBJS = @LIBOBJS@$/;"	m
+LIBOBJS	lib/Makefile.in	/^LIBOBJS = @LIBOBJS@$/;"	m
+LIBOBJS	man/Makefile.in	/^LIBOBJS = @LIBOBJS@$/;"	m
+LIBOBJS	src/Makefile.in	/^LIBOBJS = @LIBOBJS@$/;"	m
+LIBOBJS	tests/Makefile.in	/^LIBOBJS = @LIBOBJS@$/;"	m
+LIBOBJS	tests/data/Makefile.in	/^LIBOBJS = @LIBOBJS@$/;"	m
+LIBS	Makefile.in	/^LIBS = @LIBS@$/;"	m
+LIBS	lib/Makefile.in	/^LIBS = @LIBS@$/;"	m
+LIBS	man/Makefile.in	/^LIBS = @LIBS@$/;"	m
+LIBS	src/Makefile.in	/^LIBS = @LIBS@$/;"	m
+LIBS	tests/Makefile.in	/^LIBS = @LIBS@$/;"	m
+LIBS	tests/data/Makefile.in	/^LIBS = @LIBS@$/;"	m
+LIBTOOL	Makefile.in	/^LIBTOOL = @LIBTOOL@$/;"	m
+LIBTOOL	lib/Makefile.in	/^LIBTOOL = @LIBTOOL@$/;"	m
+LIBTOOL	man/Makefile.in	/^LIBTOOL = @LIBTOOL@$/;"	m
+LIBTOOL	src/Makefile.in	/^LIBTOOL = @LIBTOOL@$/;"	m
+LIBTOOL	tests/Makefile.in	/^LIBTOOL = @LIBTOOL@$/;"	m
+LIBTOOL	tests/data/Makefile.in	/^LIBTOOL = @LIBTOOL@$/;"	m
+LINK	lib/Makefile.in	/^LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LINK	src/Makefile.in	/^LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LIPO	Makefile.in	/^LIPO = @LIPO@$/;"	m
+LIPO	lib/Makefile.in	/^LIPO = @LIPO@$/;"	m
+LIPO	man/Makefile.in	/^LIPO = @LIPO@$/;"	m
+LIPO	src/Makefile.in	/^LIPO = @LIPO@$/;"	m
+LIPO	tests/Makefile.in	/^LIPO = @LIPO@$/;"	m
+LIPO	tests/data/Makefile.in	/^LIPO = @LIPO@$/;"	m
+LN_S	Makefile.in	/^LN_S = @LN_S@$/;"	m
+LN_S	lib/Makefile.in	/^LN_S = @LN_S@$/;"	m
+LN_S	man/Makefile.in	/^LN_S = @LN_S@$/;"	m
+LN_S	src/Makefile.in	/^LN_S = @LN_S@$/;"	m
+LN_S	tests/Makefile.in	/^LN_S = @LN_S@$/;"	m
+LN_S	tests/data/Makefile.in	/^LN_S = @LN_S@$/;"	m
+LTCOMPILE	lib/Makefile.in	/^LTCOMPILE = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LTCOMPILE	src/Makefile.in	/^LTCOMPILE = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LTLIBICONV	Makefile.in	/^LTLIBICONV = @LTLIBICONV@$/;"	m
+LTLIBICONV	lib/Makefile.in	/^LTLIBICONV = @LTLIBICONV@$/;"	m
+LTLIBICONV	man/Makefile.in	/^LTLIBICONV = @LTLIBICONV@$/;"	m
+LTLIBICONV	src/Makefile.in	/^LTLIBICONV = @LTLIBICONV@$/;"	m
+LTLIBICONV	tests/Makefile.in	/^LTLIBICONV = @LTLIBICONV@$/;"	m
+LTLIBICONV	tests/data/Makefile.in	/^LTLIBICONV = @LTLIBICONV@$/;"	m
+LTLIBOBJS	Makefile.in	/^LTLIBOBJS = @LTLIBOBJS@$/;"	m
+LTLIBOBJS	lib/Makefile.in	/^LTLIBOBJS = @LTLIBOBJS@$/;"	m
+LTLIBOBJS	man/Makefile.in	/^LTLIBOBJS = @LTLIBOBJS@$/;"	m
+LTLIBOBJS	src/Makefile.in	/^LTLIBOBJS = @LTLIBOBJS@$/;"	m
+LTLIBOBJS	tests/Makefile.in	/^LTLIBOBJS = @LTLIBOBJS@$/;"	m
+LTLIBOBJS	tests/data/Makefile.in	/^LTLIBOBJS = @LTLIBOBJS@$/;"	m
+LTLIBRARIES	lib/Makefile.in	/^LTLIBRARIES = $(lib_LTLIBRARIES)$/;"	m
+LTOBSOLETE_VERSION	aclocal.m4	/^AC_DEFUN([LTOBSOLETE_VERSION], [m4_if([1])])$/;"	m
+LTOPTIONS_VERSION	aclocal.m4	/^AC_DEFUN([LTOPTIONS_VERSION], [m4_if([1])])$/;"	m
+LTSUGAR_VERSION	aclocal.m4	/^AC_DEFUN([LTSUGAR_VERSION], [m4_if([0.1])])$/;"	m
+LTVERSION_VERSION	aclocal.m4	/^AC_DEFUN([LTVERSION_VERSION],$/;"	m
+LT_CMD_MAX_LEN	aclocal.m4	/^AC_DEFUN([LT_CMD_MAX_LEN],$/;"	m
+LT_INIT	aclocal.m4	/^AC_DEFUN([LT_INIT],$/;"	m
+LT_LANG	aclocal.m4	/^AC_DEFUN([LT_LANG],$/;"	m
+LT_LIB_M	aclocal.m4	/^AC_DEFUN([LT_LIB_M],$/;"	m
+LT_OPTION_DEFINE	aclocal.m4	/^m4_define([LT_OPTION_DEFINE],$/;"	d
+LT_OUTPUT	aclocal.m4	/^AC_DEFUN([LT_OUTPUT],$/;"	m
+LT_PACKAGE_REVISION	aclocal.m4	/^m4_define([LT_PACKAGE_REVISION], [1.3337])$/;"	d
+LT_PACKAGE_VERSION	aclocal.m4	/^m4_define([LT_PACKAGE_VERSION], [2.4.2])$/;"	d
+LT_PATH_LD	aclocal.m4	/^AC_DEFUN([LT_PATH_LD],$/;"	m
+LT_PATH_NM	aclocal.m4	/^AC_DEFUN([LT_PATH_NM],$/;"	m
+LT_PROG_GCJ	aclocal.m4	/^AC_DEFUN([LT_PROG_GCJ],$/;"	m
+LT_PROG_GO	aclocal.m4	/^AC_DEFUN([LT_PROG_GO],$/;"	m
+LT_PROG_RC	aclocal.m4	/^AC_DEFUN([LT_PROG_RC],$/;"	m
+LT_SUPPORTED_TAG	aclocal.m4	/^AC_DEFUN([LT_SUPPORTED_TAG], [])$/;"	m
+LT_SYS_DLOPEN_SELF	aclocal.m4	/^AC_DEFUN([LT_SYS_DLOPEN_SELF],$/;"	m
+MAINT	Makefile.in	/^MAINT = @MAINT@$/;"	m
+MAINT	lib/Makefile.in	/^MAINT = @MAINT@$/;"	m
+MAINT	man/Makefile.in	/^MAINT = @MAINT@$/;"	m
+MAINT	src/Makefile.in	/^MAINT = @MAINT@$/;"	m
+MAINT	tests/Makefile.in	/^MAINT = @MAINT@$/;"	m
+MAINT	tests/data/Makefile.in	/^MAINT = @MAINT@$/;"	m
+MAKEINFO	Makefile.in	/^MAKEINFO = @MAKEINFO@$/;"	m
+MAKEINFO	lib/Makefile.in	/^MAKEINFO = @MAKEINFO@$/;"	m
+MAKEINFO	man/Makefile.in	/^MAKEINFO = @MAKEINFO@$/;"	m
+MAKEINFO	src/Makefile.in	/^MAKEINFO = @MAKEINFO@$/;"	m
+MAKEINFO	tests/Makefile.in	/^MAKEINFO = @MAKEINFO@$/;"	m
+MAKEINFO	tests/data/Makefile.in	/^MAKEINFO = @MAKEINFO@$/;"	m
+MANIFEST_TOOL	Makefile.in	/^MANIFEST_TOOL = @MANIFEST_TOOL@$/;"	m
+MANIFEST_TOOL	lib/Makefile.in	/^MANIFEST_TOOL = @MANIFEST_TOOL@$/;"	m
+MANIFEST_TOOL	man/Makefile.in	/^MANIFEST_TOOL = @MANIFEST_TOOL@$/;"	m
+MANIFEST_TOOL	src/Makefile.in	/^MANIFEST_TOOL = @MANIFEST_TOOL@$/;"	m
+MANIFEST_TOOL	tests/Makefile.in	/^MANIFEST_TOOL = @MANIFEST_TOOL@$/;"	m
+MANIFEST_TOOL	tests/data/Makefile.in	/^MANIFEST_TOOL = @MANIFEST_TOOL@$/;"	m
+MANS	man/Makefile.in	/^MANS = $(man_MANS)$/;"	m
+MAXJISYO	src/kakasi.h	/^#define MAXJISYO /;"	d
+MKDIR_P	Makefile.in	/^MKDIR_P = @MKDIR_P@$/;"	m
+MKDIR_P	lib/Makefile.in	/^MKDIR_P = @MKDIR_P@$/;"	m
+MKDIR_P	man/Makefile.in	/^MKDIR_P = @MKDIR_P@$/;"	m
+MKDIR_P	src/Makefile.in	/^MKDIR_P = @MKDIR_P@$/;"	m
+MKDIR_P	tests/Makefile.in	/^MKDIR_P = @MKDIR_P@$/;"	m
+MKDIR_P	tests/data/Makefile.in	/^MKDIR_P = @MKDIR_P@$/;"	m
+MSKANJI	src/kakasi.h	/^#define MSKANJI /;"	d
+Makefile	Makefile.in	/^Makefile: $(srcdir)\/Makefile.in $(top_builddir)\/config.status$/;"	t
+Makefile	lib/Makefile.in	/^Makefile: $(srcdir)\/Makefile.in $(top_builddir)\/config.status$/;"	t
+Makefile	man/Makefile.in	/^Makefile: $(srcdir)\/Makefile.in $(top_builddir)\/config.status$/;"	t
+Makefile	src/Makefile.in	/^Makefile: $(srcdir)\/Makefile.in $(top_builddir)\/config.status$/;"	t
+Makefile	tests/Makefile.in	/^Makefile: $(srcdir)\/Makefile.in $(top_builddir)\/config.status$/;"	t
+Makefile	tests/data/Makefile.in	/^Makefile: $(srcdir)\/Makefile.in $(top_builddir)\/config.status$/;"	t
+NAME	man/kakasi-config.1	/^.SH NAME$/;"	s	title:KAKASI
+NAME	man/kakasi.1	/^.SH NAME$/;"	s	title:KAKASI
+NEWJIS	src/kakasi.h	/^#define NEWJIS /;"	d
+NM	Makefile.in	/^NM = @NM@$/;"	m
+NM	lib/Makefile.in	/^NM = @NM@$/;"	m
+NM	man/Makefile.in	/^NM = @NM@$/;"	m
+NM	src/Makefile.in	/^NM = @NM@$/;"	m
+NM	tests/Makefile.in	/^NM = @NM@$/;"	m
+NM	tests/data/Makefile.in	/^NM = @NM@$/;"	m
+NMEDIT	Makefile.in	/^NMEDIT = @NMEDIT@$/;"	m
+NMEDIT	lib/Makefile.in	/^NMEDIT = @NMEDIT@$/;"	m
+NMEDIT	man/Makefile.in	/^NMEDIT = @NMEDIT@$/;"	m
+NMEDIT	src/Makefile.in	/^NMEDIT = @NMEDIT@$/;"	m
+NMEDIT	tests/Makefile.in	/^NMEDIT = @NMEDIT@$/;"	m
+NMEDIT	tests/data/Makefile.in	/^NMEDIT = @NMEDIT@$/;"	m
+NONOPTION_P	src/getopt.c	/^# define NONOPTION_P /;"	d	file:
+NORMAL_INSTALL	Makefile.in	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	lib/Makefile.in	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	man/Makefile.in	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	src/Makefile.in	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	tests/Makefile.in	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	tests/data/Makefile.in	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile.in	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	lib/Makefile.in	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	man/Makefile.in	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	src/Makefile.in	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	tests/Makefile.in	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	tests/data/Makefile.in	/^NORMAL_UNINSTALL = :$/;"	m
+NOTE	man/kakasi.1	/^.SH NOTE ABOUT ENGLISH MANUAL$/;"	s	title:KAKASI
+NROFF	man/Makefile.in	/^NROFF = nroff$/;"	m
+NULL	src/getopt1.c	/^#define NULL /;"	d	file:
+Name	kakasi.spec	/^Name: kakasi$/;"	t
+Name	kakasi.spec.in	/^Name: kakasi$/;"	t
+OBJDUMP	Makefile.in	/^OBJDUMP = @OBJDUMP@$/;"	m
+OBJDUMP	lib/Makefile.in	/^OBJDUMP = @OBJDUMP@$/;"	m
+OBJDUMP	man/Makefile.in	/^OBJDUMP = @OBJDUMP@$/;"	m
+OBJDUMP	src/Makefile.in	/^OBJDUMP = @OBJDUMP@$/;"	m
+OBJDUMP	tests/Makefile.in	/^OBJDUMP = @OBJDUMP@$/;"	m
+OBJDUMP	tests/data/Makefile.in	/^OBJDUMP = @OBJDUMP@$/;"	m
+OBJEXT	Makefile.in	/^OBJEXT = @OBJEXT@$/;"	m
+OBJEXT	lib/Makefile.in	/^OBJEXT = @OBJEXT@$/;"	m
+OBJEXT	man/Makefile.in	/^OBJEXT = @OBJEXT@$/;"	m
+OBJEXT	src/Makefile.in	/^OBJEXT = @OBJEXT@$/;"	m
+OBJEXT	tests/Makefile.in	/^OBJEXT = @OBJEXT@$/;"	m
+OBJEXT	tests/data/Makefile.in	/^OBJEXT = @OBJEXT@$/;"	m
+OLDJIS	src/kakasi.h	/^#define OLDJIS /;"	d
+OPTIONS	man/kakasi-config.1	/^.SH OPTIONS$/;"	s	title:KAKASI
+OTHER	man/kakasi.1	/^.SH OTHER OPTIONS$/;"	s	title:KAKASI
+OTHER	src/kakasi.h	/^#define OTHER /;"	d
+OTOOL	Makefile.in	/^OTOOL = @OTOOL@$/;"	m
+OTOOL	lib/Makefile.in	/^OTOOL = @OTOOL@$/;"	m
+OTOOL	man/Makefile.in	/^OTOOL = @OTOOL@$/;"	m
+OTOOL	src/Makefile.in	/^OTOOL = @OTOOL@$/;"	m
+OTOOL	tests/Makefile.in	/^OTOOL = @OTOOL@$/;"	m
+OTOOL	tests/data/Makefile.in	/^OTOOL = @OTOOL@$/;"	m
+OTOOL64	Makefile.in	/^OTOOL64 = @OTOOL64@$/;"	m
+OTOOL64	lib/Makefile.in	/^OTOOL64 = @OTOOL64@$/;"	m
+OTOOL64	man/Makefile.in	/^OTOOL64 = @OTOOL64@$/;"	m
+OTOOL64	src/Makefile.in	/^OTOOL64 = @OTOOL64@$/;"	m
+OTOOL64	tests/Makefile.in	/^OTOOL64 = @OTOOL64@$/;"	m
+OTOOL64	tests/data/Makefile.in	/^OTOOL64 = @OTOOL64@$/;"	m
+Obsoletes	kakasi.spec	/^Obsoletes: kakasidict$/;"	t
+Obsoletes	kakasi.spec.in	/^Obsoletes: kakasidict$/;"	t
+PACKAGE	Makefile.in	/^PACKAGE = @PACKAGE@$/;"	m
+PACKAGE	lib/Makefile.in	/^PACKAGE = @PACKAGE@$/;"	m
+PACKAGE	man/Makefile.in	/^PACKAGE = @PACKAGE@$/;"	m
+PACKAGE	src/Makefile.in	/^PACKAGE = @PACKAGE@$/;"	m
+PACKAGE	tests/Makefile.in	/^PACKAGE = @PACKAGE@$/;"	m
+PACKAGE	tests/data/Makefile.in	/^PACKAGE = @PACKAGE@$/;"	m
+PACKAGE_BUGREPORT	Makefile.in	/^PACKAGE_BUGREPORT = @PACKAGE_BUGREPORT@$/;"	m
+PACKAGE_BUGREPORT	lib/Makefile.in	/^PACKAGE_BUGREPORT = @PACKAGE_BUGREPORT@$/;"	m
+PACKAGE_BUGREPORT	man/Makefile.in	/^PACKAGE_BUGREPORT = @PACKAGE_BUGREPORT@$/;"	m
+PACKAGE_BUGREPORT	src/Makefile.in	/^PACKAGE_BUGREPORT = @PACKAGE_BUGREPORT@$/;"	m
+PACKAGE_BUGREPORT	tests/Makefile.in	/^PACKAGE_BUGREPORT = @PACKAGE_BUGREPORT@$/;"	m
+PACKAGE_BUGREPORT	tests/data/Makefile.in	/^PACKAGE_BUGREPORT = @PACKAGE_BUGREPORT@$/;"	m
+PACKAGE_NAME	Makefile.in	/^PACKAGE_NAME = @PACKAGE_NAME@$/;"	m
+PACKAGE_NAME	lib/Makefile.in	/^PACKAGE_NAME = @PACKAGE_NAME@$/;"	m
+PACKAGE_NAME	man/Makefile.in	/^PACKAGE_NAME = @PACKAGE_NAME@$/;"	m
+PACKAGE_NAME	src/Makefile.in	/^PACKAGE_NAME = @PACKAGE_NAME@$/;"	m
+PACKAGE_NAME	tests/Makefile.in	/^PACKAGE_NAME = @PACKAGE_NAME@$/;"	m
+PACKAGE_NAME	tests/data/Makefile.in	/^PACKAGE_NAME = @PACKAGE_NAME@$/;"	m
+PACKAGE_STRING	Makefile.in	/^PACKAGE_STRING = @PACKAGE_STRING@$/;"	m
+PACKAGE_STRING	lib/Makefile.in	/^PACKAGE_STRING = @PACKAGE_STRING@$/;"	m
+PACKAGE_STRING	man/Makefile.in	/^PACKAGE_STRING = @PACKAGE_STRING@$/;"	m
+PACKAGE_STRING	src/Makefile.in	/^PACKAGE_STRING = @PACKAGE_STRING@$/;"	m
+PACKAGE_STRING	tests/Makefile.in	/^PACKAGE_STRING = @PACKAGE_STRING@$/;"	m
+PACKAGE_STRING	tests/data/Makefile.in	/^PACKAGE_STRING = @PACKAGE_STRING@$/;"	m
+PACKAGE_TARNAME	Makefile.in	/^PACKAGE_TARNAME = @PACKAGE_TARNAME@$/;"	m
+PACKAGE_TARNAME	lib/Makefile.in	/^PACKAGE_TARNAME = @PACKAGE_TARNAME@$/;"	m
+PACKAGE_TARNAME	man/Makefile.in	/^PACKAGE_TARNAME = @PACKAGE_TARNAME@$/;"	m
+PACKAGE_TARNAME	src/Makefile.in	/^PACKAGE_TARNAME = @PACKAGE_TARNAME@$/;"	m
+PACKAGE_TARNAME	tests/Makefile.in	/^PACKAGE_TARNAME = @PACKAGE_TARNAME@$/;"	m
+PACKAGE_TARNAME	tests/data/Makefile.in	/^PACKAGE_TARNAME = @PACKAGE_TARNAME@$/;"	m
+PACKAGE_URL	Makefile.in	/^PACKAGE_URL = @PACKAGE_URL@$/;"	m
+PACKAGE_URL	lib/Makefile.in	/^PACKAGE_URL = @PACKAGE_URL@$/;"	m
+PACKAGE_URL	man/Makefile.in	/^PACKAGE_URL = @PACKAGE_URL@$/;"	m
+PACKAGE_URL	src/Makefile.in	/^PACKAGE_URL = @PACKAGE_URL@$/;"	m
+PACKAGE_URL	tests/Makefile.in	/^PACKAGE_URL = @PACKAGE_URL@$/;"	m
+PACKAGE_URL	tests/data/Makefile.in	/^PACKAGE_URL = @PACKAGE_URL@$/;"	m
+PACKAGE_VERSION	Makefile.in	/^PACKAGE_VERSION = @PACKAGE_VERSION@$/;"	m
+PACKAGE_VERSION	lib/Makefile.in	/^PACKAGE_VERSION = @PACKAGE_VERSION@$/;"	m
+PACKAGE_VERSION	man/Makefile.in	/^PACKAGE_VERSION = @PACKAGE_VERSION@$/;"	m
+PACKAGE_VERSION	src/Makefile.in	/^PACKAGE_VERSION = @PACKAGE_VERSION@$/;"	m
+PACKAGE_VERSION	tests/Makefile.in	/^PACKAGE_VERSION = @PACKAGE_VERSION@$/;"	m
+PACKAGE_VERSION	tests/data/Makefile.in	/^PACKAGE_VERSION = @PACKAGE_VERSION@$/;"	m
+PARAMS	lib/libkakasi.h	/^# define PARAMS(/;"	d
+PARAMS	src/conv-util.h	/^# define PARAMS(/;"	d
+PARAMS	src/kakasi.h	/^# define PARAMS(/;"	d
+PATH_SEPARATOR	Makefile.in	/^PATH_SEPARATOR = @PATH_SEPARATOR@$/;"	m
+PATH_SEPARATOR	lib/Makefile.in	/^PATH_SEPARATOR = @PATH_SEPARATOR@$/;"	m
+PATH_SEPARATOR	man/Makefile.in	/^PATH_SEPARATOR = @PATH_SEPARATOR@$/;"	m
+PATH_SEPARATOR	src/Makefile.in	/^PATH_SEPARATOR = @PATH_SEPARATOR@$/;"	m
+PATH_SEPARATOR	tests/Makefile.in	/^PATH_SEPARATOR = @PATH_SEPARATOR@$/;"	m
+PATH_SEPARATOR	tests/data/Makefile.in	/^PATH_SEPARATOR = @PATH_SEPARATOR@$/;"	m
+PBSTRSIZE	lib/libkanjiio.c	/^#define PBSTRSIZE /;"	d	file:
+PBSTRSIZE	src/kanjiio.c	/^#define PBSTRSIZE /;"	d	file:
+PERMUTE	src/getopt.c	/^  REQUIRE_ORDER, PERMUTE, RETURN_IN_ORDER$/;"	e	enum:__anon301252c00103	file:
+POST_INSTALL	Makefile.in	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	lib/Makefile.in	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	man/Makefile.in	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	src/Makefile.in	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	tests/Makefile.in	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	tests/data/Makefile.in	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile.in	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	lib/Makefile.in	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	man/Makefile.in	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	src/Makefile.in	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	tests/Makefile.in	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	tests/data/Makefile.in	/^POST_UNINSTALL = :$/;"	m
+PRE_INSTALL	Makefile.in	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	lib/Makefile.in	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	man/Makefile.in	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	src/Makefile.in	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	tests/Makefile.in	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	tests/data/Makefile.in	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile.in	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	lib/Makefile.in	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	man/Makefile.in	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	src/Makefile.in	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	tests/Makefile.in	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	tests/data/Makefile.in	/^PRE_UNINSTALL = :$/;"	m
+PROGRAMS	src/Makefile.in	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m
+RANLIB	Makefile.in	/^RANLIB = @RANLIB@$/;"	m
+RANLIB	lib/Makefile.in	/^RANLIB = @RANLIB@$/;"	m
+RANLIB	man/Makefile.in	/^RANLIB = @RANLIB@$/;"	m
+RANLIB	src/Makefile.in	/^RANLIB = @RANLIB@$/;"	m
+RANLIB	tests/Makefile.in	/^RANLIB = @RANLIB@$/;"	m
+RANLIB	tests/data/Makefile.in	/^RANLIB = @RANLIB@$/;"	m
+RECURSIVE_CLEAN_TARGETS	Makefile.in	/^RECURSIVE_CLEAN_TARGETS = mostlyclean-recursive clean-recursive	\\$/;"	m
+RECURSIVE_CLEAN_TARGETS	tests/Makefile.in	/^RECURSIVE_CLEAN_TARGETS = mostlyclean-recursive clean-recursive	\\$/;"	m
+RECURSIVE_TARGETS	Makefile.in	/^RECURSIVE_TARGETS = all-recursive check-recursive dvi-recursive \\$/;"	m
+RECURSIVE_TARGETS	tests/Makefile.in	/^RECURSIVE_TARGETS = all-recursive check-recursive dvi-recursive \\$/;"	m
+RELEASE	kakasi.spec	/^%define  RELEASE 1$/;"	m
+RELEASE	kakasi.spec.in	/^%define  RELEASE 1$/;"	m
+REQUIRE_ORDER	src/getopt.c	/^  REQUIRE_ORDER, PERMUTE, RETURN_IN_ORDER$/;"	e	enum:__anon301252c00103	file:
+RETURN_IN_ORDER	src/getopt.c	/^  REQUIRE_ORDER, PERMUTE, RETURN_IN_ORDER$/;"	e	enum:__anon301252c00103	file:
+ROMAJI	man/kakasi.1	/^.SH ROMAJI CONVERSION$/;"	s	title:KAKASI
+Release	kakasi.spec	/^Release: %rel$/;"	t
+Release	kakasi.spec.in	/^Release: %rel$/;"	t
+Requires	kakasi.spec	/^Requires: kakasi = %{version}$/;"	t
+Requires	kakasi.spec.in	/^Requires: kakasi = %{version}$/;"	t
+SCRIPTS	Makefile.in	/^SCRIPTS = $(bin_SCRIPTS)$/;"	m
+SED	Makefile.in	/^SED = @SED@$/;"	m
+SED	lib/Makefile.in	/^SED = @SED@$/;"	m
+SED	man/Makefile.in	/^SED = @SED@$/;"	m
+SED	src/Makefile.in	/^SED = @SED@$/;"	m
+SED	tests/Makefile.in	/^SED = @SED@$/;"	m
+SED	tests/data/Makefile.in	/^SED = @SED@$/;"	m
+SEE	man/kakasi-config.1	/^.SH SEE ALSO$/;"	s	title:KAKASI
+SEE	man/kakasi.1	/^.SH SEE ALSO$/;"	s	title:KAKASI
+SETG0	src/kakasi.h	/^#define SETG0 /;"	d
+SETG1	src/kakasi.h	/^#define SETG1 /;"	d
+SETG2	src/kakasi.h	/^#define SETG2 /;"	d
+SETG3	src/kakasi.h	/^#define SETG3 /;"	d
+SET_MAKE	Makefile.in	/^SET_MAKE = @SET_MAKE@$/;"	m
+SET_MAKE	lib/Makefile.in	/^SET_MAKE = @SET_MAKE@$/;"	m
+SET_MAKE	man/Makefile.in	/^SET_MAKE = @SET_MAKE@$/;"	m
+SET_MAKE	src/Makefile.in	/^SET_MAKE = @SET_MAKE@$/;"	m
+SET_MAKE	tests/Makefile.in	/^SET_MAKE = @SET_MAKE@$/;"	m
+SET_MAKE	tests/data/Makefile.in	/^SET_MAKE = @SET_MAKE@$/;"	m
+SHELL	Makefile.in	/^SHELL = @SHELL@$/;"	m
+SHELL	lib/Makefile.in	/^SHELL = @SHELL@$/;"	m
+SHELL	man/Makefile.in	/^SHELL = @SHELL@$/;"	m
+SHELL	src/Makefile.in	/^SHELL = @SHELL@$/;"	m
+SHELL	tests/Makefile.in	/^SHELL = @SHELL@$/;"	m
+SHELL	tests/data/Makefile.in	/^SHELL = @SHELL@$/;"	m
+SJKANA	src/kakasi.h	/^#define SJKANA /;"	d
+SOURCES	Makefile.in	/^SOURCES =$/;"	m
+SOURCES	lib/Makefile.in	/^SOURCES = $(libkakasi_la_SOURCES)$/;"	m
+SOURCES	man/Makefile.in	/^SOURCES =$/;"	m
+SOURCES	src/Makefile.in	/^SOURCES = $(atoc_conv_SOURCES) $(kakasi_SOURCES) $(mkkanwa_SOURCES) \\$/;"	m
+SOURCES	tests/Makefile.in	/^SOURCES =$/;"	m
+SOURCES	tests/data/Makefile.in	/^SOURCES =$/;"	m
+STRIP	Makefile.in	/^STRIP = @STRIP@$/;"	m
+STRIP	lib/Makefile.in	/^STRIP = @STRIP@$/;"	m
+STRIP	man/Makefile.in	/^STRIP = @STRIP@$/;"	m
+STRIP	src/Makefile.in	/^STRIP = @STRIP@$/;"	m
+STRIP	tests/Makefile.in	/^STRIP = @STRIP@$/;"	m
+STRIP	tests/data/Makefile.in	/^STRIP = @STRIP@$/;"	m
+SUBDIRS	Makefile.am	/^SUBDIRS = src lib man tests$/;"	m
+SUBDIRS	Makefile.in	/^SUBDIRS = src lib man tests$/;"	m
+SUBDIRS	tests/Makefile.am	/^SUBDIRS = data$/;"	m
+SUBDIRS	tests/Makefile.in	/^SUBDIRS = data$/;"	m
+SWAP_FLAGS	src/getopt.c	/^# define SWAP_FLAGS(/;"	d	file:
+SYNOPSIS	man/kakasi-config.1	/^.SH SYNOPSIS$/;"	s	title:KAKASI
+SYNOPSIS	man/kakasi.1	/^.SH SYNOPSIS$/;"	s	title:KAKASI
+Source	kakasi.spec	/^Source: http:\/\/kakasi.namazu.org\/stable\/kakasi-%{ver}.tar.gz$/;"	t
+Source	kakasi.spec.in	/^Source: http:\/\/kakasi.namazu.org\/stable\/kakasi-%{ver}.tar.gz$/;"	t
+Summary	kakasi.spec	/^Summary: KAKASI - kanji kana simple inverter$/;"	t
+Summary	kakasi.spec	/^Summary: The base dictionary of KAKASI$/;"	t
+Summary	kakasi.spec	/^Summary: header file and libraries of KAKASI$/;"	t
+Summary	kakasi.spec.in	/^Summary: KAKASI - kanji kana simple inverter$/;"	t
+Summary	kakasi.spec.in	/^Summary: The base dictionary of KAKASI$/;"	t
+Summary	kakasi.spec.in	/^Summary: header file and libraries of KAKASI$/;"	t
+TAGS	Makefile.in	/^TAGS: tags-recursive $(HEADERS) $(SOURCES) config.h.in $(TAGS_DEPENDENCIES) \\$/;"	t
+TAGS	lib/Makefile.in	/^TAGS:  $(HEADERS) $(SOURCES)  $(TAGS_DEPENDENCIES) \\$/;"	t
+TAGS	man/Makefile.in	/^TAGS:$/;"	t
+TAGS	src/Makefile.in	/^TAGS:  $(HEADERS) $(SOURCES)  $(TAGS_DEPENDENCIES) \\$/;"	t
+TAGS	tests/Makefile.in	/^TAGS: tags-recursive $(HEADERS) $(SOURCES)  $(TAGS_DEPENDENCIES) \\$/;"	t
+TAGS	tests/data/Makefile.in	/^TAGS:$/;"	t
+TESTS	tests/Makefile.am	/^TESTS = kakasi-1 kakasi-2 kakasi-3 kakasi-4 kakasi-5 kakasi-6 kakasi-7 \\$/;"	m
+TESTS	tests/Makefile.in	/^TESTS = kakasi-1 kakasi-2 kakasi-3 kakasi-4 kakasi-5 kakasi-6 kakasi-7 \\$/;"	m
+TESTS_ENVIRONMENT	tests/Makefile.am	/^TESTS_ENVIRONMENT = top_srcdir=$(top_srcdir) top_builddir=$(top_builddir) \\$/;"	m
+TESTS_ENVIRONMENT	tests/Makefile.in	/^TESTS_ENVIRONMENT = top_srcdir=$(top_srcdir) top_builddir=$(top_builddir) \\$/;"	m
+UNINITIALIZED	src/kakasi.h	/^#define UNINITIALIZED /;"	d
+UNKNOWN	src/kakasi.h	/^#define UNKNOWN /;"	d
+URL	kakasi.spec	/^URL: http:\/\/kakasi.namazu.org\/$/;"	t
+URL	kakasi.spec.in	/^URL: http:\/\/kakasi.namazu.org\/$/;"	t
+UTF8	src/kakasi.h	/^#define UTF8 /;"	d
+UTF8_COMPUTE	lib/libkanjiio.c	/^#define UTF8_COMPUTE(/;"	d	file:
+UTF8_COMPUTE	src/kanjiio.c	/^#define UTF8_COMPUTE(/;"	d	file:
+VERSION	Makefile.in	/^VERSION = @VERSION@$/;"	m
+VERSION	lib/Makefile.in	/^VERSION = @VERSION@$/;"	m
+VERSION	man/Makefile.in	/^VERSION = @VERSION@$/;"	m
+VERSION	src/Makefile.in	/^VERSION = @VERSION@$/;"	m
+VERSION	tests/Makefile.in	/^VERSION = @VERSION@$/;"	m
+VERSION	tests/data/Makefile.in	/^VERSION = @VERSION@$/;"	m
+VPATH	Makefile.in	/^VPATH = @srcdir@$/;"	m
+VPATH	lib/Makefile.in	/^VPATH = @srcdir@$/;"	m
+VPATH	man/Makefile.in	/^VPATH = @srcdir@$/;"	m
+VPATH	src/Makefile.in	/^VPATH = @srcdir@$/;"	m
+VPATH	tests/Makefile.in	/^VPATH = @srcdir@$/;"	m
+VPATH	tests/data/Makefile.in	/^VPATH = @srcdir@$/;"	m
+Version	kakasi.spec	/^Version: %ver$/;"	t
+Version	kakasi.spec.in	/^Version: %ver$/;"	t
+WAKATIGAKI	configure.in	/^test "${wakatigaki}" = yes && AC_DEFINE(WAKATIGAKI, 1, [WAKATIGAKI])$/;"	d
+[^	configure	/^s\/^ \\('"$ac_word_re"'\\)\\(([^()]*)\\)[	 ]*\\(.*\\)\/P["\\1"]="\\2"\\$/;"	f
+_	src/getopt.c	/^#  define _(/;"	d	file:
+_ACEOF	configure	/^	   cat confdefs.h - <<_ACEOF >conftest.$ac_ext$/;"	h
+_ACEOF	configure	/^	 cat confdefs.h - <<_ACEOF >conftest.$ac_ext$/;"	h
+_ACEOF	configure	/^      cat confdefs.h - <<_ACEOF >conftest.$ac_ext$/;"	h
+_ACEOF	configure	/^     cat confdefs.h - <<_ACEOF >conftest.$ac_ext$/;"	h
+_ACEOF	configure	/^    cat confdefs.h - <<_ACEOF >conftest.$ac_ext$/;"	h
+_ACEOF	configure	/^   cat confdefs.h - <<_ACEOF >conftest.$ac_ext$/;"	h
+_ACEOF	configure	/^  cat <<_ACEOF$/;"	h
+_ACEOF	configure	/^  cat >>confdefs.h <<_ACEOF$/;"	h
+_ACEOF	configure	/^  cat confdefs.h - <<_ACEOF >conftest.$ac_ext$/;"	h
+_ACEOF	configure	/^cat >&5 <<_ACEOF$/;"	h
+_ACEOF	configure	/^cat >>$CONFIG_STATUS <<_ACEOF || ac_write_fail=1$/;"	h
+_ACEOF	configure	/^cat >>confdefs.h <<_ACEOF$/;"	h
+_ACEOF	configure	/^cat >config.log <<_ACEOF$/;"	h
+_ACEOF	configure	/^cat confdefs.h - <<_ACEOF >conftest.$ac_ext$/;"	h
+_AC_AM_CONFIG_HEADER_HOOK	aclocal.m4	/^AC_DEFUN([_AC_AM_CONFIG_HEADER_HOOK],$/;"	m
+_AC_COMPILER_EXEEXT	aclocal.m4	/^m4_define([_AC_COMPILER_EXEEXT],$/;"	d
+_AM_AUTOCONF_VERSION	aclocal.m4	/^m4_define([_AM_AUTOCONF_VERSION], [])$/;"	d
+_AM_DEPENDENCIES	aclocal.m4	/^AC_DEFUN([_AM_DEPENDENCIES],$/;"	m
+_AM_IF_OPTION	aclocal.m4	/^AC_DEFUN([_AM_IF_OPTION],$/;"	m
+_AM_MANGLE_OPTION	aclocal.m4	/^AC_DEFUN([_AM_MANGLE_OPTION],$/;"	m
+_AM_OUTPUT_DEPENDENCY_COMMANDS	aclocal.m4	/^AC_DEFUN([_AM_OUTPUT_DEPENDENCY_COMMANDS],$/;"	m
+_AM_PROG_TAR	aclocal.m4	/^AC_DEFUN([_AM_PROG_TAR],$/;"	m
+_AM_SET_OPTION	aclocal.m4	/^AC_DEFUN([_AM_SET_OPTION],$/;"	m
+_AM_SET_OPTIONS	aclocal.m4	/^AC_DEFUN([_AM_SET_OPTIONS],$/;"	m
+_AM_SUBST_NOTMAKE	aclocal.m4	/^AC_DEFUN([_AM_SUBST_NOTMAKE])$/;"	m
+_ASBOX	configure	/^  sed 'h;s\/.\/-\/g;s\/^...\/## \/;s\/...$\/ ##\/;p;x;p;x' <<_ASBOX$/;"	h
+_ASEOF	configure	/^cat >$CONFIG_STATUS <<_ASEOF || as_write_fail=1$/;"	h
+_ASUNAME	configure	/^cat <<_ASUNAME$/;"	h
+_CONV_UTIL_H	src/conv-util.h	/^#define _CONV_UTIL_H$/;"	d
+_EOF	tests/kakasi-8	/^cat > $TMPSRC <<_EOF$/;"	h
+_GETOPT_H	src/getopt.h	/^#define _GETOPT_H /;"	d
+_KAKASI_H	src/kakasi.h	/^#define _KAKASI_H$/;"	d
+_LEVEL_H	src/level.h	/^#define _LEVEL_H$/;"	d
+_LIBKAKASI_H	lib/libkakasi.h	/^#define _LIBKAKASI_H$/;"	d
+_LTDL_MODE	aclocal.m4	/^m4_define([_LTDL_MODE], [])$/;"	d
+_LTDL_TYPE	aclocal.m4	/^m4_define([_LTDL_TYPE], [])$/;"	d
+_LT_COMPILER_OPTION	aclocal.m4	/^AC_DEFUN([_LT_COMPILER_OPTION],$/;"	m
+_LT_CONFIG_LIBTOOL	aclocal.m4	/^m4_define([_LT_CONFIG_LIBTOOL],$/;"	d
+_LT_CONFIG_LIBTOOL_INIT	aclocal.m4	/^m4_define([_LT_CONFIG_LIBTOOL_INIT],$/;"	d
+_LT_CONFIG_STATUS_DECLARE	aclocal.m4	/^m4_define([_LT_CONFIG_STATUS_DECLARE],$/;"	d
+_LT_COPYING	aclocal.m4	/^m4_define([_LT_COPYING], [dnl$/;"	d
+_LT_DECL	aclocal.m4	/^m4_define([_LT_DECL],$/;"	d
+_LT_ENABLE_FAST_INSTALL	aclocal.m4	/^m4_define([_LT_ENABLE_FAST_INSTALL],$/;"	d
+_LT_ENABLE_SHARED	aclocal.m4	/^m4_define([_LT_ENABLE_SHARED],$/;"	d
+_LT_ENABLE_STATIC	aclocal.m4	/^m4_define([_LT_ENABLE_STATIC],$/;"	d
+_LT_EOF	configure	/^	    cat <<_LT_EOF 1>&2$/;"	h
+_LT_EOF	configure	/^	  cat <<_LT_EOF > conftest.$ac_ext$/;"	h
+_LT_EOF	configure	/^	  cat <<_LT_EOF >> conftest.$ac_ext$/;"	h
+_LT_EOF	configure	/^	cat <<_LT_EOF 1>&2$/;"	h
+_LT_EOF	configure	/^      cat > conftest.c << _LT_EOF$/;"	h
+_LT_EOF	configure	/^    cat <<_LT_EOF >> "$cfgfile"$/;"	h
+_LT_EOF	configure	/^  cat > conftest.$ac_ext <<_LT_EOF$/;"	h
+_LT_EOF	ltmain.sh	/^        cat >&2 <<_LT_EOF$/;"	h
+_LT_EOF	ltmain.sh	/^      cat >&2 <<_LT_EOF$/;"	h
+_LT_FORMAT_COMMENT	aclocal.m4	/^m4_define([_LT_FORMAT_COMMENT],$/;"	d
+_LT_IF_OPTION	aclocal.m4	/^m4_define([_LT_IF_OPTION],$/;"	d
+_LT_LANG_C_enabled	aclocal.m4	/^m4_define([_LT_LANG_C_enabled], [])$/;"	d
+_LT_LIBTOOL_DECLARE	aclocal.m4	/^m4_define([_LT_LIBTOOL_DECLARE],$/;"	d
+_LT_LIBTOOL_TAG_VARS	aclocal.m4	/^m4_define([_LT_LIBTOOL_TAG_VARS],$/;"	d
+_LT_LINKER_OPTION	aclocal.m4	/^AC_DEFUN([_LT_LINKER_OPTION],$/;"	m
+_LT_MANGLE_DEFUN	aclocal.m4	/^m4_define([_LT_MANGLE_DEFUN],$/;"	d
+_LT_MANGLE_OPTION	aclocal.m4	/^m4_define([_LT_MANGLE_OPTION],$/;"	d
+_LT_OUTPUT_LIBTOOL_COMMANDS	aclocal.m4	/^m4_define([_LT_OUTPUT_LIBTOOL_COMMANDS])$/;"	d
+_LT_OUTPUT_LIBTOOL_COMMANDS_INIT	aclocal.m4	/^m4_define([_LT_OUTPUT_LIBTOOL_COMMANDS_INIT],$/;"	d
+_LT_OUTPUT_LIBTOOL_INIT	aclocal.m4	/^m4_define([_LT_OUTPUT_LIBTOOL_INIT])$/;"	d
+_LT_PATH_TOOL_PREFIX	aclocal.m4	/^AC_DEFUN([_LT_PATH_TOOL_PREFIX],$/;"	m
+_LT_SET_OPTION	aclocal.m4	/^m4_define([_LT_SET_OPTION],$/;"	d
+_LT_SHELL_INIT	aclocal.m4	/^m4_define([_LT_SHELL_INIT],$/;"	d
+_LT_TAGDECL	aclocal.m4	/^m4_define([_LT_TAGDECL], [_LT_DECL([$1], [$2], [$3], [$4], [yes])])$/;"	d
+_LT_TAGS	aclocal.m4	/^m4_define([_LT_TAGS], [])$/;"	d
+_LT_TAGVAR	aclocal.m4	/^m4_define([_LT_TAGVAR], [m4_ifval([$2], [$1_$2], [$1])])$/;"	d
+_LT_UNLESS_OPTIONS	aclocal.m4	/^m4_define([_LT_UNLESS_OPTIONS],$/;"	d
+_LT_WITH_PIC	aclocal.m4	/^m4_define([_LT_WITH_PIC],$/;"	d
+_LT_WITH_SYSROOT	aclocal.m4	/^AC_DEFUN([_LT_WITH_SYSROOT],$/;"	m
+_NO_PROTO	src/getopt.c	/^# define _NO_PROTO$/;"	d	file:
+__anon301252c00103	src/getopt.c	/^{$/;"	g	file:
+__getopt_initialized	src/getopt.c	/^int __getopt_initialized = 0;$/;"	v	typeref:typename:int
+_getopt_initialize	src/getopt.c	/^_getopt_initialize (argc, argv, optstring)$/;"	f	file:
+_getopt_internal	src/getopt.c	/^_getopt_internal (argc, argv, optstring, longopts, longind, long_only)$/;"	f
+_lt_decl_all_varnames	aclocal.m4	/^m4_define([_lt_decl_all_varnames],$/;"	d
+_lt_decl_filter	aclocal.m4	/^m4_define([_lt_decl_filter],$/;"	d
+_lt_decl_varnames_tagged	aclocal.m4	/^m4_define([_lt_decl_varnames_tagged],$/;"	d
+_lt_join	aclocal.m4	/^m4_define([_lt_join],$/;"	d
+a2E	lib/liba2.c	/^a2E(c, n)$/;"	f
+a2E	src/a2.c	/^a2E(c, n)$/;"	f
+a2j	lib/liba2.c	/^a2j(c, n)$/;"	f
+a2j	src/a2.c	/^a2j(c, n)$/;"	f
+abs_builddir	Makefile.in	/^abs_builddir = @abs_builddir@$/;"	m
+abs_builddir	lib/Makefile.in	/^abs_builddir = @abs_builddir@$/;"	m
+abs_builddir	man/Makefile.in	/^abs_builddir = @abs_builddir@$/;"	m
+abs_builddir	src/Makefile.in	/^abs_builddir = @abs_builddir@$/;"	m
+abs_builddir	tests/Makefile.in	/^abs_builddir = @abs_builddir@$/;"	m
+abs_builddir	tests/data/Makefile.in	/^abs_builddir = @abs_builddir@$/;"	m
+abs_srcdir	Makefile.in	/^abs_srcdir = @abs_srcdir@$/;"	m
+abs_srcdir	lib/Makefile.in	/^abs_srcdir = @abs_srcdir@$/;"	m
+abs_srcdir	man/Makefile.in	/^abs_srcdir = @abs_srcdir@$/;"	m
+abs_srcdir	src/Makefile.in	/^abs_srcdir = @abs_srcdir@$/;"	m
+abs_srcdir	tests/Makefile.in	/^abs_srcdir = @abs_srcdir@$/;"	m
+abs_srcdir	tests/data/Makefile.in	/^abs_srcdir = @abs_srcdir@$/;"	m
+abs_top_builddir	Makefile.in	/^abs_top_builddir = @abs_top_builddir@$/;"	m
+abs_top_builddir	lib/Makefile.in	/^abs_top_builddir = @abs_top_builddir@$/;"	m
+abs_top_builddir	man/Makefile.in	/^abs_top_builddir = @abs_top_builddir@$/;"	m
+abs_top_builddir	src/Makefile.in	/^abs_top_builddir = @abs_top_builddir@$/;"	m
+abs_top_builddir	tests/Makefile.in	/^abs_top_builddir = @abs_top_builddir@$/;"	m
+abs_top_builddir	tests/data/Makefile.in	/^abs_top_builddir = @abs_top_builddir@$/;"	m
+abs_top_srcdir	Makefile.in	/^abs_top_srcdir = @abs_top_srcdir@$/;"	m
+abs_top_srcdir	lib/Makefile.in	/^abs_top_srcdir = @abs_top_srcdir@$/;"	m
+abs_top_srcdir	man/Makefile.in	/^abs_top_srcdir = @abs_top_srcdir@$/;"	m
+abs_top_srcdir	src/Makefile.in	/^abs_top_srcdir = @abs_top_srcdir@$/;"	m
+abs_top_srcdir	tests/Makefile.in	/^abs_top_srcdir = @abs_top_srcdir@$/;"	m
+abs_top_srcdir	tests/data/Makefile.in	/^abs_top_srcdir = @abs_top_srcdir@$/;"	m
+ac_ct_AR	Makefile.in	/^ac_ct_AR = @ac_ct_AR@$/;"	m
+ac_ct_AR	lib/Makefile.in	/^ac_ct_AR = @ac_ct_AR@$/;"	m
+ac_ct_AR	man/Makefile.in	/^ac_ct_AR = @ac_ct_AR@$/;"	m
+ac_ct_AR	src/Makefile.in	/^ac_ct_AR = @ac_ct_AR@$/;"	m
+ac_ct_AR	tests/Makefile.in	/^ac_ct_AR = @ac_ct_AR@$/;"	m
+ac_ct_AR	tests/data/Makefile.in	/^ac_ct_AR = @ac_ct_AR@$/;"	m
+ac_ct_CC	Makefile.in	/^ac_ct_CC = @ac_ct_CC@$/;"	m
+ac_ct_CC	lib/Makefile.in	/^ac_ct_CC = @ac_ct_CC@$/;"	m
+ac_ct_CC	man/Makefile.in	/^ac_ct_CC = @ac_ct_CC@$/;"	m
+ac_ct_CC	src/Makefile.in	/^ac_ct_CC = @ac_ct_CC@$/;"	m
+ac_ct_CC	tests/Makefile.in	/^ac_ct_CC = @ac_ct_CC@$/;"	m
+ac_ct_CC	tests/data/Makefile.in	/^ac_ct_CC = @ac_ct_CC@$/;"	m
+ac_ct_DUMPBIN	Makefile.in	/^ac_ct_DUMPBIN = @ac_ct_DUMPBIN@$/;"	m
+ac_ct_DUMPBIN	lib/Makefile.in	/^ac_ct_DUMPBIN = @ac_ct_DUMPBIN@$/;"	m
+ac_ct_DUMPBIN	man/Makefile.in	/^ac_ct_DUMPBIN = @ac_ct_DUMPBIN@$/;"	m
+ac_ct_DUMPBIN	src/Makefile.in	/^ac_ct_DUMPBIN = @ac_ct_DUMPBIN@$/;"	m
+ac_ct_DUMPBIN	tests/Makefile.in	/^ac_ct_DUMPBIN = @ac_ct_DUMPBIN@$/;"	m
+ac_ct_DUMPBIN	tests/data/Makefile.in	/^ac_ct_DUMPBIN = @ac_ct_DUMPBIN@$/;"	m
+ac_fn_c_check_func	configure	/^ac_fn_c_check_func ()$/;"	f
+ac_fn_c_check_header_compile	configure	/^ac_fn_c_check_header_compile ()$/;"	f
+ac_fn_c_check_header_mongrel	configure	/^ac_fn_c_check_header_mongrel ()$/;"	f
+ac_fn_c_try_compile	configure	/^ac_fn_c_try_compile ()$/;"	f
+ac_fn_c_try_cpp	configure	/^ac_fn_c_try_cpp ()$/;"	f
+ac_fn_c_try_link	configure	/^ac_fn_c_try_link ()$/;"	f
+ac_fn_c_try_run	configure	/^ac_fn_c_try_run ()$/;"	f
+add_ary_cellalloc	lib/libdict.c	/^add_ary_cellalloc(ptr)$/;"	f	file:
+add_ary_cellalloc	src/dict.c	/^add_ary_cellalloc(ptr)$/;"	f	file:
+add_ary_charalloc	lib/libdict.c	/^add_ary_charalloc(ptr)$/;"	f	file:
+add_ary_charalloc	src/dict.c	/^add_ary_charalloc(ptr)$/;"	f	file:
+add_item	lib/libdict.c	/^static void add_item(yomi, kanji, tail)$/;"	f	file:
+add_item	src/dict.c	/^static void add_item(yomi, kanji, tail)$/;"	f	file:
+add_jisyo	lib/libdict.c	/^void add_jisyo(filename)$/;"	f
+add_jisyo	src/dict.c	/^void add_jisyo(filename)$/;"	f
+add_kanwa	lib/libdict.c	/^void add_kanwa(c1, c2)$/;"	f
+add_kanwa	src/dict.c	/^void add_kanwa(c1, c2)$/;"	f
+all	Makefile.in	/^all: config.h$/;"	t
+all	lib/Makefile.in	/^all: all-am$/;"	t
+all	man/Makefile.in	/^all: all-am$/;"	t
+all	src/Makefile.in	/^all: all-am$/;"	t
+all	tests/Makefile.in	/^all: all-recursive$/;"	t
+all	tests/data/Makefile.in	/^all: all-am$/;"	t
+all-am	Makefile.in	/^all-am: Makefile $(SCRIPTS) $(DATA) config.h$/;"	t
+all-am	lib/Makefile.in	/^all-am: Makefile $(LTLIBRARIES) $(HEADERS)$/;"	t
+all-am	man/Makefile.in	/^all-am: Makefile $(MANS)$/;"	t
+all-am	src/Makefile.in	/^all-am: Makefile $(PROGRAMS) $(HEADERS)$/;"	t
+all-am	tests/Makefile.in	/^all-am: Makefile$/;"	t
+all-am	tests/data/Makefile.in	/^all-am: Makefile$/;"	t
+am--refresh	Makefile.in	/^am--refresh: Makefile$/;"	t
+am__CONFIG_DISTCLEAN_FILES	Makefile.in	/^am__CONFIG_DISTCLEAN_FILES = config.status config.cache config.log \\$/;"	m
+am__aclocal_m4_deps	Makefile.in	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.in$/;"	m
+am__aclocal_m4_deps	lib/Makefile.in	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.in$/;"	m
+am__aclocal_m4_deps	man/Makefile.in	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.in$/;"	m
+am__aclocal_m4_deps	src/Makefile.in	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.in$/;"	m
+am__aclocal_m4_deps	tests/Makefile.in	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.in$/;"	m
+am__aclocal_m4_deps	tests/data/Makefile.in	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.in$/;"	m
+am__base_list	Makefile.in	/^am__base_list = \\$/;"	m
+am__base_list	lib/Makefile.in	/^am__base_list = \\$/;"	m
+am__base_list	man/Makefile.in	/^am__base_list = \\$/;"	m
+am__can_run_installinfo	Makefile.in	/^am__can_run_installinfo = \\$/;"	m
+am__can_run_installinfo	lib/Makefile.in	/^am__can_run_installinfo = \\$/;"	m
+am__can_run_installinfo	man/Makefile.in	/^am__can_run_installinfo = \\$/;"	m
+am__can_run_installinfo	src/Makefile.in	/^am__can_run_installinfo = \\$/;"	m
+am__can_run_installinfo	tests/Makefile.in	/^am__can_run_installinfo = \\$/;"	m
+am__can_run_installinfo	tests/data/Makefile.in	/^am__can_run_installinfo = \\$/;"	m
+am__cd	Makefile.in	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	lib/Makefile.in	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	man/Makefile.in	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	src/Makefile.in	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	tests/Makefile.in	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	tests/data/Makefile.in	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile.in	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	lib/Makefile.in	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	man/Makefile.in	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	src/Makefile.in	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	tests/Makefile.in	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	tests/data/Makefile.in	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__depfiles_maybe	Makefile.in	/^am__depfiles_maybe =$/;"	m
+am__depfiles_maybe	lib/Makefile.in	/^am__depfiles_maybe =$/;"	m
+am__depfiles_maybe	man/Makefile.in	/^am__depfiles_maybe =$/;"	m
+am__depfiles_maybe	src/Makefile.in	/^am__depfiles_maybe =$/;"	m
+am__depfiles_maybe	tests/Makefile.in	/^am__depfiles_maybe =$/;"	m
+am__depfiles_maybe	tests/data/Makefile.in	/^am__depfiles_maybe =$/;"	m
+am__distuninstallcheck_listfiles	Makefile.in	/^am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \\$/;"	m
+am__include	Makefile.in	/^am__include = @am__include@$/;"	m
+am__include	lib/Makefile.in	/^am__include = @am__include@$/;"	m
+am__include	man/Makefile.in	/^am__include = @am__include@$/;"	m
+am__include	src/Makefile.in	/^am__include = @am__include@$/;"	m
+am__include	tests/Makefile.in	/^am__include = @am__include@$/;"	m
+am__include	tests/data/Makefile.in	/^am__include = @am__include@$/;"	m
+am__install_max	Makefile.in	/^am__install_max = 40$/;"	m
+am__install_max	lib/Makefile.in	/^am__install_max = 40$/;"	m
+am__install_max	man/Makefile.in	/^am__install_max = 40$/;"	m
+am__installdirs	Makefile.in	/^am__installdirs = "$(DESTDIR)$(bindir)" "$(DESTDIR)$(dictdir)"$/;"	m
+am__installdirs	lib/Makefile.in	/^am__installdirs = "$(DESTDIR)$(libdir)" "$(DESTDIR)$(includedir)"$/;"	m
+am__installdirs	man/Makefile.in	/^am__installdirs = "$(DESTDIR)$(man1dir)"$/;"	m
+am__installdirs	src/Makefile.in	/^am__installdirs = "$(DESTDIR)$(bindir)"$/;"	m
+am__leading_dot	Makefile.in	/^am__leading_dot = @am__leading_dot@$/;"	m
+am__leading_dot	lib/Makefile.in	/^am__leading_dot = @am__leading_dot@$/;"	m
+am__leading_dot	man/Makefile.in	/^am__leading_dot = @am__leading_dot@$/;"	m
+am__leading_dot	src/Makefile.in	/^am__leading_dot = @am__leading_dot@$/;"	m
+am__leading_dot	tests/Makefile.in	/^am__leading_dot = @am__leading_dot@$/;"	m
+am__leading_dot	tests/data/Makefile.in	/^am__leading_dot = @am__leading_dot@$/;"	m
+am__make_dryrun	Makefile.in	/^am__make_dryrun = \\$/;"	m
+am__make_dryrun	lib/Makefile.in	/^am__make_dryrun = \\$/;"	m
+am__make_dryrun	man/Makefile.in	/^am__make_dryrun = \\$/;"	m
+am__make_dryrun	src/Makefile.in	/^am__make_dryrun = \\$/;"	m
+am__make_dryrun	tests/Makefile.in	/^am__make_dryrun = \\$/;"	m
+am__make_dryrun	tests/data/Makefile.in	/^am__make_dryrun = \\$/;"	m
+am__nobase_list	Makefile.in	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_list	lib/Makefile.in	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_list	man/Makefile.in	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_strip	Makefile.in	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip	lib/Makefile.in	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip	man/Makefile.in	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip_setup	Makefile.in	/^am__nobase_strip_setup = \\$/;"	m
+am__nobase_strip_setup	lib/Makefile.in	/^am__nobase_strip_setup = \\$/;"	m
+am__nobase_strip_setup	man/Makefile.in	/^am__nobase_strip_setup = \\$/;"	m
+am__quote	Makefile.in	/^am__quote = @am__quote@$/;"	m
+am__quote	lib/Makefile.in	/^am__quote = @am__quote@$/;"	m
+am__quote	man/Makefile.in	/^am__quote = @am__quote@$/;"	m
+am__quote	src/Makefile.in	/^am__quote = @am__quote@$/;"	m
+am__quote	tests/Makefile.in	/^am__quote = @am__quote@$/;"	m
+am__quote	tests/data/Makefile.in	/^am__quote = @am__quote@$/;"	m
+am__relativize	Makefile.in	/^am__relativize = \\$/;"	m
+am__relativize	tests/Makefile.in	/^am__relativize = \\$/;"	m
+am__remove_distdir	Makefile.in	/^am__remove_distdir = \\$/;"	m
+am__strip_dir	Makefile.in	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__strip_dir	lib/Makefile.in	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__strip_dir	man/Makefile.in	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__tar	Makefile.in	/^am__tar = @am__tar@$/;"	m
+am__tar	lib/Makefile.in	/^am__tar = @am__tar@$/;"	m
+am__tar	man/Makefile.in	/^am__tar = @am__tar@$/;"	m
+am__tar	src/Makefile.in	/^am__tar = @am__tar@$/;"	m
+am__tar	tests/Makefile.in	/^am__tar = @am__tar@$/;"	m
+am__tar	tests/data/Makefile.in	/^am__tar = @am__tar@$/;"	m
+am__tty_colors	tests/Makefile.in	/^am__tty_colors = \\$/;"	m
+am__uninstall_files_from_dir	Makefile.in	/^am__uninstall_files_from_dir = { \\$/;"	m
+am__uninstall_files_from_dir	lib/Makefile.in	/^am__uninstall_files_from_dir = { \\$/;"	m
+am__uninstall_files_from_dir	man/Makefile.in	/^am__uninstall_files_from_dir = { \\$/;"	m
+am__untar	Makefile.in	/^am__untar = @am__untar@$/;"	m
+am__untar	lib/Makefile.in	/^am__untar = @am__untar@$/;"	m
+am__untar	man/Makefile.in	/^am__untar = @am__untar@$/;"	m
+am__untar	src/Makefile.in	/^am__untar = @am__untar@$/;"	m
+am__untar	tests/Makefile.in	/^am__untar = @am__untar@$/;"	m
+am__untar	tests/data/Makefile.in	/^am__untar = @am__untar@$/;"	m
+am__vpath_adj	Makefile.in	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj	lib/Makefile.in	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj	man/Makefile.in	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj_setup	Makefile.in	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am__vpath_adj_setup	lib/Makefile.in	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am__vpath_adj_setup	man/Makefile.in	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am_atoc_conv_OBJECTS	src/Makefile.in	/^am_atoc_conv_OBJECTS = atoc-conv.$(OBJEXT) conv-util.$(OBJEXT)$/;"	m
+am_kakasi_OBJECTS	src/Makefile.in	/^am_kakasi_OBJECTS = kakasi.$(OBJEXT) a2.$(OBJEXT) g2.$(OBJEXT) \\$/;"	m
+am_libkakasi_la_OBJECTS	lib/Makefile.in	/^am_libkakasi_la_OBJECTS = libdict.lo libkakasi.lo libkanjiio.lo \\$/;"	m
+am_mkkanwa_OBJECTS	src/Makefile.in	/^am_mkkanwa_OBJECTS = mkkanwa.$(OBJEXT) dict.$(OBJEXT) itaiji.$(OBJEXT) \\$/;"	m
+am_rdic_conv_OBJECTS	src/Makefile.in	/^am_rdic_conv_OBJECTS = rdic-conv.$(OBJEXT) conv-util.$(OBJEXT)$/;"	m
+am_wx2_conv_OBJECTS	src/Makefile.in	/^am_wx2_conv_OBJECTS = wx2-conv.$(OBJEXT) conv-util.$(OBJEXT)$/;"	m
+ary_cellalloc	lib/libdict.c	/^void ** ary_cellalloc = NULL;$/;"	v	typeref:typename:void **
+ary_cellalloc	src/dict.c	/^void ** ary_cellalloc = NULL;$/;"	v	typeref:typename:void **
+ary_charalloc	lib/libdict.c	/^void ** ary_charalloc = NULL;$/;"	v	typeref:typename:void **
+ary_charalloc	src/dict.c	/^void ** ary_charalloc = NULL;$/;"	v	typeref:typename:void **
+ary_cur_cellalloc	lib/libdict.c	/^size_t ary_cur_cellalloc = -1;$/;"	v	typeref:typename:size_t
+ary_cur_cellalloc	src/dict.c	/^size_t ary_cur_cellalloc = -1;$/;"	v	typeref:typename:size_t
+ary_cur_charalloc	lib/libdict.c	/^size_t ary_cur_charalloc = -1;$/;"	v	typeref:typename:size_t
+ary_cur_charalloc	src/dict.c	/^size_t ary_cur_charalloc = -1;$/;"	v	typeref:typename:size_t
+ary_size_cellalloc	lib/libdict.c	/^size_t ary_size_cellalloc = -1;$/;"	v	typeref:typename:size_t
+ary_size_cellalloc	src/dict.c	/^size_t ary_size_cellalloc = -1;$/;"	v	typeref:typename:size_t
+ary_size_charalloc	lib/libdict.c	/^size_t ary_size_charalloc = -1;$/;"	v	typeref:typename:size_t
+ary_size_charalloc	src/dict.c	/^size_t ary_size_charalloc = -1;$/;"	v	typeref:typename:size_t
+as_fn_append	configure	/^  as_fn_append ()$/;"	f
+as_fn_arith	configure	/^  as_fn_arith ()$/;"	f
+as_fn_error	configure	/^as_fn_error ()$/;"	f
+as_fn_executable_p	configure	/^as_fn_executable_p ()$/;"	f
+as_fn_exit	configure	/^as_fn_exit ()$/;"	f
+as_fn_failure	configure	/^as_fn_failure () { as_fn_return 1; }$/;"	f
+as_fn_mkdir_p	configure	/^as_fn_mkdir_p ()$/;"	f
+as_fn_ret_failure	configure	/^as_fn_ret_failure () { return 1; }$/;"	f
+as_fn_ret_success	configure	/^as_fn_ret_success () { return 0; }$/;"	f
+as_fn_set_status	configure	/^as_fn_set_status ()$/;"	f
+as_fn_success	configure	/^as_fn_success () { as_fn_return 0; }$/;"	f
+as_fn_unset	configure	/^as_fn_unset ()$/;"	f
+atoc_conv	src/Makefile.am	/^bin_PROGRAMS = kakasi mkkanwa atoc_conv rdic_conv wx2_conv$/;"	P	directory:bin
+atoc_conv$(EXEEXT)	src/Makefile.in	/^atoc_conv$(EXEEXT): $(atoc_conv_OBJECTS) $(atoc_conv_DEPENDENCIES) $(EXTRA_atoc_conv_DEPENDENCIE/;"	t
+atoc_conv_LDADD	src/Makefile.in	/^atoc_conv_LDADD = $(LDADD)$/;"	m
+atoc_conv_OBJECTS	src/Makefile.in	/^atoc_conv_OBJECTS = $(am_atoc_conv_OBJECTS)$/;"	m
+atoc_conv_SOURCES	src/Makefile.am	/^atoc_conv_SOURCES = atoc-conv.c conv-util.c$/;"	m
+atoc_conv_SOURCES	src/Makefile.in	/^atoc_conv_SOURCES = atoc-conv.c conv-util.c$/;"	m
+bin_PROGRAMS	src/Makefile.am	/^bin_PROGRAMS = kakasi mkkanwa atoc_conv rdic_conv wx2_conv$/;"	m
+bin_PROGRAMS	src/Makefile.in	/^bin_PROGRAMS = kakasi$(EXEEXT) mkkanwa$(EXEEXT) atoc_conv$(EXEEXT) \\$/;"	m
+bin_SCRIPTS	Makefile.am	/^bin_SCRIPTS = kakasi-config$/;"	m
+bin_SCRIPTS	Makefile.in	/^bin_SCRIPTS = kakasi-config$/;"	m
+bindir	Makefile.in	/^bindir = @bindir@$/;"	m
+bindir	lib/Makefile.in	/^bindir = @bindir@$/;"	m
+bindir	man/Makefile.in	/^bindir = @bindir@$/;"	m
+bindir	src/Makefile.in	/^bindir = @bindir@$/;"	m
+bindir	tests/Makefile.in	/^bindir = @bindir@$/;"	m
+bindir	tests/data/Makefile.in	/^bindir = @bindir@$/;"	m
+bitpat	tests/kakasi-5	/^bitpat () {$/;"	f
+build	Makefile.in	/^build = @build@$/;"	m
+build	lib/Makefile.in	/^build = @build@$/;"	m
+build	man/Makefile.in	/^build = @build@$/;"	m
+build	src/Makefile.in	/^build = @build@$/;"	m
+build	tests/Makefile.in	/^build = @build@$/;"	m
+build	tests/data/Makefile.in	/^build = @build@$/;"	m
+build_alias	Makefile.in	/^build_alias = @build_alias@$/;"	m
+build_alias	lib/Makefile.in	/^build_alias = @build_alias@$/;"	m
+build_alias	man/Makefile.in	/^build_alias = @build_alias@$/;"	m
+build_alias	src/Makefile.in	/^build_alias = @build_alias@$/;"	m
+build_alias	tests/Makefile.in	/^build_alias = @build_alias@$/;"	m
+build_alias	tests/data/Makefile.in	/^build_alias = @build_alias@$/;"	m
+build_cpu	Makefile.in	/^build_cpu = @build_cpu@$/;"	m
+build_cpu	lib/Makefile.in	/^build_cpu = @build_cpu@$/;"	m
+build_cpu	man/Makefile.in	/^build_cpu = @build_cpu@$/;"	m
+build_cpu	src/Makefile.in	/^build_cpu = @build_cpu@$/;"	m
+build_cpu	tests/Makefile.in	/^build_cpu = @build_cpu@$/;"	m
+build_cpu	tests/data/Makefile.in	/^build_cpu = @build_cpu@$/;"	m
+build_os	Makefile.in	/^build_os = @build_os@$/;"	m
+build_os	lib/Makefile.in	/^build_os = @build_os@$/;"	m
+build_os	man/Makefile.in	/^build_os = @build_os@$/;"	m
+build_os	src/Makefile.in	/^build_os = @build_os@$/;"	m
+build_os	tests/Makefile.in	/^build_os = @build_os@$/;"	m
+build_os	tests/data/Makefile.in	/^build_os = @build_os@$/;"	m
+build_triplet	Makefile.in	/^build_triplet = @build@$/;"	m
+build_triplet	lib/Makefile.in	/^build_triplet = @build@$/;"	m
+build_triplet	man/Makefile.in	/^build_triplet = @build@$/;"	m
+build_triplet	src/Makefile.in	/^build_triplet = @build@$/;"	m
+build_triplet	tests/Makefile.in	/^build_triplet = @build@$/;"	m
+build_triplet	tests/data/Makefile.in	/^build_triplet = @build@$/;"	m
+build_vendor	Makefile.in	/^build_vendor = @build_vendor@$/;"	m
+build_vendor	lib/Makefile.in	/^build_vendor = @build_vendor@$/;"	m
+build_vendor	man/Makefile.in	/^build_vendor = @build_vendor@$/;"	m
+build_vendor	src/Makefile.in	/^build_vendor = @build_vendor@$/;"	m
+build_vendor	tests/Makefile.in	/^build_vendor = @build_vendor@$/;"	m
+build_vendor	tests/data/Makefile.in	/^build_vendor = @build_vendor@$/;"	m
+builddir	Makefile.in	/^builddir = @builddir@$/;"	m
+builddir	lib/Makefile.in	/^builddir = @builddir@$/;"	m
+builddir	man/Makefile.in	/^builddir = @builddir@$/;"	m
+builddir	src/Makefile.in	/^builddir = @builddir@$/;"	m
+builddir	tests/Makefile.in	/^builddir = @builddir@$/;"	m
+builddir	tests/data/Makefile.in	/^builddir = @builddir@$/;"	m
+bunkatu_mode	lib/libkakasi.c	/^int bunkatu_mode = 0;$/;"	v	typeref:typename:int
+bunkatu_mode	src/kakasi.c	/^int bunkatu_mode = 0;$/;"	v	typeref:typename:int
+c1	src/kakasi.h	/^    unsigned char c1, c2;$/;"	m	struct:character	typeref:typename:unsigned char
+c2	src/kakasi.h	/^    unsigned char c1, c2;$/;"	m	struct:character	typeref:typename:unsigned char
+cellalloc	lib/libdict.c	/^cellalloc()$/;"	f	typeref:struct:kanji_yomi *	file:
+cellalloc	src/dict.c	/^cellalloc()$/;"	f	typeref:struct:kanji_yomi *	file:
+character	src/kakasi.h	/^typedef struct character {$/;"	s
+charalloc	lib/libdict.c	/^charalloc(length)$/;"	f	file:
+charalloc	src/dict.c	/^charalloc(length)$/;"	f	file:
+check	Makefile.in	/^check: check-recursive$/;"	t
+check	lib/Makefile.in	/^check: check-am$/;"	t
+check	man/Makefile.in	/^check: check-am$/;"	t
+check	src/Makefile.in	/^check: check-am$/;"	t
+check	tests/Makefile.in	/^check: check-recursive$/;"	t
+check	tests/data/Makefile.in	/^check: check-am$/;"	t
+check-TESTS	tests/Makefile.in	/^check-TESTS: $(TESTS)$/;"	t
+check-am	Makefile.in	/^check-am: all-am$/;"	t
+check-am	lib/Makefile.in	/^check-am: all-am$/;"	t
+check-am	man/Makefile.in	/^check-am: all-am$/;"	t
+check-am	src/Makefile.in	/^check-am: all-am$/;"	t
+check-am	tests/Makefile.in	/^check-am: all-am$/;"	t
+check-am	tests/data/Makefile.in	/^check-am: all-am$/;"	t
+check_kanji_level	lib/liblevel.c	/^check_kanji_level(c, ret, level)$/;"	f
+check_kanji_level	src/level.c	/^check_kanji_level(c, ret, level)$/;"	f
+clean	Makefile.in	/^clean: clean-recursive$/;"	t
+clean	lib/Makefile.in	/^clean: clean-am$/;"	t
+clean	man/Makefile.in	/^clean: clean-am$/;"	t
+clean	src/Makefile.in	/^clean: clean-am$/;"	t
+clean	tests/Makefile.in	/^clean: clean-recursive$/;"	t
+clean	tests/data/Makefile.in	/^clean: clean-am$/;"	t
+clean	tests/kakasi-8	/^clean() {$/;"	f
+clean	tests/kakasi-9	/^clean() {$/;"	f
+clean-am	Makefile.in	/^clean-am: clean-generic clean-libtool mostlyclean-am$/;"	t
+clean-am	lib/Makefile.in	/^clean-am: clean-generic clean-libLTLIBRARIES clean-libtool \\$/;"	t
+clean-am	man/Makefile.in	/^clean-am: clean-generic clean-libtool mostlyclean-am$/;"	t
+clean-am	src/Makefile.in	/^clean-am: clean-binPROGRAMS clean-generic clean-libtool mostlyclean-am$/;"	t
+clean-am	tests/Makefile.in	/^clean-am: clean-generic clean-libtool clean-local mostlyclean-am$/;"	t
+clean-am	tests/data/Makefile.in	/^clean-am: clean-generic clean-libtool mostlyclean-am$/;"	t
+clean-binPROGRAMS	src/Makefile.in	/^clean-binPROGRAMS:$/;"	t
+clean-generic	Makefile.in	/^clean-generic:$/;"	t
+clean-generic	lib/Makefile.in	/^clean-generic:$/;"	t
+clean-generic	man/Makefile.in	/^clean-generic:$/;"	t
+clean-generic	src/Makefile.in	/^clean-generic:$/;"	t
+clean-generic	tests/Makefile.in	/^clean-generic:$/;"	t
+clean-generic	tests/data/Makefile.in	/^clean-generic:$/;"	t
+clean-libLTLIBRARIES	lib/Makefile.in	/^clean-libLTLIBRARIES:$/;"	t
+clean-libtool	Makefile.in	/^clean-libtool:$/;"	t
+clean-libtool	lib/Makefile.in	/^clean-libtool:$/;"	t
+clean-libtool	man/Makefile.in	/^clean-libtool:$/;"	t
+clean-libtool	src/Makefile.in	/^clean-libtool:$/;"	t
+clean-libtool	tests/Makefile.in	/^clean-libtool:$/;"	t
+clean-libtool	tests/data/Makefile.in	/^clean-libtool:$/;"	t
+clean-local	tests/Makefile.am	/^clean-local:$/;"	t
+clean-local	tests/Makefile.in	/^clean-local:$/;"	t
+close_iconv	lib/libkanjiio.c	/^close_iconv()$/;"	f	typeref:typename:void
+close_iconv	src/kanjiio.c	/^close_iconv()$/;"	f	typeref:typename:void
+config.h	Makefile.in	/^config.h: stamp-h1$/;"	t
+const	src/getopt.c	/^#  define const$/;"	d	file:
+const	src/getopt1.c	/^#define const$/;"	d	file:
+cr_eat_mode	lib/libkakasi.c	/^int cr_eat_mode = 0;$/;"	v	typeref:typename:int
+cr_eat_mode	src/kakasi.c	/^int cr_eat_mode = 0;$/;"	v	typeref:typename:int
+cr_eat_string	lib/libkakasi.c	/^char cr_eat_string[KAKASIBUF];$/;"	v	typeref:typename:char[]
+cr_eat_string	src/kakasi.c	/^char cr_eat_string[KAKASIBUF];$/;"	v	typeref:typename:char[]
+ctags	Makefile.in	/^ctags: CTAGS$/;"	t
+ctags	lib/Makefile.in	/^ctags: CTAGS$/;"	t
+ctags	man/Makefile.in	/^ctags: CTAGS$/;"	t
+ctags	src/Makefile.in	/^ctags: CTAGS$/;"	t
+ctags	tests/Makefile.in	/^ctags: CTAGS$/;"	t
+ctags	tests/data/Makefile.in	/^ctags: CTAGS$/;"	t
+ctags-recursive	Makefile.in	/^ctags-recursive:$/;"	t
+ctags-recursive	tests/Makefile.in	/^ctags-recursive:$/;"	t
+data	tests/Makefile.am	/^SUBDIRS = data$/;"	s
+datadir	Makefile.in	/^datadir = @datadir@$/;"	m
+datadir	lib/Makefile.in	/^datadir = @datadir@$/;"	m
+datadir	man/Makefile.in	/^datadir = @datadir@$/;"	m
+datadir	src/Makefile.in	/^datadir = @datadir@$/;"	m
+datadir	tests/Makefile.in	/^datadir = @datadir@$/;"	m
+datadir	tests/data/Makefile.in	/^datadir = @datadir@$/;"	m
+datarootdir	Makefile.in	/^datarootdir = @datarootdir@$/;"	m
+datarootdir	lib/Makefile.in	/^datarootdir = @datarootdir@$/;"	m
+datarootdir	man/Makefile.in	/^datarootdir = @datarootdir@$/;"	m
+datarootdir	src/Makefile.in	/^datarootdir = @datarootdir@$/;"	m
+datarootdir	tests/Makefile.in	/^datarootdir = @datarootdir@$/;"	m
+datarootdir	tests/data/Makefile.in	/^datarootdir = @datarootdir@$/;"	m
+depcomp	Makefile.in	/^depcomp =$/;"	m
+depcomp	lib/Makefile.in	/^depcomp =$/;"	m
+depcomp	man/Makefile.in	/^depcomp =$/;"	m
+depcomp	src/Makefile.in	/^depcomp =$/;"	m
+depcomp	tests/Makefile.in	/^depcomp =$/;"	m
+depcomp	tests/data/Makefile.in	/^depcomp =$/;"	m
+devel	kakasi.spec	/^%package devel$/;"	p	package:kakasi
+devel	kakasi.spec.in	/^%package devel$/;"	p	package:kakasi
+dict	Makefile.am	/^dictdir = $(pkgdatadir)$/;"	d
+dict	kakasi.spec	/^%package dict$/;"	p	package:kakasi
+dict	kakasi.spec.in	/^%package dict$/;"	p	package:kakasi
+dict	lib/Makefile.am	/^dictdir = $(pkgdatadir)$/;"	d
+dict	src/Makefile.am	/^dictdir = $(pkgdatadir)$/;"	d
+dict_DATA	Makefile.am	/^dict_DATA = kanwadict itaijidict$/;"	m
+dict_DATA	Makefile.in	/^dict_DATA = kanwadict itaijidict$/;"	m
+dict_endian_mark	lib/libdict.c	/^static unsigned short dict_endian_mark;$/;"	v	typeref:typename:unsigned short	file:
+dict_endian_mark	lib/libdict.c	/^unsigned short dict_endian_mark;$/;"	v	typeref:typename:unsigned short
+dict_endian_mark	src/dict.c	/^static unsigned short dict_endian_mark;$/;"	v	typeref:typename:unsigned short	file:
+dict_endian_mark	src/dict.c	/^unsigned short dict_endian_mark;$/;"	v	typeref:typename:unsigned short
+dictdir	Makefile.am	/^dictdir = $(pkgdatadir)$/;"	m
+dictdir	Makefile.in	/^dictdir = $(pkgdatadir)$/;"	m
+dictdir	lib/Makefile.am	/^dictdir = $(pkgdatadir)$/;"	m
+dictdir	lib/Makefile.in	/^dictdir = $(pkgdatadir)$/;"	m
+dictdir	src/Makefile.am	/^dictdir = $(pkgdatadir)$/;"	m
+dictdir	src/Makefile.in	/^dictdir = $(pkgdatadir)$/;"	m
+digest	lib/libkakasi.c	/^digest(c, clen, r, rlen, type, proc)$/;"	f
+digest	src/kakasi.c	/^digest(c, clen, r, rlen, type, proc)$/;"	f
+digest_out	lib/libkakasi.c	/^digest_out(c, ret)$/;"	f
+digest_out	src/kakasi.c	/^digest_out(c, ret)$/;"	f
+digest_shift	lib/libkakasi.c	/^digest_shift(c, s)$/;"	f
+digest_shift	src/kakasi.c	/^digest_shift(c, s)$/;"	f
+digest_start_copy	lib/libkakasi.c	/^digest_start_copy(c, r)$/;"	f
+digest_start_copy	src/kakasi.c	/^digest_start_copy(c, r)$/;"	f
+dist	Makefile.in	/^dist dist-all: distdir$/;"	t
+dist-all	Makefile.in	/^dist dist-all: distdir$/;"	t
+dist-bzip2	Makefile.in	/^dist-bzip2: distdir$/;"	t
+dist-gzip	Makefile.in	/^dist-gzip: distdir$/;"	t
+dist-hook	Makefile.am	/^dist-hook:$/;"	t
+dist-hook	Makefile.in	/^dist-hook:$/;"	t
+dist-lzip	Makefile.in	/^dist-lzip: distdir$/;"	t
+dist-lzma	Makefile.in	/^dist-lzma: distdir$/;"	t
+dist-shar	Makefile.in	/^dist-shar: distdir$/;"	t
+dist-tarZ	Makefile.in	/^dist-tarZ: distdir$/;"	t
+dist-xz	Makefile.in	/^dist-xz: distdir$/;"	t
+dist-zip	Makefile.in	/^dist-zip: distdir$/;"	t
+distcheck	Makefile.in	/^distcheck: dist$/;"	t
+distclean	Makefile.in	/^distclean: distclean-recursive$/;"	t
+distclean	lib/Makefile.in	/^distclean: distclean-am$/;"	t
+distclean	man/Makefile.in	/^distclean: distclean-am$/;"	t
+distclean	src/Makefile.in	/^distclean: distclean-am$/;"	t
+distclean	tests/Makefile.in	/^distclean: distclean-recursive$/;"	t
+distclean	tests/data/Makefile.in	/^distclean: distclean-am$/;"	t
+distclean-am	Makefile.in	/^distclean-am: clean-am distclean-generic distclean-hdr \\$/;"	t
+distclean-am	lib/Makefile.in	/^distclean-am: clean-am distclean-compile distclean-generic \\$/;"	t
+distclean-am	man/Makefile.in	/^distclean-am: clean-am distclean-generic$/;"	t
+distclean-am	src/Makefile.in	/^distclean-am: clean-am distclean-compile distclean-generic \\$/;"	t
+distclean-am	tests/Makefile.in	/^distclean-am: clean-am distclean-generic distclean-tags$/;"	t
+distclean-am	tests/data/Makefile.in	/^distclean-am: clean-am distclean-generic$/;"	t
+distclean-compile	lib/Makefile.in	/^distclean-compile:$/;"	t
+distclean-compile	src/Makefile.in	/^distclean-compile:$/;"	t
+distclean-generic	Makefile.in	/^distclean-generic:$/;"	t
+distclean-generic	lib/Makefile.in	/^distclean-generic:$/;"	t
+distclean-generic	man/Makefile.in	/^distclean-generic:$/;"	t
+distclean-generic	src/Makefile.in	/^distclean-generic:$/;"	t
+distclean-generic	tests/Makefile.in	/^distclean-generic:$/;"	t
+distclean-generic	tests/data/Makefile.in	/^distclean-generic:$/;"	t
+distclean-hdr	Makefile.in	/^distclean-hdr:$/;"	t
+distclean-libtool	Makefile.in	/^distclean-libtool:$/;"	t
+distclean-tags	Makefile.in	/^distclean-tags:$/;"	t
+distclean-tags	lib/Makefile.in	/^distclean-tags:$/;"	t
+distclean-tags	src/Makefile.in	/^distclean-tags:$/;"	t
+distclean-tags	tests/Makefile.in	/^distclean-tags:$/;"	t
+distcleancheck	Makefile.in	/^distcleancheck: distclean$/;"	t
+distcleancheck_listfiles	Makefile.in	/^distcleancheck_listfiles = find . -type f -print$/;"	m
+distdir	Makefile.in	/^distdir = $(PACKAGE)-$(VERSION)$/;"	m
+distdir	Makefile.in	/^distdir: $(DISTFILES)$/;"	t
+distdir	lib/Makefile.in	/^distdir: $(DISTFILES)$/;"	t
+distdir	man/Makefile.in	/^distdir: $(DISTFILES)$/;"	t
+distdir	src/Makefile.in	/^distdir: $(DISTFILES)$/;"	t
+distdir	tests/Makefile.in	/^distdir: $(DISTFILES)$/;"	t
+distdir	tests/data/Makefile.in	/^distdir: $(DISTFILES)$/;"	t
+distuninstallcheck	Makefile.in	/^distuninstallcheck:$/;"	t
+distuninstallcheck_listfiles	Makefile.in	/^distuninstallcheck_listfiles = find . -type f -print$/;"	m
+docdir	Makefile.in	/^docdir = @docdir@$/;"	m
+docdir	lib/Makefile.in	/^docdir = @docdir@$/;"	m
+docdir	man/Makefile.in	/^docdir = @docdir@$/;"	m
+docdir	src/Makefile.in	/^docdir = @docdir@$/;"	m
+docdir	tests/Makefile.in	/^docdir = @docdir@$/;"	m
+docdir	tests/data/Makefile.in	/^docdir = @docdir@$/;"	m
+dvi	Makefile.in	/^dvi: dvi-recursive$/;"	t
+dvi	lib/Makefile.in	/^dvi: dvi-am$/;"	t
+dvi	man/Makefile.in	/^dvi: dvi-am$/;"	t
+dvi	src/Makefile.in	/^dvi: dvi-am$/;"	t
+dvi	tests/Makefile.in	/^dvi: dvi-recursive$/;"	t
+dvi	tests/data/Makefile.in	/^dvi: dvi-am$/;"	t
+dvi-am	Makefile.in	/^dvi-am:$/;"	t
+dvi-am	lib/Makefile.in	/^dvi-am:$/;"	t
+dvi-am	man/Makefile.in	/^dvi-am:$/;"	t
+dvi-am	src/Makefile.in	/^dvi-am:$/;"	t
+dvi-am	tests/Makefile.in	/^dvi-am:$/;"	t
+dvi-am	tests/data/Makefile.in	/^dvi-am:$/;"	t
+dvidir	Makefile.in	/^dvidir = @dvidir@$/;"	m
+dvidir	lib/Makefile.in	/^dvidir = @dvidir@$/;"	m
+dvidir	man/Makefile.in	/^dvidir = @dvidir@$/;"	m
+dvidir	src/Makefile.in	/^dvidir = @dvidir@$/;"	m
+dvidir	tests/Makefile.in	/^dvidir = @dvidir@$/;"	m
+dvidir	tests/data/Makefile.in	/^dvidir = @dvidir@$/;"	m
+eachyomi	configure.in	/^AC_ARG_ENABLE(eachyomi,$/;"	e
+eachyomi_mode	lib/libkakasi.c	/^int eachyomi_mode = 0;$/;"	v	typeref:typename:int
+eachyomi_mode	src/kakasi.c	/^int eachyomi_mode = 0;$/;"	v	typeref:typename:int
+ek_bc	lib/libkakasi.c	/^Character ek_bc[] = {{ASCII, '[', 0}, {OTHER, 0, 0}};$/;"	v	typeref:typename:Character[]
+ek_bc	src/kakasi.c	/^Character ek_bc[] = {{ASCII, '[', 0}, {OTHER, 0, 0}};$/;"	v	typeref:typename:Character[]
+ek_ec	lib/libkakasi.c	/^Character ek_ec[] = {{ASCII, ']', 0}, {OTHER, 0, 0}};$/;"	v	typeref:typename:Character[]
+ek_ec	src/kakasi.c	/^Character ek_ec[] = {{ASCII, ']', 0}, {OTHER, 0, 0}};$/;"	v	typeref:typename:Character[]
+ek_kksep	lib/libkakasi.c	/^Character ek_kksep[] = {{ASCII, ',', 0}, {OTHER, 0, 0}};$/;"	v	typeref:typename:Character[]
+ek_kksep	src/kakasi.c	/^Character ek_kksep[] = {{ASCII, ',', 0}, {OTHER, 0, 0}};$/;"	v	typeref:typename:Character[]
+ek_kysep	lib/libkakasi.c	/^Character ek_kysep[] = {{ASCII, ':', 0}, {OTHER, 0, 0}};$/;"	v	typeref:typename:Character[]
+ek_kysep	src/kakasi.c	/^Character ek_kysep[] = {{ASCII, ':', 0}, {OTHER, 0, 0}};$/;"	v	typeref:typename:Character[]
+entry	src/kakasi.h	/^    int entry; \/* The registered number of words. *\/$/;"	m	struct:kanwa_entry	typeref:typename:int
+exc78_83	lib/lib78_83.c	/^exc78_83(c)$/;"	f
+exc78_83	src/78_83.c	/^exc78_83(c)$/;"	f
+exchange	src/getopt.c	/^exchange (argv)$/;"	f	file:
+exec_prefix	Makefile.in	/^exec_prefix = @exec_prefix@$/;"	m
+exec_prefix	lib/Makefile.in	/^exec_prefix = @exec_prefix@$/;"	m
+exec_prefix	man/Makefile.in	/^exec_prefix = @exec_prefix@$/;"	m
+exec_prefix	src/Makefile.in	/^exec_prefix = @exec_prefix@$/;"	m
+exec_prefix	tests/Makefile.in	/^exec_prefix = @exec_prefix@$/;"	m
+exec_prefix	tests/data/Makefile.in	/^exec_prefix = @exec_prefix@$/;"	m
+extract	src/atoc-conv.c	/^extract(file_name)$/;"	f	file:
+extract	src/rdic-conv.c	/^extract(file_name)$/;"	f	file:
+extract	src/wx2-conv.c	/^extract(file_name)$/;"	f	file:
+first_nonopt	src/getopt.c	/^static int first_nonopt;$/;"	v	typeref:typename:int	file:
+fix_dict_endian_int	lib/libdict.c	/^fix_dict_endian_int(int *v)$/;"	f	typeref:typename:void	file:
+fix_dict_endian_int	src/dict.c	/^fix_dict_endian_int(int *v)$/;"	f	typeref:typename:void	file:
+flag	src/getopt.h	/^  int *flag;$/;"	m	struct:option	typeref:typename:int *
+flush_mode	lib/libkakasi.c	/^int flush_mode = 0;$/;"	v	typeref:typename:int
+flush_mode	src/kakasi.c	/^int flush_mode = 0;$/;"	v	typeref:typename:int
+free_jisyo	lib/libkakasi.c	/^free_jisyo()$/;"	f	typeref:typename:void	file:
+free_jisyo	src/kakasi.c	/^free_jisyo()$/;"	f	typeref:typename:void	file:
+fromutf8	lib/libkakasi.c	/^iconv_t fromutf8 = (iconv_t) -1;$/;"	v	typeref:typename:iconv_t
+fromutf8	src/kakasi.c	/^iconv_t fromutf8 = (iconv_t) -1;$/;"	v	typeref:typename:iconv_t
+func_append	configure	/^func_append ()\\$/;"	f
+func_append	ltmain.sh	/^func_append ()$/;"	f
+func_append_quoted	configure	/^func_append_quoted ()\\$/;"	f
+func_append_quoted	ltmain.sh	/^func_append_quoted ()$/;"	f
+func_arith	configure	/^func_arith ()\\$/;"	f
+func_arith	ltmain.sh	/^func_arith ()$/;"	f
+func_basename	configure	/^func_basename ()\\$/;"	f
+func_basename	ltmain.sh	/^func_basename ()$/;"	f
+func_check_version_match	ltmain.sh	/^func_check_version_match ()$/;"	f
+func_config	ltmain.sh	/^func_config ()$/;"	f
+func_convert_core_file_wine_to_w32	ltmain.sh	/^func_convert_core_file_wine_to_w32 ()$/;"	f
+func_convert_core_msys_to_w32	ltmain.sh	/^func_convert_core_msys_to_w32 ()$/;"	f
+func_convert_core_path_wine_to_w32	ltmain.sh	/^func_convert_core_path_wine_to_w32 ()$/;"	f
+func_convert_file_check	ltmain.sh	/^func_convert_file_check ()$/;"	f
+func_convert_file_cygwin_to_w32	ltmain.sh	/^func_convert_file_cygwin_to_w32 ()$/;"	f
+func_convert_file_msys_to_cygwin	ltmain.sh	/^func_convert_file_msys_to_cygwin ()$/;"	f
+func_convert_file_msys_to_w32	ltmain.sh	/^func_convert_file_msys_to_w32 ()$/;"	f
+func_convert_file_nix_to_cygwin	ltmain.sh	/^func_convert_file_nix_to_cygwin ()$/;"	f
+func_convert_file_nix_to_w32	ltmain.sh	/^func_convert_file_nix_to_w32 ()$/;"	f
+func_convert_file_noop	ltmain.sh	/^func_convert_file_noop ()$/;"	f
+func_convert_path_check	ltmain.sh	/^func_convert_path_check ()$/;"	f
+func_convert_path_cygwin_to_w32	ltmain.sh	/^func_convert_path_cygwin_to_w32 ()$/;"	f
+func_convert_path_front_back_pathsep	ltmain.sh	/^func_convert_path_front_back_pathsep ()$/;"	f
+func_convert_path_msys_to_cygwin	ltmain.sh	/^func_convert_path_msys_to_cygwin ()$/;"	f
+func_convert_path_msys_to_w32	ltmain.sh	/^func_convert_path_msys_to_w32 ()$/;"	f
+func_convert_path_nix_to_cygwin	ltmain.sh	/^func_convert_path_nix_to_cygwin ()$/;"	f
+func_convert_path_nix_to_w32	ltmain.sh	/^func_convert_path_nix_to_w32 ()$/;"	f
+func_convert_path_noop	ltmain.sh	/^func_convert_path_noop ()$/;"	f
+func_cygming_dll_for_implib	ltmain.sh	/^func_cygming_dll_for_implib ()$/;"	f
+func_cygming_dll_for_implib_fallback	ltmain.sh	/^func_cygming_dll_for_implib_fallback ()$/;"	f
+func_cygming_dll_for_implib_fallback_core	ltmain.sh	/^func_cygming_dll_for_implib_fallback_core ()$/;"	f
+func_cygming_gnu_implib_p	ltmain.sh	/^func_cygming_gnu_implib_p ()$/;"	f
+func_cygming_ms_implib_p	ltmain.sh	/^func_cygming_ms_implib_p ()$/;"	f
+func_cygpath	ltmain.sh	/^func_cygpath ()$/;"	f
+func_dirname	configure	/^func_dirname ()\\$/;"	f
+func_dirname	ltmain.sh	/^func_dirname ()$/;"	f
+func_dirname_and_basename	configure	/^func_dirname_and_basename ()\\$/;"	f
+func_dirname_and_basename	ltmain.sh	/^func_dirname_and_basename ()$/;"	f
+func_echo	ltmain.sh	/^func_echo ()$/;"	f
+func_echo_all	configure	/^func_echo_all ()$/;"	f
+func_echo_all	ltmain.sh	/^func_echo_all ()$/;"	f
+func_emit_cwrapperexe_src	ltmain.sh	/^func_emit_cwrapperexe_src ()$/;"	f
+func_emit_wrapper	ltmain.sh	/^func_emit_wrapper ()$/;"	f
+func_enable_tag	ltmain.sh	/^func_enable_tag ()$/;"	f
+func_error	ltmain.sh	/^func_error ()$/;"	f
+func_exec_program	ltmain.sh	/^func_exec_program ()$/;"	f
+func_exec_program_core	ltmain.sh	/^func_exec_program_core ()$/;"	f
+func_execute_cmds	ltmain.sh	/^func_execute_cmds ()$/;"	f
+func_extract_an_archive	ltmain.sh	/^func_extract_an_archive ()$/;"	f
+func_extract_archives	ltmain.sh	/^func_extract_archives ()$/;"	f
+func_fallback_echo	configure	/^  func_fallback_echo ()$/;"	f
+func_fallback_echo	ltmain.sh	/^func_fallback_echo ()$/;"	f
+func_fatal_configuration	ltmain.sh	/^func_fatal_configuration ()$/;"	f
+func_fatal_error	ltmain.sh	/^func_fatal_error ()$/;"	f
+func_fatal_help	ltmain.sh	/^func_fatal_help ()$/;"	f
+func_features	ltmain.sh	/^func_features ()$/;"	f
+func_generate_dlsyms	ltmain.sh	/^func_generate_dlsyms ()$/;"	f
+func_grep	ltmain.sh	/^func_grep ()$/;"	f
+func_help	ltmain.sh	/^func_help ()$/;"	f
+func_infer_tag	ltmain.sh	/^func_infer_tag ()$/;"	f
+func_init_to_host_path_cmd	ltmain.sh	/^func_init_to_host_path_cmd ()$/;"	f
+func_lalib_p	ltmain.sh	/^func_lalib_p ()$/;"	f
+func_lalib_unsafe_p	ltmain.sh	/^func_lalib_unsafe_p ()$/;"	f
+func_len	configure	/^func_len ()\\$/;"	f
+func_len	ltmain.sh	/^func_len ()$/;"	f
+func_lo2o	configure	/^func_lo2o ()\\$/;"	f
+func_lo2o	ltmain.sh	/^func_lo2o ()$/;"	f
+func_lt_dump_args	ltmain.sh	/^func_lt_dump_args ()$/;"	f
+func_ltwrapper_executable_p	ltmain.sh	/^func_ltwrapper_executable_p ()$/;"	f
+func_ltwrapper_p	ltmain.sh	/^func_ltwrapper_p ()$/;"	f
+func_ltwrapper_script_p	ltmain.sh	/^func_ltwrapper_script_p ()$/;"	f
+func_ltwrapper_scriptname	ltmain.sh	/^func_ltwrapper_scriptname ()$/;"	f
+func_missing_arg	ltmain.sh	/^func_missing_arg ()$/;"	f
+func_mkdir_p	ltmain.sh	/^func_mkdir_p ()$/;"	f
+func_mktempdir	ltmain.sh	/^func_mktempdir ()$/;"	f
+func_mode_compile	ltmain.sh	/^func_mode_compile ()$/;"	f
+func_mode_execute	ltmain.sh	/^func_mode_execute ()$/;"	f
+func_mode_finish	ltmain.sh	/^func_mode_finish ()$/;"	f
+func_mode_help	ltmain.sh	/^func_mode_help ()$/;"	f
+func_mode_install	ltmain.sh	/^func_mode_install ()$/;"	f
+func_mode_link	ltmain.sh	/^func_mode_link ()$/;"	f
+func_mode_uninstall	ltmain.sh	/^func_mode_uninstall ()$/;"	f
+func_normal_abspath	ltmain.sh	/^func_normal_abspath ()$/;"	f
+func_parse_lt_options	ltmain.sh	/^func_parse_lt_options ()$/;"	f
+func_quote_for_eval	ltmain.sh	/^func_quote_for_eval ()$/;"	f
+func_quote_for_expand	ltmain.sh	/^func_quote_for_expand ()$/;"	f
+func_relative_path	ltmain.sh	/^func_relative_path ()$/;"	f
+func_replace_sysroot	ltmain.sh	/^func_replace_sysroot ()$/;"	f
+func_resolve_sysroot	ltmain.sh	/^func_resolve_sysroot ()$/;"	f
+func_show_eval	ltmain.sh	/^func_show_eval ()$/;"	f
+func_show_eval_locale	ltmain.sh	/^func_show_eval_locale ()$/;"	f
+func_source	ltmain.sh	/^func_source ()$/;"	f
+func_split_long_opt	configure	/^func_split_long_opt ()\\$/;"	f
+func_split_long_opt	ltmain.sh	/^func_split_long_opt ()$/;"	f
+func_split_short_opt	configure	/^func_split_short_opt ()\\$/;"	f
+func_split_short_opt	ltmain.sh	/^func_split_short_opt ()$/;"	f
+func_stripname	configure	/^func_stripname ()\\$/;"	f
+func_stripname	ltmain.sh	/^func_stripname ()$/;"	f
+func_to_host_file	ltmain.sh	/^func_to_host_file ()$/;"	f
+func_to_host_path	ltmain.sh	/^func_to_host_path ()$/;"	f
+func_to_tool_file	ltmain.sh	/^func_to_tool_file ()$/;"	f
+func_tr_sh	ltmain.sh	/^func_tr_sh ()$/;"	f
+func_usage	ltmain.sh	/^func_usage ()$/;"	f
+func_verbose	ltmain.sh	/^func_verbose ()$/;"	f
+func_version	ltmain.sh	/^func_version ()$/;"	f
+func_warning	ltmain.sh	/^func_warning ()$/;"	f
+func_win32_import_lib_p	ltmain.sh	/^func_win32_import_lib_p ()$/;"	f
+func_win32_libid	ltmain.sh	/^func_win32_libid ()$/;"	f
+func_write_libtool_object	ltmain.sh	/^func_write_libtool_object ()$/;"	f
+func_xform	configure	/^func_xform ()\\$/;"	f
+func_xform	ltmain.sh	/^func_xform ()$/;"	f
+furigana_mode	lib/libkakasi.c	/^int furigana_mode = 0;$/;"	v	typeref:typename:int
+furigana_mode	src/kakasi.c	/^int furigana_mode = 0;$/;"	v	typeref:typename:int
+g2E	lib/libg2.c	/^g2E(c, n)$/;"	f
+g2E	src/g2.c	/^g2E(c, n)$/;"	f
+g2a	lib/libg2.c	/^g2a(c, n)$/;"	f
+g2a	src/g2.c	/^g2a(c, n)$/;"	f
+g2j	lib/libg2.c	/^g2j(c, n)$/;"	f
+g2j	src/g2.c	/^g2j(c, n)$/;"	f
+get1byte	lib/libkanjiio.c	/^get1byte()$/;"	f	typeref:typename:int	file:
+get1byte	src/kanjiio.c	/^get1byte()$/;"	f	typeref:typename:int	file:
+getc0	lib/libkanjiio.c	/^getc0(c, c1)$/;"	f	file:
+getc0	src/kanjiio.c	/^getc0(c, c1)$/;"	f	file:
+getc0set1	lib/libkanjiio.c	/^getc0set1(gn)$/;"	f	file:
+getc0set1	src/kanjiio.c	/^getc0set1(gn)$/;"	f	file:
+getc0set2	lib/libkanjiio.c	/^getc0set2(gn)$/;"	f	file:
+getc0set2	src/kanjiio.c	/^getc0set2(gn)$/;"	f	file:
+getc1	lib/libkanjiio.c	/^getc1(c, c1)$/;"	f	file:
+getc1	src/kanjiio.c	/^getc1(c, c1)$/;"	f	file:
+getcharbuffer	lib/libkanjiio.c	/^unsigned char *getcharbuffer;$/;"	v	typeref:typename:unsigned char *
+getcharbuffer	src/kanjiio.c	/^unsigned char *getcharbuffer;$/;"	v	typeref:typename:unsigned char *
+getkanji	lib/libkanjiio.c	/^getkanji(c)$/;"	f
+getkanji	src/kanjiio.c	/^getkanji(c)$/;"	f
+getkanji	src/wx2-conv.c	/^getkanji(kanji, s)$/;"	f	file:
+getopt	src/getopt.c	/^getopt (argc, argv, optstring)$/;"	f
+getopt_long	src/getopt1.c	/^getopt_long (argc, argv, options, long_options, opt_index)$/;"	f
+getopt_long_only	src/getopt1.c	/^getopt_long_only (argc, argv, options, long_options, opt_index)$/;"	f
+getpbstr	lib/libkanjiio.c	/^getpbstr() {$/;"	f	typeref:typename:char *
+getpbstr	src/kanjiio.c	/^getpbstr() {$/;"	f	typeref:typename:char *
+gl_iconv_AC_DEFUN	aclocal.m4	/^m4_define([gl_iconv_AC_DEFUN],$/;"	d
+has_arg	src/getopt.h	/^  int has_arg;$/;"	m	struct:option	typeref:typename:int
+heiki_mode	lib/libkakasi.c	/^int heiki_mode = 0;$/;"	v	typeref:typename:int
+heiki_mode	src/kakasi.c	/^int heiki_mode = 0;$/;"	v	typeref:typename:int
+host	Makefile.in	/^host = @host@$/;"	m
+host	lib/Makefile.in	/^host = @host@$/;"	m
+host	man/Makefile.in	/^host = @host@$/;"	m
+host	src/Makefile.in	/^host = @host@$/;"	m
+host	tests/Makefile.in	/^host = @host@$/;"	m
+host	tests/data/Makefile.in	/^host = @host@$/;"	m
+host_alias	Makefile.in	/^host_alias = @host_alias@$/;"	m
+host_alias	lib/Makefile.in	/^host_alias = @host_alias@$/;"	m
+host_alias	man/Makefile.in	/^host_alias = @host_alias@$/;"	m
+host_alias	src/Makefile.in	/^host_alias = @host_alias@$/;"	m
+host_alias	tests/Makefile.in	/^host_alias = @host_alias@$/;"	m
+host_alias	tests/data/Makefile.in	/^host_alias = @host_alias@$/;"	m
+host_cpu	Makefile.in	/^host_cpu = @host_cpu@$/;"	m
+host_cpu	lib/Makefile.in	/^host_cpu = @host_cpu@$/;"	m
+host_cpu	man/Makefile.in	/^host_cpu = @host_cpu@$/;"	m
+host_cpu	src/Makefile.in	/^host_cpu = @host_cpu@$/;"	m
+host_cpu	tests/Makefile.in	/^host_cpu = @host_cpu@$/;"	m
+host_cpu	tests/data/Makefile.in	/^host_cpu = @host_cpu@$/;"	m
+host_os	Makefile.in	/^host_os = @host_os@$/;"	m
+host_os	lib/Makefile.in	/^host_os = @host_os@$/;"	m
+host_os	man/Makefile.in	/^host_os = @host_os@$/;"	m
+host_os	src/Makefile.in	/^host_os = @host_os@$/;"	m
+host_os	tests/Makefile.in	/^host_os = @host_os@$/;"	m
+host_os	tests/data/Makefile.in	/^host_os = @host_os@$/;"	m
+host_triplet	Makefile.in	/^host_triplet = @host@$/;"	m
+host_triplet	lib/Makefile.in	/^host_triplet = @host@$/;"	m
+host_triplet	man/Makefile.in	/^host_triplet = @host@$/;"	m
+host_triplet	src/Makefile.in	/^host_triplet = @host@$/;"	m
+host_triplet	tests/Makefile.in	/^host_triplet = @host@$/;"	m
+host_triplet	tests/data/Makefile.in	/^host_triplet = @host@$/;"	m
+host_vendor	Makefile.in	/^host_vendor = @host_vendor@$/;"	m
+host_vendor	lib/Makefile.in	/^host_vendor = @host_vendor@$/;"	m
+host_vendor	man/Makefile.in	/^host_vendor = @host_vendor@$/;"	m
+host_vendor	src/Makefile.in	/^host_vendor = @host_vendor@$/;"	m
+host_vendor	tests/Makefile.in	/^host_vendor = @host_vendor@$/;"	m
+host_vendor	tests/data/Makefile.in	/^host_vendor = @host_vendor@$/;"	m
+html	Makefile.in	/^html: html-recursive$/;"	t
+html	lib/Makefile.in	/^html: html-am$/;"	t
+html	man/Makefile.in	/^html: html-am$/;"	t
+html	src/Makefile.in	/^html: html-am$/;"	t
+html	tests/Makefile.in	/^html: html-recursive$/;"	t
+html	tests/data/Makefile.in	/^html: html-am$/;"	t
+html-am	Makefile.in	/^html-am:$/;"	t
+html-am	lib/Makefile.in	/^html-am:$/;"	t
+html-am	man/Makefile.in	/^html-am:$/;"	t
+html-am	src/Makefile.in	/^html-am:$/;"	t
+html-am	tests/Makefile.in	/^html-am:$/;"	t
+html-am	tests/data/Makefile.in	/^html-am:$/;"	t
+htmldir	Makefile.in	/^htmldir = @htmldir@$/;"	m
+htmldir	lib/Makefile.in	/^htmldir = @htmldir@$/;"	m
+htmldir	man/Makefile.in	/^htmldir = @htmldir@$/;"	m
+htmldir	src/Makefile.in	/^htmldir = @htmldir@$/;"	m
+htmldir	tests/Makefile.in	/^htmldir = @htmldir@$/;"	m
+htmldir	tests/data/Makefile.in	/^htmldir = @htmldir@$/;"	m
+in	configure	/^alias in your environment" "$LINENO" 5$/;"	a
+include_HEADERS	lib/Makefile.am	/^include_HEADERS = libkakasi.h$/;"	m
+include_HEADERS	lib/Makefile.in	/^include_HEADERS = libkakasi.h$/;"	m
+includedir	Makefile.in	/^includedir = @includedir@$/;"	m
+includedir	lib/Makefile.in	/^includedir = @includedir@$/;"	m
+includedir	man/Makefile.in	/^includedir = @includedir@$/;"	m
+includedir	src/Makefile.in	/^includedir = @includedir@$/;"	m
+includedir	tests/Makefile.in	/^includedir = @includedir@$/;"	m
+includedir	tests/data/Makefile.in	/^includedir = @includedir@$/;"	m
+includekanji	src/conv-util.c	/^includekanji(str)$/;"	f
+index	src/kakasi.h	/^    int index; \/* It points at the offset in the file. *\/$/;"	m	struct:kanwa_entry	typeref:typename:int
+info	Makefile.in	/^info: info-recursive$/;"	t
+info	lib/Makefile.in	/^info: info-am$/;"	t
+info	man/Makefile.in	/^info: info-am$/;"	t
+info	src/Makefile.in	/^info: info-am$/;"	t
+info	tests/Makefile.in	/^info: info-recursive$/;"	t
+info	tests/data/Makefile.in	/^info: info-am$/;"	t
+info-am	Makefile.in	/^info-am:$/;"	t
+info-am	lib/Makefile.in	/^info-am:$/;"	t
+info-am	man/Makefile.in	/^info-am:$/;"	t
+info-am	src/Makefile.in	/^info-am:$/;"	t
+info-am	tests/Makefile.in	/^info-am:$/;"	t
+info-am	tests/data/Makefile.in	/^info-am:$/;"	t
+infodir	Makefile.in	/^infodir = @infodir@$/;"	m
+infodir	lib/Makefile.in	/^infodir = @infodir@$/;"	m
+infodir	man/Makefile.in	/^infodir = @infodir@$/;"	m
+infodir	src/Makefile.in	/^infodir = @infodir@$/;"	m
+infodir	tests/Makefile.in	/^infodir = @infodir@$/;"	m
+infodir	tests/data/Makefile.in	/^infodir = @infodir@$/;"	m
+init_jisyo	lib/libdict.c	/^void init_jisyo()$/;"	f	typeref:typename:void
+init_jisyo	src/dict.c	/^void init_jisyo()$/;"	f	typeref:typename:void
+init_kanwa	lib/libdict.c	/^void init_kanwa()$/;"	f	typeref:typename:void
+init_kanwa	src/dict.c	/^void init_kanwa()$/;"	f	typeref:typename:void
+input_G	lib/libkanjiio.c	/^int input_G[5] = {ASCII, KATAKANA, KATAKANA, JIS83, SJKANA};$/;"	v	typeref:typename:int[5]
+input_G	src/kanjiio.c	/^int input_G[5] = {ASCII, KATAKANA, KATAKANA, JIS83, SJKANA};$/;"	v	typeref:typename:int[5]
+input_GL	lib/libkanjiio.c	/^int input_GL = SETG0;$/;"	v	typeref:typename:int
+input_GL	src/kanjiio.c	/^int input_GL = SETG0;$/;"	v	typeref:typename:int
+input_GR	lib/libkanjiio.c	/^int input_GR = SETG3;$/;"	v	typeref:typename:int
+input_GR	src/kanjiio.c	/^int input_GR = SETG3;$/;"	v	typeref:typename:int
+input_stack	lib/libkanjiio.c	/^static unsigned char input_stack[1024];$/;"	v	typeref:typename:unsigned char[1024]	file:
+input_stack	src/kanjiio.c	/^static unsigned char input_stack[1024];$/;"	v	typeref:typename:unsigned char[1024]	file:
+input_stack_depth	lib/libkanjiio.c	/^static int input_stack_depth = 0;$/;"	v	typeref:typename:int	file:
+input_stack_depth	src/kanjiio.c	/^static int input_stack_depth = 0;$/;"	v	typeref:typename:int	file:
+input_term_type	lib/libkanjiio.c	/^int input_term_type = UNKNOWN;$/;"	v	typeref:typename:int
+input_term_type	src/kanjiio.c	/^int input_term_type = UNKNOWN;$/;"	v	typeref:typename:int
+install	Makefile.in	/^install: install-recursive$/;"	t
+install	lib/Makefile.in	/^install: install-am$/;"	t
+install	man/Makefile.in	/^install: install-am$/;"	t
+install	src/Makefile.in	/^install: install-am$/;"	t
+install	tests/Makefile.in	/^install: install-recursive$/;"	t
+install	tests/data/Makefile.in	/^install: install-am$/;"	t
+install-am	Makefile.in	/^install-am: all-am$/;"	t
+install-am	lib/Makefile.in	/^install-am: all-am$/;"	t
+install-am	man/Makefile.in	/^install-am: all-am$/;"	t
+install-am	src/Makefile.in	/^install-am: all-am$/;"	t
+install-am	tests/Makefile.in	/^install-am: all-am$/;"	t
+install-am	tests/data/Makefile.in	/^install-am: all-am$/;"	t
+install-binPROGRAMS	src/Makefile.in	/^install-binPROGRAMS: $(bin_PROGRAMS)$/;"	t
+install-binSCRIPTS	Makefile.in	/^install-binSCRIPTS: $(bin_SCRIPTS)$/;"	t
+install-data	Makefile.in	/^install-data: install-data-recursive$/;"	t
+install-data	lib/Makefile.in	/^install-data: install-data-am$/;"	t
+install-data	man/Makefile.in	/^install-data: install-data-am$/;"	t
+install-data	src/Makefile.in	/^install-data: install-data-am$/;"	t
+install-data	tests/Makefile.in	/^install-data: install-data-recursive$/;"	t
+install-data	tests/data/Makefile.in	/^install-data: install-data-am$/;"	t
+install-data-am	Makefile.in	/^install-data-am: install-dictDATA$/;"	t
+install-data-am	lib/Makefile.in	/^install-data-am: install-includeHEADERS$/;"	t
+install-data-am	man/Makefile.in	/^install-data-am: install-man$/;"	t
+install-data-am	src/Makefile.in	/^install-data-am:$/;"	t
+install-data-am	tests/Makefile.in	/^install-data-am:$/;"	t
+install-data-am	tests/data/Makefile.in	/^install-data-am:$/;"	t
+install-dictDATA	Makefile.in	/^install-dictDATA: $(dict_DATA)$/;"	t
+install-dvi	Makefile.in	/^install-dvi: install-dvi-recursive$/;"	t
+install-dvi	lib/Makefile.in	/^install-dvi: install-dvi-am$/;"	t
+install-dvi	man/Makefile.in	/^install-dvi: install-dvi-am$/;"	t
+install-dvi	src/Makefile.in	/^install-dvi: install-dvi-am$/;"	t
+install-dvi	tests/Makefile.in	/^install-dvi: install-dvi-recursive$/;"	t
+install-dvi	tests/data/Makefile.in	/^install-dvi: install-dvi-am$/;"	t
+install-dvi-am	Makefile.in	/^install-dvi-am:$/;"	t
+install-dvi-am	lib/Makefile.in	/^install-dvi-am:$/;"	t
+install-dvi-am	man/Makefile.in	/^install-dvi-am:$/;"	t
+install-dvi-am	src/Makefile.in	/^install-dvi-am:$/;"	t
+install-dvi-am	tests/Makefile.in	/^install-dvi-am:$/;"	t
+install-dvi-am	tests/data/Makefile.in	/^install-dvi-am:$/;"	t
+install-exec	Makefile.in	/^install-exec: install-exec-recursive$/;"	t
+install-exec	lib/Makefile.in	/^install-exec: install-exec-am$/;"	t
+install-exec	man/Makefile.in	/^install-exec: install-exec-am$/;"	t
+install-exec	src/Makefile.in	/^install-exec: install-exec-am$/;"	t
+install-exec	tests/Makefile.in	/^install-exec: install-exec-recursive$/;"	t
+install-exec	tests/data/Makefile.in	/^install-exec: install-exec-am$/;"	t
+install-exec-am	Makefile.in	/^install-exec-am: install-binSCRIPTS$/;"	t
+install-exec-am	lib/Makefile.in	/^install-exec-am: install-libLTLIBRARIES$/;"	t
+install-exec-am	man/Makefile.in	/^install-exec-am:$/;"	t
+install-exec-am	src/Makefile.in	/^install-exec-am: install-binPROGRAMS$/;"	t
+install-exec-am	tests/Makefile.in	/^install-exec-am:$/;"	t
+install-exec-am	tests/data/Makefile.in	/^install-exec-am:$/;"	t
+install-html	Makefile.in	/^install-html: install-html-recursive$/;"	t
+install-html	lib/Makefile.in	/^install-html: install-html-am$/;"	t
+install-html	man/Makefile.in	/^install-html: install-html-am$/;"	t
+install-html	src/Makefile.in	/^install-html: install-html-am$/;"	t
+install-html	tests/Makefile.in	/^install-html: install-html-recursive$/;"	t
+install-html	tests/data/Makefile.in	/^install-html: install-html-am$/;"	t
+install-html-am	Makefile.in	/^install-html-am:$/;"	t
+install-html-am	lib/Makefile.in	/^install-html-am:$/;"	t
+install-html-am	man/Makefile.in	/^install-html-am:$/;"	t
+install-html-am	src/Makefile.in	/^install-html-am:$/;"	t
+install-html-am	tests/Makefile.in	/^install-html-am:$/;"	t
+install-html-am	tests/data/Makefile.in	/^install-html-am:$/;"	t
+install-includeHEADERS	lib/Makefile.in	/^install-includeHEADERS: $(include_HEADERS)$/;"	t
+install-info	Makefile.in	/^install-info: install-info-recursive$/;"	t
+install-info	lib/Makefile.in	/^install-info: install-info-am$/;"	t
+install-info	man/Makefile.in	/^install-info: install-info-am$/;"	t
+install-info	src/Makefile.in	/^install-info: install-info-am$/;"	t
+install-info	tests/Makefile.in	/^install-info: install-info-recursive$/;"	t
+install-info	tests/data/Makefile.in	/^install-info: install-info-am$/;"	t
+install-info-am	Makefile.in	/^install-info-am:$/;"	t
+install-info-am	lib/Makefile.in	/^install-info-am:$/;"	t
+install-info-am	man/Makefile.in	/^install-info-am:$/;"	t
+install-info-am	src/Makefile.in	/^install-info-am:$/;"	t
+install-info-am	tests/Makefile.in	/^install-info-am:$/;"	t
+install-info-am	tests/data/Makefile.in	/^install-info-am:$/;"	t
+install-libLTLIBRARIES	lib/Makefile.in	/^install-libLTLIBRARIES: $(lib_LTLIBRARIES)$/;"	t
+install-man	Makefile.in	/^install-man:$/;"	t
+install-man	lib/Makefile.in	/^install-man:$/;"	t
+install-man	man/Makefile.in	/^install-man: install-man1$/;"	t
+install-man	src/Makefile.in	/^install-man:$/;"	t
+install-man	tests/Makefile.in	/^install-man:$/;"	t
+install-man	tests/data/Makefile.in	/^install-man:$/;"	t
+install-man1	man/Makefile.in	/^install-man1: $(man_MANS)$/;"	t
+install-pdf	Makefile.in	/^install-pdf: install-pdf-recursive$/;"	t
+install-pdf	lib/Makefile.in	/^install-pdf: install-pdf-am$/;"	t
+install-pdf	man/Makefile.in	/^install-pdf: install-pdf-am$/;"	t
+install-pdf	src/Makefile.in	/^install-pdf: install-pdf-am$/;"	t
+install-pdf	tests/Makefile.in	/^install-pdf: install-pdf-recursive$/;"	t
+install-pdf	tests/data/Makefile.in	/^install-pdf: install-pdf-am$/;"	t
+install-pdf-am	Makefile.in	/^install-pdf-am:$/;"	t
+install-pdf-am	lib/Makefile.in	/^install-pdf-am:$/;"	t
+install-pdf-am	man/Makefile.in	/^install-pdf-am:$/;"	t
+install-pdf-am	src/Makefile.in	/^install-pdf-am:$/;"	t
+install-pdf-am	tests/Makefile.in	/^install-pdf-am:$/;"	t
+install-pdf-am	tests/data/Makefile.in	/^install-pdf-am:$/;"	t
+install-ps	Makefile.in	/^install-ps: install-ps-recursive$/;"	t
+install-ps	lib/Makefile.in	/^install-ps: install-ps-am$/;"	t
+install-ps	man/Makefile.in	/^install-ps: install-ps-am$/;"	t
+install-ps	src/Makefile.in	/^install-ps: install-ps-am$/;"	t
+install-ps	tests/Makefile.in	/^install-ps: install-ps-recursive$/;"	t
+install-ps	tests/data/Makefile.in	/^install-ps: install-ps-am$/;"	t
+install-ps-am	Makefile.in	/^install-ps-am:$/;"	t
+install-ps-am	lib/Makefile.in	/^install-ps-am:$/;"	t
+install-ps-am	man/Makefile.in	/^install-ps-am:$/;"	t
+install-ps-am	src/Makefile.in	/^install-ps-am:$/;"	t
+install-ps-am	tests/Makefile.in	/^install-ps-am:$/;"	t
+install-ps-am	tests/data/Makefile.in	/^install-ps-am:$/;"	t
+install-strip	Makefile.in	/^install-strip:$/;"	t
+install-strip	lib/Makefile.in	/^install-strip:$/;"	t
+install-strip	man/Makefile.in	/^install-strip:$/;"	t
+install-strip	src/Makefile.in	/^install-strip:$/;"	t
+install-strip	tests/Makefile.in	/^install-strip:$/;"	t
+install-strip	tests/data/Makefile.in	/^install-strip:$/;"	t
+install_sh	Makefile.in	/^install_sh = @install_sh@$/;"	m
+install_sh	lib/Makefile.in	/^install_sh = @install_sh@$/;"	m
+install_sh	man/Makefile.in	/^install_sh = @install_sh@$/;"	m
+install_sh	src/Makefile.in	/^install_sh = @install_sh@$/;"	m
+install_sh	tests/Makefile.in	/^install_sh = @install_sh@$/;"	m
+install_sh	tests/data/Makefile.in	/^install_sh = @install_sh@$/;"	m
+install_sh_DATA	Makefile.in	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	lib/Makefile.in	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	man/Makefile.in	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	src/Makefile.in	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	tests/Makefile.in	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	tests/data/Makefile.in	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile.in	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	lib/Makefile.in	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	man/Makefile.in	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	src/Makefile.in	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	tests/Makefile.in	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	tests/data/Makefile.in	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile.in	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	lib/Makefile.in	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	man/Makefile.in	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	src/Makefile.in	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	tests/Makefile.in	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	tests/data/Makefile.in	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+installcheck	Makefile.in	/^installcheck: installcheck-recursive$/;"	t
+installcheck	lib/Makefile.in	/^installcheck: installcheck-am$/;"	t
+installcheck	man/Makefile.in	/^installcheck: installcheck-am$/;"	t
+installcheck	src/Makefile.in	/^installcheck: installcheck-am$/;"	t
+installcheck	tests/Makefile.in	/^installcheck: installcheck-recursive$/;"	t
+installcheck	tests/data/Makefile.in	/^installcheck: installcheck-am$/;"	t
+installcheck-am	Makefile.in	/^installcheck-am:$/;"	t
+installcheck-am	lib/Makefile.in	/^installcheck-am:$/;"	t
+installcheck-am	man/Makefile.in	/^installcheck-am:$/;"	t
+installcheck-am	src/Makefile.in	/^installcheck-am:$/;"	t
+installcheck-am	tests/Makefile.in	/^installcheck-am:$/;"	t
+installcheck-am	tests/data/Makefile.in	/^installcheck-am:$/;"	t
+installdirs	Makefile.in	/^installdirs: installdirs-recursive$/;"	t
+installdirs	lib/Makefile.in	/^installdirs:$/;"	t
+installdirs	man/Makefile.in	/^installdirs:$/;"	t
+installdirs	src/Makefile.in	/^installdirs:$/;"	t
+installdirs	tests/Makefile.in	/^installdirs: installdirs-recursive$/;"	t
+installdirs	tests/data/Makefile.in	/^installdirs:$/;"	t
+installdirs-am	Makefile.in	/^installdirs-am:$/;"	t
+installdirs-am	tests/Makefile.in	/^installdirs-am:$/;"	t
+is_learned_char	lib/liblevel.c	/^is_learned_char(c, level)$/;"	f	file:
+is_learned_char	src/level.c	/^is_learned_char(c, level)$/;"	f	file:
+isallkana	src/conv-util.c	/^isallkana(str)$/;"	f
+isallzenkaku	src/conv-util.c	/^isallzenkaku(str)$/;"	f
+itaijidict	Makefile.am	/^dict_DATA = kanwadict itaijidict$/;"	D	directory:dict
+itaijiknj	lib/libitaiji.c	/^itaijiknj(c1, c2)$/;"	f
+itaijiknj	src/itaiji.c	/^itaijiknj(c1, c2)$/;"	f
+itaijitbl_made	lib/libitaiji.c	/^static int itaijitbl_made=0;$/;"	v	typeref:typename:int	file:
+itaijitbl_made	src/itaiji.c	/^static int itaijitbl_made=0;$/;"	v	typeref:typename:int	file:
+ittbl1	lib/libitaiji.c	/^static unsigned char ittbl1[0x80][0x80], ittbl2[0x80][0x80];$/;"	v	typeref:typename:unsigned char[0x80][0x80]	file:
+ittbl1	src/itaiji.c	/^static unsigned char ittbl1[0x80][0x80], ittbl2[0x80][0x80];$/;"	v	typeref:typename:unsigned char[0x80][0x80]	file:
+ittbl2	lib/libitaiji.c	/^static unsigned char ittbl1[0x80][0x80], ittbl2[0x80][0x80];$/;"	v	typeref:typename:unsigned char[0x80][0x80]	file:
+ittbl2	src/itaiji.c	/^static unsigned char ittbl1[0x80][0x80], ittbl2[0x80][0x80];$/;"	v	typeref:typename:unsigned char[0x80][0x80]	file:
+j2E	lib/libj2.c	/^j2E(c, n)$/;"	f
+j2E	src/j2.c	/^j2E(c, n)$/;"	f
+j2a	lib/libj2.c	/^j2a(c, n)$/;"	f
+j2a	src/j2.c	/^j2a(c, n)$/;"	f
+jis2ujis	src/rdic-conv.c	/^jis2ujis(buffer)$/;"	f	file:
+jis2ujis_jisyo	lib/libdict.c	/^static void jis2ujis_jisyo(buffer)$/;"	f	file:
+jis2ujis_jisyo	src/dict.c	/^static void jis2ujis_jisyo(buffer)$/;"	f	file:
+jisyo_table	lib/libdict.c	/^struct kanji_yomi *jisyo_table[0x80][0x80]; \/* hash table *\/$/;"	v	typeref:struct:kanji_yomi * [0x80][0x80]
+jisyo_table	src/dict.c	/^struct kanji_yomi *jisyo_table[0x80][0x80]; \/* hash table *\/$/;"	v	typeref:struct:kanji_yomi * [0x80][0x80]
+k2H	lib/libk2.c	/^k2H(c, n)$/;"	f
+k2H	src/k2.c	/^k2H(c, n)$/;"	f
+k2K	lib/libk2.c	/^k2K(c, n)$/;"	f
+k2K	src/k2.c	/^k2K(c, n)$/;"	f
+k2a	lib/libk2.c	/^k2a(c, n)$/;"	f
+k2a	src/k2.c	/^k2a(c, n)$/;"	f
+k2j	lib/libk2.c	/^k2j(c, n)$/;"	f
+k2j	src/k2.c	/^k2j(c, n)$/;"	f
+k2rom	lib/libk2.c	/^k2rom(c, n, type)$/;"	f	file:
+k2rom	src/k2.c	/^k2rom(c, n, type)$/;"	f	file:
+k2rom_buflen	lib/libk2.c	/^#define k2rom_buflen /;"	d	file:
+k2rom_buflen	src/k2.c	/^#define k2rom_buflen /;"	d	file:
+k2rom_h_table	lib/libk2.c	/^}, k2rom_h_table[] = { $/;"	v	typeref:struct:k2rom_tbl[]
+k2rom_h_table	src/k2.c	/^}, k2rom_h_table[] = { $/;"	v	typeref:struct:k2rom_tbl[]
+k2rom_h_table_old	lib/libk2.c	/^k2rom_h_table_old[] = { $/;"	v	typeref:struct:k2rom_tbl[]
+k2rom_h_table_old	src/k2.c	/^k2rom_h_table_old[] = { $/;"	v	typeref:struct:k2rom_tbl[]
+k2rom_k_table	lib/libk2.c	/^}, k2rom_k_table[] = { $/;"	v	typeref:struct:k2rom_tbl[]
+k2rom_k_table	src/k2.c	/^}, k2rom_k_table[] = { $/;"	v	typeref:struct:k2rom_tbl[]
+k2rom_k_table_old	lib/libk2.c	/^}, k2rom_k_table_old[] = { $/;"	v	typeref:struct:k2rom_tbl[]
+k2rom_k_table_old	src/k2.c	/^}, k2rom_k_table_old[] = { $/;"	v	typeref:struct:k2rom_tbl[]
+k2rom_tbl	lib/libk2.c	/^struct k2rom_tbl {$/;"	s	file:
+k2rom_tbl	src/k2.c	/^struct k2rom_tbl {$/;"	s	file:
+kakasi	kakasi.spec	/^Name: kakasi$/;"	p
+kakasi	kakasi.spec.in	/^Name: kakasi$/;"	p
+kakasi	src/Makefile.am	/^bin_PROGRAMS = kakasi mkkanwa atoc_conv rdic_conv wx2_conv$/;"	P	directory:bin
+kakasi$(EXEEXT)	src/Makefile.in	/^kakasi$(EXEEXT): $(kakasi_OBJECTS) $(kakasi_DEPENDENCIES) $(EXTRA_kakasi_DEPENDENCIES) $/;"	t
+kakasi-config	Makefile.am	/^bin_SCRIPTS = kakasi-config$/;"	S	directory:bin
+kakasi-config	Makefile.in	/^kakasi-config: $(top_builddir)\/config.status $(srcdir)\/kakasi-config.in$/;"	t
+kakasi-config.1	man/Makefile.am	/^man_MANS = kakasi.1 kakasi-config.1$/;"	M	directory:man
+kakasi.1	man/Makefile.am	/^man_MANS = kakasi.1 kakasi-config.1$/;"	M	directory:man
+kakasi.spec	Makefile.in	/^kakasi.spec: $(top_builddir)\/config.status $(srcdir)\/kakasi.spec.in$/;"	t
+kakasi_LDADD	src/Makefile.in	/^kakasi_LDADD = $(LDADD)$/;"	m
+kakasi_OBJECTS	src/Makefile.in	/^kakasi_OBJECTS = $(am_kakasi_OBJECTS)$/;"	m
+kakasi_SOURCES	src/Makefile.am	/^kakasi_SOURCES= kakasi.c a2.c g2.c j2.c k2.c ee2.c hh2.c jj2.c kk2.c \\$/;"	m
+kakasi_SOURCES	src/Makefile.in	/^kakasi_SOURCES = kakasi.c a2.c g2.c j2.c k2.c ee2.c hh2.c jj2.c kk2.c \\$/;"	m
+kakasi_close_kanwadict	lib/libkakasi.c	/^kakasi_close_kanwadict()$/;"	f	typeref:typename:int
+kakasi_close_kanwadict	src/kakasi.c	/^kakasi_close_kanwadict()$/;"	f	typeref:typename:int
+kakasi_do	lib/libkakasi.c	/^kakasi_do(str)$/;"	f
+kakasi_do	src/kakasi.c	/^kakasi_do(str)$/;"	f
+kakasi_free	lib/libkakasi.c	/^kakasi_free(char *p)$/;"	f	typeref:typename:int
+kakasi_free	src/kakasi.c	/^kakasi_free(char *p)$/;"	f	typeref:typename:int
+kana	lib/libhh2.c	/^    unsigned char kana[10];$/;"	m	struct:H2rom_tbl	typeref:typename:unsigned char[10]	file:
+kana	lib/libk2.c	/^    char kana[5];$/;"	m	struct:k2rom_tbl	typeref:typename:char[5]	file:
+kana	lib/libkk2.c	/^    unsigned char kana[10];$/;"	m	struct:K2rom_tbl	typeref:typename:unsigned char[10]	file:
+kana	src/hh2.c	/^    unsigned char kana[10];$/;"	m	struct:H2rom_tbl	typeref:typename:unsigned char[10]	file:
+kana	src/k2.c	/^    char kana[5];$/;"	m	struct:k2rom_tbl	typeref:typename:char[5]	file:
+kana	src/kk2.c	/^    unsigned char kana[10];$/;"	m	struct:K2rom_tbl	typeref:typename:unsigned char[10]	file:
+kanji	src/kakasi.h	/^    unsigned char *kanji;$/;"	m	struct:kanji_yomi	typeref:typename:unsigned char *
+kanji_buf	lib/libkanjiio.c	/^static Character kanji_buf={OTHER, 0, 0};$/;"	v	typeref:typename:Character	file:
+kanji_buf	src/kanjiio.c	/^static Character kanji_buf={OTHER, 0, 0};$/;"	v	typeref:typename:Character	file:
+kanji_buf_set	lib/libkanjiio.c	/^static int kanji_buf_set = 0;$/;"	v	typeref:typename:int	file:
+kanji_buf_set	src/kanjiio.c	/^static int kanji_buf_set = 0;$/;"	v	typeref:typename:int	file:
+kanji_digest	lib/libkakasi.c	/^int kanji_digest;$/;"	v	typeref:typename:int
+kanji_digest	src/kakasi.c	/^int kanji_digest;$/;"	v	typeref:typename:int
+kanji_yomi	src/kakasi.h	/^struct kanji_yomi {$/;"	s
+kanwa	lib/libdict.c	/^struct kanwa_entry kanwa[0x60][0x60];       \/* ujis onl 0xa0 is shift to code. *\/$/;"	v	typeref:struct:kanwa_entry[0x60][0x60]
+kanwa	src/dict.c	/^struct kanwa_entry kanwa[0x60][0x60];       \/* ujis onl 0xa0 is shift to code. *\/$/;"	v	typeref:struct:kanwa_entry[0x60][0x60]
+kanwa_entry	src/kakasi.h	/^struct kanwa_entry {$/;"	s
+kanwa_load	lib/libdict.c	/^int kanwa_load[0x80][0x80];                 \/* Is kanwadict put? *\/$/;"	v	typeref:typename:int[0x80][0x80]
+kanwa_load	src/dict.c	/^int kanwa_load[0x80][0x80];                 \/* Is kanwadict put? *\/$/;"	v	typeref:typename:int[0x80][0x80]
+kanwadict	Makefile.am	/^dict_DATA = kanwadict itaijidict$/;"	D	directory:dict
+kanwadict	Makefile.am	/^kanwadict:$/;"	t
+kanwadict	Makefile.in	/^kanwadict:$/;"	t
+kanwadict	lib/libdict.c	/^FILE *kanwadict = NULL;$/;"	v	typeref:typename:FILE *
+kanwadict	lib/libdict.c	/^static FILE *kanwadict;$/;"	v	typeref:typename:FILE *	file:
+kanwadict	src/dict.c	/^FILE *kanwadict = NULL;$/;"	v	typeref:typename:FILE *
+kanwadict	src/dict.c	/^static FILE *kanwadict;$/;"	v	typeref:typename:FILE *	file:
+last_nonopt	src/getopt.c	/^static int last_nonopt;$/;"	v	typeref:typename:int	file:
+left_paren	lib/libkakasi.c	/^Character left_paren[KAKASIBUF];$/;"	v	typeref:typename:Character[]
+left_paren	src/kakasi.c	/^Character left_paren[KAKASIBUF];$/;"	v	typeref:typename:Character[]
+length	src/kakasi.h	/^    int  length;$/;"	m	struct:kanji_yomi	typeref:typename:int
+level1_index	src/level.h	/^static int level1_index[94] = {$/;"	v	typeref:typename:int[94]
+level1_table	src/level.h	/^static unsigned char level1_table[80][3] = {$/;"	v	typeref:typename:unsigned char[80][3]
+level2_index	src/level.h	/^static int level2_index[94] = {$/;"	v	typeref:typename:int[94]
+level2_table	src/level.h	/^static unsigned char level2_table[160][3] = {$/;"	v	typeref:typename:unsigned char[160][3]
+level3_index	src/level.h	/^static int level3_index[94] = {$/;"	v	typeref:typename:int[94]
+level3_table	src/level.h	/^static unsigned char level3_table[200][3] = {$/;"	v	typeref:typename:unsigned char[200][3]
+level4_index	src/level.h	/^static int level4_index[94] = {$/;"	v	typeref:typename:int[94]
+level4_table	src/level.h	/^static unsigned char level4_table[200][3] = {$/;"	v	typeref:typename:unsigned char[200][3]
+level5_index	src/level.h	/^static int level5_index[94] = {$/;"	v	typeref:typename:int[94]
+level5_table	src/level.h	/^static unsigned char level5_table[185][3] = {$/;"	v	typeref:typename:unsigned char[185][3]
+level6_index	src/level.h	/^static int level6_index[94] = {$/;"	v	typeref:typename:int[94]
+level6_table	src/level.h	/^static unsigned char level6_table[181][3] = {$/;"	v	typeref:typename:unsigned char[181][3]
+level_furigana_mode	lib/libkakasi.c	/^int level_furigana_mode = 0;$/;"	v	typeref:typename:int
+level_furigana_mode	src/kakasi.c	/^int level_furigana_mode = 0;$/;"	v	typeref:typename:int
+level_hiragana_mode	lib/libkakasi.c	/^int level_hiragana_mode = 0;$/;"	v	typeref:typename:int
+level_hiragana_mode	src/kakasi.c	/^int level_hiragana_mode = 0;$/;"	v	typeref:typename:int
+levelj_index	src/level.h	/^static int levelj_index[94] = {$/;"	v	typeref:typename:int[94]
+levelj_table	src/level.h	/^static unsigned char levelj_table[939][3] = {$/;"	v	typeref:typename:unsigned char[939][3]
+leveln_index	src/level.h	/^static int leveln_index[94] = {$/;"	v	typeref:typename:int[94]
+leveln_table	src/level.h	/^static unsigned char leveln_table[285][3] = {$/;"	v	typeref:typename:unsigned char[285][3]
+lib	Makefile.am	/^SUBDIRS = src lib man tests$/;"	s
+lib78_83.c	lib/Makefile.am	/^lib78_83.c: ..\/src\/78_83.c$/;"	t
+lib78_83.c	lib/Makefile.in	/^lib78_83.c: ..\/src\/78_83.c$/;"	t
+lib_LTLIBRARIES	lib/Makefile.am	/^lib_LTLIBRARIES = libkakasi.la$/;"	m
+lib_LTLIBRARIES	lib/Makefile.in	/^lib_LTLIBRARIES = libkakasi.la$/;"	m
+liba2.c	lib/Makefile.am	/^liba2.c: ..\/src\/a2.c$/;"	t
+liba2.c	lib/Makefile.in	/^liba2.c: ..\/src\/a2.c$/;"	t
+libdict.c	lib/Makefile.am	/^libdict.c: ..\/src\/dict.c$/;"	t
+libdict.c	lib/Makefile.in	/^libdict.c: ..\/src\/dict.c$/;"	t
+libdir	Makefile.in	/^libdir = @libdir@$/;"	m
+libdir	lib/Makefile.in	/^libdir = @libdir@$/;"	m
+libdir	man/Makefile.in	/^libdir = @libdir@$/;"	m
+libdir	src/Makefile.in	/^libdir = @libdir@$/;"	m
+libdir	tests/Makefile.in	/^libdir = @libdir@$/;"	m
+libdir	tests/data/Makefile.in	/^libdir = @libdir@$/;"	m
+libee2.c	lib/Makefile.am	/^libee2.c: ..\/src\/ee2.c$/;"	t
+libee2.c	lib/Makefile.in	/^libee2.c: ..\/src\/ee2.c$/;"	t
+libexecdir	Makefile.in	/^libexecdir = @libexecdir@$/;"	m
+libexecdir	lib/Makefile.in	/^libexecdir = @libexecdir@$/;"	m
+libexecdir	man/Makefile.in	/^libexecdir = @libexecdir@$/;"	m
+libexecdir	src/Makefile.in	/^libexecdir = @libexecdir@$/;"	m
+libexecdir	tests/Makefile.in	/^libexecdir = @libexecdir@$/;"	m
+libexecdir	tests/data/Makefile.in	/^libexecdir = @libexecdir@$/;"	m
+libg2.c	lib/Makefile.am	/^libg2.c: ..\/src\/g2.c$/;"	t
+libg2.c	lib/Makefile.in	/^libg2.c: ..\/src\/g2.c$/;"	t
+libhh2.c	lib/Makefile.am	/^libhh2.c: ..\/src\/hh2.c$/;"	t
+libhh2.c	lib/Makefile.in	/^libhh2.c: ..\/src\/hh2.c$/;"	t
+libitaiji.c	lib/Makefile.am	/^libitaiji.c: ..\/src\/itaiji.c$/;"	t
+libitaiji.c	lib/Makefile.in	/^libitaiji.c: ..\/src\/itaiji.c$/;"	t
+libj2.c	lib/Makefile.am	/^libj2.c: ..\/src\/j2.c$/;"	t
+libj2.c	lib/Makefile.in	/^libj2.c: ..\/src\/j2.c$/;"	t
+libjj2.c	lib/Makefile.am	/^libjj2.c: ..\/src\/jj2.c$/;"	t
+libjj2.c	lib/Makefile.in	/^libjj2.c: ..\/src\/jj2.c$/;"	t
+libk2.c	lib/Makefile.am	/^libk2.c: ..\/src\/k2.c$/;"	t
+libk2.c	lib/Makefile.in	/^libk2.c: ..\/src\/k2.c$/;"	t
+libkakasi.c	lib/Makefile.am	/^libkakasi.c: ..\/src\/kakasi.c$/;"	t
+libkakasi.c	lib/Makefile.in	/^libkakasi.c: ..\/src\/kakasi.c$/;"	t
+libkakasi.la	lib/Makefile.am	/^lib_LTLIBRARIES = libkakasi.la$/;"	T	directory:lib
+libkakasi.la	lib/Makefile.in	/^libkakasi.la: $(libkakasi_la_OBJECTS) $(libkakasi_la_DEPENDENCIES) $(EXTRA_libkakasi_la_DEPENDEN/;"	t
+libkakasi_la_LDFLAGS	lib/Makefile.am	/^libkakasi_la_LDFLAGS = \\$/;"	m
+libkakasi_la_LDFLAGS	lib/Makefile.in	/^libkakasi_la_LDFLAGS = \\$/;"	m
+libkakasi_la_LIBADD	lib/Makefile.in	/^libkakasi_la_LIBADD =$/;"	m
+libkakasi_la_LINK	lib/Makefile.in	/^libkakasi_la_LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+libkakasi_la_OBJECTS	lib/Makefile.in	/^libkakasi_la_OBJECTS = $(am_libkakasi_la_OBJECTS)$/;"	m
+libkakasi_la_SOURCES	lib/Makefile.am	/^libkakasi_la_SOURCES = libdict.c libkakasi.c libkanjiio.c \\$/;"	m
+libkakasi_la_SOURCES	lib/Makefile.in	/^libkakasi_la_SOURCES = libdict.c libkakasi.c libkanjiio.c \\$/;"	m
+libkanjiio.c	lib/Makefile.am	/^libkanjiio.c: ..\/src\/kanjiio.c$/;"	t
+libkanjiio.c	lib/Makefile.in	/^libkanjiio.c: ..\/src\/kanjiio.c$/;"	t
+libkk2.c	lib/Makefile.am	/^libkk2.c: ..\/src\/kk2.c$/;"	t
+libkk2.c	lib/Makefile.in	/^libkk2.c: ..\/src\/kk2.c$/;"	t
+liblevel.c	lib/Makefile.am	/^liblevel.c: ..\/src\/level.c$/;"	t
+liblevel.c	lib/Makefile.in	/^liblevel.c: ..\/src\/level.c$/;"	t
+localedir	Makefile.in	/^localedir = @localedir@$/;"	m
+localedir	lib/Makefile.in	/^localedir = @localedir@$/;"	m
+localedir	man/Makefile.in	/^localedir = @localedir@$/;"	m
+localedir	src/Makefile.in	/^localedir = @localedir@$/;"	m
+localedir	tests/Makefile.in	/^localedir = @localedir@$/;"	m
+localedir	tests/data/Makefile.in	/^localedir = @localedir@$/;"	m
+localstatedir	Makefile.in	/^localstatedir = @localstatedir@$/;"	m
+localstatedir	lib/Makefile.in	/^localstatedir = @localstatedir@$/;"	m
+localstatedir	man/Makefile.in	/^localstatedir = @localstatedir@$/;"	m
+localstatedir	src/Makefile.in	/^localstatedir = @localstatedir@$/;"	m
+localstatedir	tests/Makefile.in	/^localstatedir = @localstatedir@$/;"	m
+localstatedir	tests/data/Makefile.in	/^localstatedir = @localstatedir@$/;"	m
+lt_append	aclocal.m4	/^m4_define([lt_append],$/;"	d
+lt_car	aclocal.m4	/^m4_define([lt_car], [[$1]])$/;"	d
+lt_cdr	aclocal.m4	/^m4_define([lt_cdr],$/;"	d
+lt_combine	aclocal.m4	/^m4_define([lt_combine],$/;"	d
+lt_decl_all_varnames	aclocal.m4	/^m4_define([lt_decl_all_varnames],$/;"	d
+lt_decl_dquote_varnames	aclocal.m4	/^m4_define([lt_decl_dquote_varnames],$/;"	d
+lt_decl_quote_varnames	aclocal.m4	/^m4_define([lt_decl_quote_varnames],$/;"	d
+lt_decl_tag_varnames	aclocal.m4	/^m4_define([lt_decl_tag_varnames],$/;"	d
+lt_decl_varnames_tagged	aclocal.m4	/^m4_define([lt_decl_varnames_tagged],$/;"	d
+lt_dict_add	aclocal.m4	/^m4_define([lt_dict_add],$/;"	d
+lt_dict_add_subkey	aclocal.m4	/^m4_define([lt_dict_add_subkey],$/;"	d
+lt_dict_fetch	aclocal.m4	/^m4_define([lt_dict_fetch],$/;"	d
+lt_dict_filter	aclocal.m4	/^m4_define([lt_dict_filter],$/;"	d
+lt_if_append_uniq	aclocal.m4	/^m4_define([lt_if_append_uniq],$/;"	d
+lt_if_dict_fetch	aclocal.m4	/^m4_define([lt_if_dict_fetch],$/;"	d
+lt_join	aclocal.m4	/^m4_define([lt_join],$/;"	d
+lt_unquote	aclocal.m4	/^m4_define([lt_unquote], $1)$/;"	d
+main	lib/libkakasi.c	/^main(argc, argv)$/;"	f
+main	src/atoc-conv.c	/^main(argc, argv)$/;"	f
+main	src/getopt.c	/^main (argc, argv)$/;"	f
+main	src/getopt1.c	/^main (argc, argv)$/;"	f
+main	src/kakasi.c	/^main(argc, argv)$/;"	f
+main	src/mkkanwa.c	/^main(argc, argv)$/;"	f
+main	src/rdic-conv.c	/^main(argc, argv)$/;"	f
+main	src/wx2-conv.c	/^main(argc, argv)$/;"	f
+maintainer-clean	Makefile.in	/^maintainer-clean: maintainer-clean-recursive$/;"	t
+maintainer-clean	lib/Makefile.in	/^maintainer-clean: maintainer-clean-am$/;"	t
+maintainer-clean	man/Makefile.in	/^maintainer-clean: maintainer-clean-am$/;"	t
+maintainer-clean	src/Makefile.in	/^maintainer-clean: maintainer-clean-am$/;"	t
+maintainer-clean	tests/Makefile.in	/^maintainer-clean: maintainer-clean-recursive$/;"	t
+maintainer-clean	tests/data/Makefile.in	/^maintainer-clean: maintainer-clean-am$/;"	t
+maintainer-clean-am	Makefile.in	/^maintainer-clean-am: distclean-am maintainer-clean-generic$/;"	t
+maintainer-clean-am	lib/Makefile.in	/^maintainer-clean-am: distclean-am maintainer-clean-generic$/;"	t
+maintainer-clean-am	man/Makefile.in	/^maintainer-clean-am: distclean-am maintainer-clean-generic$/;"	t
+maintainer-clean-am	src/Makefile.in	/^maintainer-clean-am: distclean-am maintainer-clean-generic$/;"	t
+maintainer-clean-am	tests/Makefile.in	/^maintainer-clean-am: distclean-am maintainer-clean-generic$/;"	t
+maintainer-clean-am	tests/data/Makefile.in	/^maintainer-clean-am: distclean-am maintainer-clean-generic$/;"	t
+maintainer-clean-generic	Makefile.in	/^maintainer-clean-generic:$/;"	t
+maintainer-clean-generic	lib/Makefile.in	/^maintainer-clean-generic:$/;"	t
+maintainer-clean-generic	man/Makefile.in	/^maintainer-clean-generic:$/;"	t
+maintainer-clean-generic	src/Makefile.in	/^maintainer-clean-generic:$/;"	t
+maintainer-clean-generic	tests/Makefile.in	/^maintainer-clean-generic:$/;"	t
+maintainer-clean-generic	tests/data/Makefile.in	/^maintainer-clean-generic:$/;"	t
+make_kanwa_dict	src/mkkanwa.c	/^make_kanwa_dict(kdict)$/;"	f	file:
+makefile.msc	lib/Makefile.in	/^makefile.msc: $(top_builddir)\/config.status $(srcdir)\/makefile.msc.in$/;"	t
+man	Makefile.am	/^SUBDIRS = src lib man tests$/;"	s
+man1dir	man/Makefile.in	/^man1dir = $(mandir)\/man1$/;"	m
+man_MANS	man/Makefile.am	/^man_MANS = kakasi.1 kakasi-config.1$/;"	m
+man_MANS	man/Makefile.in	/^man_MANS = kakasi.1 kakasi-config.1$/;"	m
+mandir	Makefile.in	/^mandir = @mandir@$/;"	m
+mandir	lib/Makefile.in	/^mandir = @mandir@$/;"	m
+mandir	man/Makefile.in	/^mandir = @mandir@$/;"	m
+mandir	src/Makefile.in	/^mandir = @mandir@$/;"	m
+mandir	tests/Makefile.in	/^mandir = @mandir@$/;"	m
+mandir	tests/data/Makefile.in	/^mandir = @mandir@$/;"	m
+memmove	lib/libkanjiio.c	/^# define memmove(/;"	d	file:
+memmove	src/kanjiio.c	/^# define memmove(/;"	d	file:
+mkdir_p	Makefile.in	/^mkdir_p = @mkdir_p@$/;"	m
+mkdir_p	lib/Makefile.in	/^mkdir_p = @mkdir_p@$/;"	m
+mkdir_p	man/Makefile.in	/^mkdir_p = @mkdir_p@$/;"	m
+mkdir_p	src/Makefile.in	/^mkdir_p = @mkdir_p@$/;"	m
+mkdir_p	tests/Makefile.in	/^mkdir_p = @mkdir_p@$/;"	m
+mkdir_p	tests/data/Makefile.in	/^mkdir_p = @mkdir_p@$/;"	m
+mkinstalldirs	Makefile.in	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	lib/Makefile.in	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	man/Makefile.in	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	src/Makefile.in	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	tests/Makefile.in	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	tests/data/Makefile.in	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkitaijitbl	lib/libitaiji.c	/^mkitaijitbl()$/;"	f	typeref:typename:void
+mkitaijitbl	src/itaiji.c	/^mkitaijitbl()$/;"	f	typeref:typename:void
+mkkanwa	src/Makefile.am	/^bin_PROGRAMS = kakasi mkkanwa atoc_conv rdic_conv wx2_conv$/;"	P	directory:bin
+mkkanwa$(EXEEXT)	src/Makefile.in	/^mkkanwa$(EXEEXT): $(mkkanwa_OBJECTS) $(mkkanwa_DEPENDENCIES) $(EXTRA_mkkanwa_DEPENDENCIES) $/;"	t
+mkkanwa_LDADD	src/Makefile.in	/^mkkanwa_LDADD = $(LDADD)$/;"	m
+mkkanwa_OBJECTS	src/Makefile.in	/^mkkanwa_OBJECTS = $(am_mkkanwa_OBJECTS)$/;"	m
+mkkanwa_SOURCES	src/Makefile.am	/^mkkanwa_SOURCES = mkkanwa.c dict.c itaiji.c getopt.c getopt1.c$/;"	m
+mkkanwa_SOURCES	src/Makefile.in	/^mkkanwa_SOURCES = mkkanwa.c dict.c itaiji.c getopt.c getopt1.c$/;"	m
+mostlyclean	Makefile.in	/^mostlyclean: mostlyclean-recursive$/;"	t
+mostlyclean	lib/Makefile.in	/^mostlyclean: mostlyclean-am$/;"	t
+mostlyclean	man/Makefile.in	/^mostlyclean: mostlyclean-am$/;"	t
+mostlyclean	src/Makefile.in	/^mostlyclean: mostlyclean-am$/;"	t
+mostlyclean	tests/Makefile.in	/^mostlyclean: mostlyclean-recursive$/;"	t
+mostlyclean	tests/data/Makefile.in	/^mostlyclean: mostlyclean-am$/;"	t
+mostlyclean-am	Makefile.in	/^mostlyclean-am: mostlyclean-generic mostlyclean-libtool$/;"	t
+mostlyclean-am	lib/Makefile.in	/^mostlyclean-am: mostlyclean-compile mostlyclean-generic \\$/;"	t
+mostlyclean-am	man/Makefile.in	/^mostlyclean-am: mostlyclean-generic mostlyclean-libtool$/;"	t
+mostlyclean-am	src/Makefile.in	/^mostlyclean-am: mostlyclean-compile mostlyclean-generic \\$/;"	t
+mostlyclean-am	tests/Makefile.in	/^mostlyclean-am: mostlyclean-generic mostlyclean-libtool$/;"	t
+mostlyclean-am	tests/data/Makefile.in	/^mostlyclean-am: mostlyclean-generic mostlyclean-libtool$/;"	t
+mostlyclean-compile	lib/Makefile.in	/^mostlyclean-compile:$/;"	t
+mostlyclean-compile	src/Makefile.in	/^mostlyclean-compile:$/;"	t
+mostlyclean-generic	Makefile.in	/^mostlyclean-generic:$/;"	t
+mostlyclean-generic	lib/Makefile.in	/^mostlyclean-generic:$/;"	t
+mostlyclean-generic	man/Makefile.in	/^mostlyclean-generic:$/;"	t
+mostlyclean-generic	src/Makefile.in	/^mostlyclean-generic:$/;"	t
+mostlyclean-generic	tests/Makefile.in	/^mostlyclean-generic:$/;"	t
+mostlyclean-generic	tests/data/Makefile.in	/^mostlyclean-generic:$/;"	t
+mostlyclean-libtool	Makefile.in	/^mostlyclean-libtool:$/;"	t
+mostlyclean-libtool	lib/Makefile.in	/^mostlyclean-libtool:$/;"	t
+mostlyclean-libtool	man/Makefile.in	/^mostlyclean-libtool:$/;"	t
+mostlyclean-libtool	src/Makefile.in	/^mostlyclean-libtool:$/;"	t
+mostlyclean-libtool	tests/Makefile.in	/^mostlyclean-libtool:$/;"	t
+mostlyclean-libtool	tests/data/Makefile.in	/^mostlyclean-libtool:$/;"	t
+my_index	src/getopt.c	/^# define my_index	/;"	d	file:
+my_index	src/getopt.c	/^my_index (str, chr)$/;"	f	file:
+n	lib/libkakasi.c	/^Character n[KAKASIBUF];$/;"	v	typeref:typename:Character[]
+n	src/kakasi.c	/^Character n[KAKASIBUF];$/;"	v	typeref:typename:Character[]
+name	src/getopt.h	/^  const char *name;$/;"	m	struct:option	typeref:typename:const char *
+new_format	src/mkkanwa.c	/^int new_format = 1;$/;"	v	typeref:typename:int
+next	lib/libkanjiio.c	/^    struct pbuf_t *next;$/;"	m	struct:pbuf_t	typeref:struct:pbuf_t *	file:
+next	src/kakasi.h	/^    struct kanji_yomi *next;$/;"	m	struct:kanji_yomi	typeref:struct:kanji_yomi *
+next	src/kanjiio.c	/^    struct pbuf_t *next;$/;"	m	struct:pbuf_t	typeref:struct:pbuf_t *	file:
+nextchar	src/getopt.c	/^static char *nextchar;$/;"	v	typeref:typename:char *	file:
+no_argument	src/getopt.h	/^#define	no_argument	/;"	d
+noinst_HEADERS	src/Makefile.am	/^noinst_HEADERS = conv-util.h kakasi.h getopt.h level.h$/;"	m
+noinst_HEADERS	src/Makefile.in	/^noinst_HEADERS = conv-util.h kakasi.h getopt.h level.h$/;"	m
+nonoption_flags_len	src/getopt.c	/^static int nonoption_flags_len;$/;"	v	typeref:typename:int	file:
+nonoption_flags_max_len	src/getopt.c	/^static int nonoption_flags_max_len;$/;"	v	typeref:typename:int	file:
+oldincludedir	Makefile.in	/^oldincludedir = @oldincludedir@$/;"	m
+oldincludedir	lib/Makefile.in	/^oldincludedir = @oldincludedir@$/;"	m
+oldincludedir	man/Makefile.in	/^oldincludedir = @oldincludedir@$/;"	m
+oldincludedir	src/Makefile.in	/^oldincludedir = @oldincludedir@$/;"	m
+oldincludedir	tests/Makefile.in	/^oldincludedir = @oldincludedir@$/;"	m
+oldincludedir	tests/data/Makefile.in	/^oldincludedir = @oldincludedir@$/;"	m
+optarg	src/getopt.c	/^char *optarg = NULL;$/;"	v	typeref:typename:char *
+opterr	src/getopt.c	/^int opterr = 1;$/;"	v	typeref:typename:int
+optind	src/getopt.c	/^int optind = 1;$/;"	v	typeref:typename:int
+option	src/getopt.h	/^struct option$/;"	s
+optional_argument	src/getopt.h	/^#define optional_argument	/;"	d
+optopt	src/getopt.c	/^int optopt = '?';$/;"	v	typeref:typename:int
+ordering	src/getopt.c	/^} ordering;$/;"	v	typeref:enum:__anon301252c00103	file:
+original_argc	src/getopt.c	/^static int original_argc;$/;"	v	typeref:typename:int	file:
+original_argv	src/getopt.c	/^static char *const *original_argv;$/;"	v	typeref:typename:char * const *	file:
+output_G	lib/libkanjiio.c	/^int output_G[5] = {ASCII, KATAKANA, KATAKANA, JIS83, SJKANA};$/;"	v	typeref:typename:int[5]
+output_G	src/kanjiio.c	/^int output_G[5] = {ASCII, KATAKANA, KATAKANA, JIS83, SJKANA};$/;"	v	typeref:typename:int[5]
+output_GL	lib/libkanjiio.c	/^int output_GL = SETG0;$/;"	v	typeref:typename:int
+output_GL	src/kanjiio.c	/^int output_GL = SETG0;$/;"	v	typeref:typename:int
+output_GR	lib/libkanjiio.c	/^int output_GR = SETG3;$/;"	v	typeref:typename:int
+output_GR	src/kanjiio.c	/^int output_GR = SETG3;$/;"	v	typeref:typename:int
+output_term_type	lib/libkanjiio.c	/^int output_term_type = UNKNOWN;$/;"	v	typeref:typename:int
+output_term_type	src/kanjiio.c	/^int output_term_type = UNKNOWN;$/;"	v	typeref:typename:int
+output_yomi_eachkanji	lib/libkakasi.c	/^output_yomi_eachkanji(Character *c, int len)$/;"	f	typeref:typename:void
+output_yomi_eachkanji	src/kakasi.c	/^output_yomi_eachkanji(Character *c, int len)$/;"	f	typeref:typename:void
+pbuf	lib/libkanjiio.c	/^} pbuf;$/;"	t	typeref:struct:pbuf_t	file:
+pbuf	src/kanjiio.c	/^} pbuf;$/;"	t	typeref:struct:pbuf_t	file:
+pbuf_error	lib/libkanjiio.c	/^int pbuf_error = 0;$/;"	v	typeref:typename:int
+pbuf_error	src/kanjiio.c	/^int pbuf_error = 0;$/;"	v	typeref:typename:int
+pbuf_t	lib/libkanjiio.c	/^typedef struct pbuf_t {$/;"	s	file:
+pbuf_t	src/kanjiio.c	/^typedef struct pbuf_t {$/;"	s	file:
+pcbuf	lib/libkanjiio.c	/^pbuf pcbuf = {$/;"	v	typeref:typename:pbuf
+pcbuf	src/kanjiio.c	/^pbuf pcbuf = {$/;"	v	typeref:typename:pbuf
+pcbuf_tail	lib/libkanjiio.c	/^pbuf *pcbuf_tail = &pcbuf;$/;"	v	typeref:typename:pbuf *
+pcbuf_tail	src/kanjiio.c	/^pbuf *pcbuf_tail = &pcbuf;$/;"	v	typeref:typename:pbuf *
+pdf	Makefile.in	/^pdf: pdf-recursive$/;"	t
+pdf	lib/Makefile.in	/^pdf: pdf-am$/;"	t
+pdf	man/Makefile.in	/^pdf: pdf-am$/;"	t
+pdf	src/Makefile.in	/^pdf: pdf-am$/;"	t
+pdf	tests/Makefile.in	/^pdf: pdf-recursive$/;"	t
+pdf	tests/data/Makefile.in	/^pdf: pdf-am$/;"	t
+pdf-am	Makefile.in	/^pdf-am:$/;"	t
+pdf-am	lib/Makefile.in	/^pdf-am:$/;"	t
+pdf-am	man/Makefile.in	/^pdf-am:$/;"	t
+pdf-am	src/Makefile.in	/^pdf-am:$/;"	t
+pdf-am	tests/Makefile.in	/^pdf-am:$/;"	t
+pdf-am	tests/data/Makefile.in	/^pdf-am:$/;"	t
+pdfdir	Makefile.in	/^pdfdir = @pdfdir@$/;"	m
+pdfdir	lib/Makefile.in	/^pdfdir = @pdfdir@$/;"	m
+pdfdir	man/Makefile.in	/^pdfdir = @pdfdir@$/;"	m
+pdfdir	src/Makefile.in	/^pdfdir = @pdfdir@$/;"	m
+pdfdir	tests/Makefile.in	/^pdfdir = @pdfdir@$/;"	m
+pdfdir	tests/data/Makefile.in	/^pdfdir = @pdfdir@$/;"	m
+pkgdatadir	Makefile.in	/^pkgdatadir = $(datadir)\/@PACKAGE@$/;"	m
+pkgdatadir	lib/Makefile.in	/^pkgdatadir = $(datadir)\/@PACKAGE@$/;"	m
+pkgdatadir	man/Makefile.in	/^pkgdatadir = $(datadir)\/@PACKAGE@$/;"	m
+pkgdatadir	src/Makefile.in	/^pkgdatadir = $(datadir)\/@PACKAGE@$/;"	m
+pkgdatadir	tests/Makefile.in	/^pkgdatadir = $(datadir)\/@PACKAGE@$/;"	m
+pkgdatadir	tests/data/Makefile.in	/^pkgdatadir = $(datadir)\/@PACKAGE@$/;"	m
+pkgincludedir	Makefile.in	/^pkgincludedir = $(includedir)\/@PACKAGE@$/;"	m
+pkgincludedir	lib/Makefile.in	/^pkgincludedir = $(includedir)\/@PACKAGE@$/;"	m
+pkgincludedir	man/Makefile.in	/^pkgincludedir = $(includedir)\/@PACKAGE@$/;"	m
+pkgincludedir	src/Makefile.in	/^pkgincludedir = $(includedir)\/@PACKAGE@$/;"	m
+pkgincludedir	tests/Makefile.in	/^pkgincludedir = $(includedir)\/@PACKAGE@$/;"	m
+pkgincludedir	tests/data/Makefile.in	/^pkgincludedir = $(includedir)\/@PACKAGE@$/;"	m
+pkglibdir	Makefile.in	/^pkglibdir = $(libdir)\/@PACKAGE@$/;"	m
+pkglibdir	lib/Makefile.in	/^pkglibdir = $(libdir)\/@PACKAGE@$/;"	m
+pkglibdir	man/Makefile.in	/^pkglibdir = $(libdir)\/@PACKAGE@$/;"	m
+pkglibdir	src/Makefile.in	/^pkglibdir = $(libdir)\/@PACKAGE@$/;"	m
+pkglibdir	tests/Makefile.in	/^pkglibdir = $(libdir)\/@PACKAGE@$/;"	m
+pkglibdir	tests/data/Makefile.in	/^pkglibdir = $(libdir)\/@PACKAGE@$/;"	m
+pkglibexecdir	Makefile.in	/^pkglibexecdir = $(libexecdir)\/@PACKAGE@$/;"	m
+pkglibexecdir	lib/Makefile.in	/^pkglibexecdir = $(libexecdir)\/@PACKAGE@$/;"	m
+pkglibexecdir	man/Makefile.in	/^pkglibexecdir = $(libexecdir)\/@PACKAGE@$/;"	m
+pkglibexecdir	src/Makefile.in	/^pkglibexecdir = $(libexecdir)\/@PACKAGE@$/;"	m
+pkglibexecdir	tests/Makefile.in	/^pkglibexecdir = $(libexecdir)\/@PACKAGE@$/;"	m
+pkglibexecdir	tests/data/Makefile.in	/^pkglibexecdir = $(libexecdir)\/@PACKAGE@$/;"	m
+point_cellalloc	lib/libdict.c	/^int point_cellalloc = 0;$/;"	v	typeref:typename:int
+point_cellalloc	src/dict.c	/^int point_cellalloc = 0;$/;"	v	typeref:typename:int
+point_charalloc	lib/libdict.c	/^int point_charalloc = 0;$/;"	v	typeref:typename:int
+point_charalloc	src/dict.c	/^int point_charalloc = 0;$/;"	v	typeref:typename:int
+posixly_correct	src/getopt.c	/^static char *posixly_correct;$/;"	v	typeref:typename:char *	file:
+prefix	Makefile.in	/^prefix = @prefix@$/;"	m
+prefix	lib/Makefile.in	/^prefix = @prefix@$/;"	m
+prefix	man/Makefile.in	/^prefix = @prefix@$/;"	m
+prefix	src/Makefile.in	/^prefix = @prefix@$/;"	m
+prefix	tests/Makefile.in	/^prefix = @prefix@$/;"	m
+prefix	tests/data/Makefile.in	/^prefix = @prefix@$/;"	m
+proc	lib/libkakasi.c	/^static int (*proc[8])()={NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL};$/;"	v	typeref:typename:int (* [8])()	file:
+proc	src/kakasi.c	/^static int (*proc[8])()={NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL};$/;"	v	typeref:typename:int (* [8])()	file:
+program_transform_name	Makefile.in	/^program_transform_name = @program_transform_name@$/;"	m
+program_transform_name	lib/Makefile.in	/^program_transform_name = @program_transform_name@$/;"	m
+program_transform_name	man/Makefile.in	/^program_transform_name = @program_transform_name@$/;"	m
+program_transform_name	src/Makefile.in	/^program_transform_name = @program_transform_name@$/;"	m
+program_transform_name	tests/Makefile.in	/^program_transform_name = @program_transform_name@$/;"	m
+program_transform_name	tests/data/Makefile.in	/^program_transform_name = @program_transform_name@$/;"	m
+ps	Makefile.in	/^ps: ps-recursive$/;"	t
+ps	lib/Makefile.in	/^ps: ps-am$/;"	t
+ps	man/Makefile.in	/^ps: ps-am$/;"	t
+ps	src/Makefile.in	/^ps: ps-am$/;"	t
+ps	tests/Makefile.in	/^ps: ps-recursive$/;"	t
+ps	tests/data/Makefile.in	/^ps: ps-am$/;"	t
+ps-am	Makefile.in	/^ps-am:$/;"	t
+ps-am	lib/Makefile.in	/^ps-am:$/;"	t
+ps-am	man/Makefile.in	/^ps-am:$/;"	t
+ps-am	src/Makefile.in	/^ps-am:$/;"	t
+ps-am	tests/Makefile.in	/^ps-am:$/;"	t
+ps-am	tests/data/Makefile.in	/^ps-am:$/;"	t
+psdir	Makefile.in	/^psdir = @psdir@$/;"	m
+psdir	lib/Makefile.in	/^psdir = @psdir@$/;"	m
+psdir	man/Makefile.in	/^psdir = @psdir@$/;"	m
+psdir	src/Makefile.in	/^psdir = @psdir@$/;"	m
+psdir	tests/Makefile.in	/^psdir = @psdir@$/;"	m
+psdir	tests/data/Makefile.in	/^psdir = @psdir@$/;"	m
+ptr_cellalloc	lib/libdict.c	/^struct kanji_yomi *ptr_cellalloc = NULL;$/;"	v	typeref:struct:kanji_yomi *
+ptr_cellalloc	src/dict.c	/^struct kanji_yomi *ptr_cellalloc = NULL;$/;"	v	typeref:struct:kanji_yomi *
+ptr_charalloc	lib/libdict.c	/^unsigned char *ptr_charalloc = NULL;$/;"	v	typeref:typename:unsigned char *
+ptr_charalloc	src/dict.c	/^unsigned char *ptr_charalloc = NULL;$/;"	v	typeref:typename:unsigned char *
+put_separator	lib/libkakasi.c	/^put_separator()$/;"	f	typeref:typename:KAKASI_ATTR void
+put_separator	src/kakasi.c	/^put_separator()$/;"	f	typeref:typename:KAKASI_ATTR void
+putchar	lib/libkanjiio.c	/^#define putchar(/;"	d	file:
+putchar	src/kanjiio.c	/^#define putchar(/;"	d	file:
+putcharpbuf	lib/libkanjiio.c	/^putcharpbuf(c)$/;"	f
+putcharpbuf	src/kanjiio.c	/^putcharpbuf(c)$/;"	f
+putchars	lib/libkakasi.c	/^putchars(results)$/;"	f
+putchars	src/kakasi.c	/^putchars(results)$/;"	f
+putkanji	lib/libkanjiio.c	/^putkanji(c)$/;"	f
+putkanji	src/kanjiio.c	/^putkanji(c)$/;"	f
+putkanjis	lib/libkakasi.c	/^putkanjis(c)$/;"	f
+putkanjis	src/kakasi.c	/^putkanjis(c)$/;"	f
+pututf8	lib/libkanjiio.c	/^pututf8(f, s)$/;"	f
+pututf8	src/kanjiio.c	/^pututf8(f, s)$/;"	f
+rdic_conv	src/Makefile.am	/^bin_PROGRAMS = kakasi mkkanwa atoc_conv rdic_conv wx2_conv$/;"	P	directory:bin
+rdic_conv$(EXEEXT)	src/Makefile.in	/^rdic_conv$(EXEEXT): $(rdic_conv_OBJECTS) $(rdic_conv_DEPENDENCIES) $(EXTRA_rdic_conv_DEPENDENCIE/;"	t
+rdic_conv_LDADD	src/Makefile.in	/^rdic_conv_LDADD = $(LDADD)$/;"	m
+rdic_conv_OBJECTS	src/Makefile.in	/^rdic_conv_OBJECTS = $(am_rdic_conv_OBJECTS)$/;"	m
+rdic_conv_SOURCES	src/Makefile.am	/^rdic_conv_SOURCES = rdic-conv.c conv-util.c$/;"	m
+rdic_conv_SOURCES	src/Makefile.in	/^rdic_conv_SOURCES = rdic-conv.c conv-util.c$/;"	m
+rel	kakasi.spec	/^%define  rel     %{?CUSTOM_RELEASE} %{!?CUSTOM_RELEASE:%RELEASE}$/;"	m
+rel	kakasi.spec.in	/^%define  rel     %{?CUSTOM_RELEASE} %{!?CUSTOM_RELEASE:%RELEASE}$/;"	m
+required_argument	src/getopt.h	/^#define required_argument	/;"	d
+right_paren	lib/libkakasi.c	/^Character right_paren[KAKASIBUF];$/;"	v	typeref:typename:Character[]
+right_paren	src/kakasi.c	/^Character right_paren[KAKASIBUF];$/;"	v	typeref:typename:Character[]
+romacheck	tests/kakasi-2	/^romacheck () {$/;"	f
+romacheck	tests/kakasi-3	/^romacheck () {$/;"	f
+romacheck	tests/kakasi-4	/^romacheck () {$/;"	f
+romaji	lib/libhh2.c	/^    char romaji[7];$/;"	m	struct:H2rom_tbl	typeref:typename:char[7]	file:
+romaji	lib/libk2.c	/^    char romaji[7];$/;"	m	struct:k2rom_tbl	typeref:typename:char[7]	file:
+romaji	lib/libkk2.c	/^    char romaji[7];$/;"	m	struct:K2rom_tbl	typeref:typename:char[7]	file:
+romaji	src/hh2.c	/^    char romaji[7];$/;"	m	struct:H2rom_tbl	typeref:typename:char[7]	file:
+romaji	src/k2.c	/^    char romaji[7];$/;"	m	struct:k2rom_tbl	typeref:typename:char[7]	file:
+romaji	src/kk2.c	/^    char romaji[7];$/;"	m	struct:K2rom_tbl	typeref:typename:char[7]	file:
+romaji_capitalize	lib/libkakasi.c	/^int romaji_capitalize = 0;$/;"	v	typeref:typename:int
+romaji_capitalize	src/kakasi.c	/^int romaji_capitalize = 0;$/;"	v	typeref:typename:int
+romaji_type	lib/libkakasi.c	/^int romaji_type = HEPBURN;$/;"	v	typeref:typename:int
+romaji_type	src/kakasi.c	/^int romaji_type = HEPBURN;$/;"	v	typeref:typename:int
+romaji_upcase	lib/libkakasi.c	/^int romaji_upcase = 0;$/;"	v	typeref:typename:int
+romaji_upcase	src/kakasi.c	/^int romaji_upcase = 0;$/;"	v	typeref:typename:int
+sbindir	Makefile.in	/^sbindir = @sbindir@$/;"	m
+sbindir	lib/Makefile.in	/^sbindir = @sbindir@$/;"	m
+sbindir	man/Makefile.in	/^sbindir = @sbindir@$/;"	m
+sbindir	src/Makefile.in	/^sbindir = @sbindir@$/;"	m
+sbindir	tests/Makefile.in	/^sbindir = @sbindir@$/;"	m
+sbindir	tests/data/Makefile.in	/^sbindir = @sbindir@$/;"	m
+separator	lib/libkakasi.c	/^Character separator[KAKASIBUF];$/;"	v	typeref:typename:Character[]
+separator	src/kakasi.c	/^Character separator[KAKASIBUF];$/;"	v	typeref:typename:Character[]
+separator_out	lib/libkakasi.c	/^int separator_out;$/;"	v	typeref:typename:int
+separator_out	src/kakasi.c	/^int separator_out;$/;"	v	typeref:typename:int
+separator_proc	lib/libkanjiio.c	/^separator_proc(c)$/;"	f	file:
+separator_proc	src/kanjiio.c	/^separator_proc(c)$/;"	f	file:
+set_input_term	lib/libkanjiio.c	/^set_input_term(type)$/;"	f
+set_input_term	src/kanjiio.c	/^set_input_term(type)$/;"	f
+set_output_term	lib/libkanjiio.c	/^set_output_term(type)$/;"	f
+set_output_term	src/kanjiio.c	/^set_output_term(type)$/;"	f
+set_terms	lib/libkanjiio.c	/^set_terms(type, term_type, GL, GR, G)$/;"	f	file:
+set_terms	src/kanjiio.c	/^set_terms(type, term_type, GL, GR, G)$/;"	f	file:
+setcharbuffer	lib/libkanjiio.c	/^setcharbuffer(s)$/;"	f
+setcharbuffer	src/kanjiio.c	/^setcharbuffer(s)$/;"	f
+sharedstatedir	Makefile.in	/^sharedstatedir = @sharedstatedir@$/;"	m
+sharedstatedir	lib/Makefile.in	/^sharedstatedir = @sharedstatedir@$/;"	m
+sharedstatedir	man/Makefile.in	/^sharedstatedir = @sharedstatedir@$/;"	m
+sharedstatedir	src/Makefile.in	/^sharedstatedir = @sharedstatedir@$/;"	m
+sharedstatedir	tests/Makefile.in	/^sharedstatedir = @sharedstatedir@$/;"	m
+sharedstatedir	tests/data/Makefile.in	/^sharedstatedir = @sharedstatedir@$/;"	m
+size	lib/libkanjiio.c	/^    long size;$/;"	m	struct:pbuf_t	typeref:typename:long	file:
+size	src/kanjiio.c	/^    long size;$/;"	m	struct:pbuf_t	typeref:typename:long	file:
+sjis2ujis	src/atoc-conv.c	/^sjis2ujis(sjis, ujis)$/;"	f	file:
+sjis2ujis	src/wx2-conv.c	/^sjis2ujis(sjis, ujis)$/;"	f	file:
+src	Makefile.am	/^SUBDIRS = src lib man tests$/;"	s
+srcdir	Makefile.in	/^srcdir = @srcdir@$/;"	m
+srcdir	lib/Makefile.in	/^srcdir = @srcdir@$/;"	m
+srcdir	man/Makefile.in	/^srcdir = @srcdir@$/;"	m
+srcdir	src/Makefile.in	/^srcdir = @srcdir@$/;"	m
+srcdir	tests/Makefile.in	/^srcdir = @srcdir@$/;"	m
+srcdir	tests/data/Makefile.in	/^srcdir = @srcdir@$/;"	m
+stamp-h1	Makefile.in	/^stamp-h1: $(srcdir)\/config.h.in $(top_builddir)\/config.status$/;"	t
+store_args_and_env	src/getopt.c	/^store_args_and_env (int argc, char *const *argv)$/;"	f	typeref:typename:void	file:
+str	lib/libkanjiio.c	/^    char *str;$/;"	m	struct:pbuf_t	typeref:typename:char *	file:
+str	src/kanjiio.c	/^    char *str;$/;"	m	struct:pbuf_t	typeref:typename:char *	file:
+subdir	Makefile.in	/^subdir = .$/;"	m
+subdir	lib/Makefile.in	/^subdir = lib$/;"	m
+subdir	man/Makefile.in	/^subdir = man$/;"	m
+subdir	src/Makefile.in	/^subdir = src$/;"	m
+subdir	tests/Makefile.in	/^subdir = tests$/;"	m
+subdir	tests/data/Makefile.in	/^subdir = tests\/data$/;"	m
+sysconfdir	Makefile.in	/^sysconfdir = @sysconfdir@$/;"	m
+sysconfdir	lib/Makefile.in	/^sysconfdir = @sysconfdir@$/;"	m
+sysconfdir	man/Makefile.in	/^sysconfdir = @sysconfdir@$/;"	m
+sysconfdir	src/Makefile.in	/^sysconfdir = @sysconfdir@$/;"	m
+sysconfdir	tests/Makefile.in	/^sysconfdir = @sysconfdir@$/;"	m
+sysconfdir	tests/data/Makefile.in	/^sysconfdir = @sysconfdir@$/;"	m
+tags	Makefile.in	/^tags: TAGS$/;"	t
+tags	lib/Makefile.in	/^tags: TAGS$/;"	t
+tags	man/Makefile.in	/^tags: TAGS$/;"	t
+tags	src/Makefile.in	/^tags: TAGS$/;"	t
+tags	tests/Makefile.in	/^tags: TAGS$/;"	t
+tags	tests/data/Makefile.in	/^tags: TAGS$/;"	t
+tags-recursive	Makefile.in	/^tags-recursive:$/;"	t
+tags-recursive	tests/Makefile.in	/^tags-recursive:$/;"	t
+tail	src/kakasi.h	/^    unsigned char tail;$/;"	m	struct:kanji_yomi	typeref:typename:unsigned char
+target_alias	Makefile.in	/^target_alias = @target_alias@$/;"	m
+target_alias	lib/Makefile.in	/^target_alias = @target_alias@$/;"	m
+target_alias	man/Makefile.in	/^target_alias = @target_alias@$/;"	m
+target_alias	src/Makefile.in	/^target_alias = @target_alias@$/;"	m
+target_alias	tests/Makefile.in	/^target_alias = @target_alias@$/;"	m
+target_alias	tests/data/Makefile.in	/^target_alias = @target_alias@$/;"	m
+term_type_str	lib/libkanjiio.c	/^term_type_str(str)$/;"	f
+term_type_str	src/kanjiio.c	/^term_type_str(str)$/;"	f
+terminate_done	lib/libkakasi.c	/^int terminate_done = 0;$/;"	v	typeref:typename:int
+terminate_done	src/kakasi.c	/^int terminate_done = 0;$/;"	v	typeref:typename:int
+tests	Makefile.am	/^SUBDIRS = src lib man tests$/;"	s
+top_build_prefix	Makefile.in	/^top_build_prefix = @top_build_prefix@$/;"	m
+top_build_prefix	lib/Makefile.in	/^top_build_prefix = @top_build_prefix@$/;"	m
+top_build_prefix	man/Makefile.in	/^top_build_prefix = @top_build_prefix@$/;"	m
+top_build_prefix	src/Makefile.in	/^top_build_prefix = @top_build_prefix@$/;"	m
+top_build_prefix	tests/Makefile.in	/^top_build_prefix = @top_build_prefix@$/;"	m
+top_build_prefix	tests/data/Makefile.in	/^top_build_prefix = @top_build_prefix@$/;"	m
+top_builddir	Makefile.in	/^top_builddir = @top_builddir@$/;"	m
+top_builddir	lib/Makefile.in	/^top_builddir = @top_builddir@$/;"	m
+top_builddir	man/Makefile.in	/^top_builddir = @top_builddir@$/;"	m
+top_builddir	src/Makefile.in	/^top_builddir = @top_builddir@$/;"	m
+top_builddir	tests/Makefile.in	/^top_builddir = @top_builddir@$/;"	m
+top_builddir	tests/data/Makefile.in	/^top_builddir = @top_builddir@$/;"	m
+top_distdir	Makefile.in	/^top_distdir = $(distdir)$/;"	m
+top_srcdir	Makefile.in	/^top_srcdir = @top_srcdir@$/;"	m
+top_srcdir	lib/Makefile.in	/^top_srcdir = @top_srcdir@$/;"	m
+top_srcdir	man/Makefile.in	/^top_srcdir = @top_srcdir@$/;"	m
+top_srcdir	src/Makefile.in	/^top_srcdir = @top_srcdir@$/;"	m
+top_srcdir	tests/Makefile.in	/^top_srcdir = @top_srcdir@$/;"	m
+top_srcdir	tests/data/Makefile.in	/^top_srcdir = @top_srcdir@$/;"	m
+toutf8	lib/libkakasi.c	/^iconv_t toutf8 = (iconv_t) -1;$/;"	v	typeref:typename:iconv_t
+toutf8	src/kakasi.c	/^iconv_t toutf8 = (iconv_t) -1;$/;"	v	typeref:typename:iconv_t
+transform	Makefile.in	/^transform = $(program_transform_name)$/;"	m
+transform	lib/Makefile.in	/^transform = $(program_transform_name)$/;"	m
+transform	man/Makefile.in	/^transform = $(program_transform_name)$/;"	m
+transform	src/Makefile.in	/^transform = $(program_transform_name)$/;"	m
+transform	tests/Makefile.in	/^transform = $(program_transform_name)$/;"	m
+transform	tests/data/Makefile.in	/^transform = $(program_transform_name)$/;"	m
+type	src/kakasi.h	/^    char type;$/;"	m	struct:character	typeref:typename:char
+uintptr_t	lib/libdict.c	/^typedef int uintptr_t;$/;"	t	typeref:typename:int	file:
+uintptr_t	src/dict.c	/^typedef int uintptr_t;$/;"	t	typeref:typename:int	file:
+unget1byte	lib/libkanjiio.c	/^unget1byte(c)$/;"	f	file:
+unget1byte	src/kanjiio.c	/^unget1byte(c)$/;"	f	file:
+ungetkanji	lib/libkanjiio.c	/^ungetkanji(c)$/;"	f
+ungetkanji	src/kanjiio.c	/^ungetkanji(c)$/;"	f
+uninstall	Makefile.in	/^uninstall: uninstall-recursive$/;"	t
+uninstall	lib/Makefile.in	/^uninstall: uninstall-am$/;"	t
+uninstall	man/Makefile.in	/^uninstall: uninstall-am$/;"	t
+uninstall	src/Makefile.in	/^uninstall: uninstall-am$/;"	t
+uninstall	tests/Makefile.in	/^uninstall: uninstall-recursive$/;"	t
+uninstall	tests/data/Makefile.in	/^uninstall: uninstall-am$/;"	t
+uninstall-am	Makefile.in	/^uninstall-am: uninstall-binSCRIPTS uninstall-dictDATA$/;"	t
+uninstall-am	lib/Makefile.in	/^uninstall-am: uninstall-includeHEADERS uninstall-libLTLIBRARIES$/;"	t
+uninstall-am	man/Makefile.in	/^uninstall-am: uninstall-man$/;"	t
+uninstall-am	src/Makefile.in	/^uninstall-am: uninstall-binPROGRAMS$/;"	t
+uninstall-am	tests/Makefile.in	/^uninstall-am:$/;"	t
+uninstall-am	tests/data/Makefile.in	/^uninstall-am:$/;"	t
+uninstall-binPROGRAMS	src/Makefile.in	/^uninstall-binPROGRAMS:$/;"	t
+uninstall-binSCRIPTS	Makefile.in	/^uninstall-binSCRIPTS:$/;"	t
+uninstall-dictDATA	Makefile.in	/^uninstall-dictDATA:$/;"	t
+uninstall-includeHEADERS	lib/Makefile.in	/^uninstall-includeHEADERS:$/;"	t
+uninstall-libLTLIBRARIES	lib/Makefile.in	/^uninstall-libLTLIBRARIES:$/;"	t
+uninstall-man	man/Makefile.in	/^uninstall-man: uninstall-man1$/;"	t
+uninstall-man1	man/Makefile.in	/^uninstall-man1:$/;"	t
+usage	src/mkkanwa.c	/^usage(argv)$/;"	f	file:
+use_old_romaji_table	lib/libkakasi.c	/^int use_old_romaji_table = 0;$/;"	v	typeref:typename:int
+use_old_romaji_table	src/kakasi.c	/^int use_old_romaji_table = 0;$/;"	v	typeref:typename:int
+utf8	configure.in	/^AC_ARG_ENABLE(utf8,$/;"	e
+utf8converted	lib/libkanjiio.c	/^int utf8converted = 0;$/;"	v	typeref:typename:int
+utf8converted	src/kanjiio.c	/^int utf8converted = 0;$/;"	v	typeref:typename:int
+val	src/getopt.h	/^  int val;$/;"	m	struct:option	typeref:typename:int
+ver	kakasi.spec	/^%define ver	2.3.6$/;"	m
+ver	kakasi.spec.in	/^%define ver	@VERSION@$/;"	m
+wakatigaki	configure.in	/^AC_ARG_ENABLE(wakatigaki,$/;"	e
+wakatigaki_mode	lib/libkakasi.c	/^int wakatigaki_mode = 0;$/;"	v	typeref:typename:int
+wakatigaki_mode	src/kakasi.c	/^int wakatigaki_mode = 0;$/;"	v	typeref:typename:int
+wo_mode	lib/libkakasi.c	/^int wo_mode = 0;$/;"	v	typeref:typename:int
+wo_mode	src/kakasi.c	/^int wo_mode = 0;$/;"	v	typeref:typename:int
+wx2_conv	src/Makefile.am	/^bin_PROGRAMS = kakasi mkkanwa atoc_conv rdic_conv wx2_conv$/;"	P	directory:bin
+wx2_conv$(EXEEXT)	src/Makefile.in	/^wx2_conv$(EXEEXT): $(wx2_conv_OBJECTS) $(wx2_conv_DEPENDENCIES) $(EXTRA_wx2_conv_DEPENDENCIES) $/;"	t
+wx2_conv_LDADD	src/Makefile.in	/^wx2_conv_LDADD = $(LDADD)$/;"	m
+wx2_conv_OBJECTS	src/Makefile.in	/^wx2_conv_OBJECTS = $(am_wx2_conv_OBJECTS)$/;"	m
+wx2_conv_SOURCES	src/Makefile.am	/^wx2_conv_SOURCES = wx2-conv.c conv-util.c$/;"	m
+wx2_conv_SOURCES	src/Makefile.in	/^wx2_conv_SOURCES = wx2-conv.c conv-util.c$/;"	m
+yomi	src/kakasi.h	/^    unsigned char *yomi;$/;"	m	struct:kanji_yomi	typeref:typename:unsigned char *
