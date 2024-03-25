@@ -156,3 +156,27 @@ $ /mingw64/bin/kakasi -Ja -Ka -Ha  -i utf8 -o utf8 -f ./kakasidict ./itaijidict 
 ```
 
 All in all, this tells me that it's actually (only) how kakasi no longer understands how to render as `-o utf8`
+
+After tweaking here and there (only on MinGW side), it turns out somehow the EUC support on `iconv` (I think only on MinGW?) no longer is supported, causing `configure` script to fail...  But with few adjustments to it, I'm now able to see something promising:
+
+```bash
+ MINGW64 ~/projects/github/kakasi
+$ src/kakasi -JH -f -Ka -Ha  -i utf-8 -o utf-8 ./kakasidict ./itaijidict  <<< "最近人気の\nデスクトップな\nリナックスです!"
+最近[さいきん]人気[にんき]no\ndesukutoppuna\nrinakkusudesu!
+
+MINGW64 ~/projects/github/kakasi
+$ src/kakasi -JH -f  -i utf-8 -o utf-8 ./kakasidict ./itaijidict  <<< "最近人気の\nデスクトップな\nリナックスです!"
+最近[さいきん]人気[にんき]の\nデスクトップな\nリナックスです!
+
+```
+
+Just for the record, my build in MinGW had to do this (I'm using `clang64` as my choice to match my Debian):
+
+```bash
+MINGW64 ~/projects/github/kakasi
+$ ./configure CC=/clang64/bin/clang.exe CFLAGS="-Wall -O2" LDFLAGS="-L/clang64/lib" LIBS="-liconv" CPPFLAGS="-I/clang64/include" CPP=/clang64/bin/clang-cpp.exe
+```
+
+I cannot push what I have, but if you want to build your own, look in my W.I.P. branch under `WIP/build/mingw` and grab the `configure` script (I think that's all you need).
+
+~ PEACE!
