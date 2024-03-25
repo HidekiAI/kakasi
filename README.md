@@ -157,7 +157,7 @@ $ /mingw64/bin/kakasi -Ja -Ka -Ha  -i utf8 -o utf8 -f ./kakasidict ./itaijidict 
 
 All in all, this tells me that it's actually (only) how kakasi no longer understands how to render as `-o utf8`
 
-After tweaking here and there (only on MinGW side), it turns out somehow the EUC support on `iconv` (I think only on MinGW?) no longer is supported, causing `configure` script to fail...  But with few adjustments to it, I'm now able to see something promising:
+After tweaking here and there (only on MinGW side), it turns out somehow the EUC support on `iconv` (I think only on MinGW?  MinGW version of iconv is v1.17 while Debian is v2.36) no longer is supported, causing `configure` script to fail...  But with few adjustments to it, I'm now able to see something promising:
 
 ```bash
  MINGW64 ~/projects/github/kakasi
