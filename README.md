@@ -14,16 +14,13 @@ I've only created this repos because I have the need to build it on MinGW and un
 
 If and when the authors from namazu.org ever decides to create their own account to preserve kakasi, I will then make sure to put this repos in private mode.
 
-## Minor modifications
+## Minor modifications and alterations
 
-I'd like to preserve the original as much as possible, but unfortunately the Windows version (at least on MinGW) does not build
+I'd like to preserve the original as much as possible, but unfortunately the Windows version (at least on MinGW) does not link correctly due to the original archiving method using some tool called `lib` (which I've no clue what it is) no longer exists, so I've switched over to using `ar` archive tool to match Linux build.
 
-- Builds on both Linux and MinGW using `make` (see INSTALL file on how to build)
-
-## Alterations
-
-- Though it works on `make` (via autoconf) I would like to either update the `make` to output build artifacts outside `src` directory, or at least, wish to have it not pollute the original folders that the authors have written their source files to, so I am in the process of seeing if I can convert automake files to cmake on my spair time.
 - I altered the `configure` script to make it compile on MinGW
+- Builds on both Linux and MinGW using `make` (see INSTALL file on how to build)
+- Though it works on `make` (via autoconf) I would like to either update the `make` to output build artifacts outside `src` directory, or at least, wish to have it not pollute the original folders that the authors have written their source files to, so I am in the process of seeing if I can convert automake files to cmake on my spare time.
 
 ## Caveats
 
