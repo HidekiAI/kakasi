@@ -12,21 +12,31 @@ KAKASI に関する情報は http://kakasi.namazu.org/ から得ることがで�
 
 コメントやバグの報告は bug-kakasi@namazu.org 宛に、日本語か英語でお送り下さい。 注意: このメールアドレスは開発用のメーリングリストになっています。
 
-KAKASI project <kakasi-dev@namazu.org>
-Copyright (C) 1999-2001 KAKASI project. All rights reserved.
+- KAKASI project <kakasi-dev@namazu.org>
+- Copyright (C) 1999-2001 KAKASI project. All rights reserved.
 
-- kakasi-2.3.6 source preserved from http://kakasi.namazu.org/stable/kakasi-2.3.6.tar.gz
+KAKASI is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2, or (at your option) any later version.
+
+KAKASI is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You can get information about KAKASI from http://kakasi.namazu.org/
+
+Mail comments and bug reports to bug-kakasi@namazu.org in Japanese or English.
+
 
 ## LICENSE
-The license as stated on the following pages:
+The license (above) as stated on the following pages:
 
 - http://kakasi.namazu.org/index.html.ja
-- http://kakasi.namazu.org/index.html.en
+- http://kakasi.namazu.org/index.html.en - there are no 
 
 indicates that original source was/is of GPL v2 and later.
 
 ## Installations and Building
-Please note: If you're just trying to build on Linux, either use your own distro package (i.e. even on latest Debian you *SHOULD* be able to do `$ apt install kakasi kakasi-dic libkakasi2` and get all working), so do NOT bother.  And even if you are in need to build/compile it by hand (i.e. perhaps you need to have an image on Docker?), you can just download the tar file from the original site (kakasi.namazu.org) and just `$ configure && make && sudo make install` and be done (it takes less than 5 minutes to compile and install this C project)!  IF you can handle the memory-hogging Windows WSL, then just install any of your favorite distro supporting WSL (for me, that would be Debian) and just `$ apt install kakasi kakasi-dic` and be done!
+
+kakasi-2.3.6 source preserved from http://kakasi.namazu.org/stable/kakasi-2.3.6.tar.gz
+
+If you're just trying to build on Linux, either use your own distro package (i.e. even on latest Debian you *SHOULD* be able to do `$ apt install kakasi kakasi-dic libkakasi2` and get all working), so do NOT bother.  And even if you are in need to build/compile it by hand (i.e. perhaps you need to have an image on Docker?), you can just download the tar file from the original site (kakasi.namazu.org) and just `$ configure && make && sudo make install` and be done (it takes less than 5 minutes to compile and install this C project)!  IF you can handle the memory-hogging Windows WSL, then just install any of your favorite distro supporting WSL (for me, that would be Debian) and just `$ apt install kakasi kakasi-dic` and be done!
 
 I've only created this repos because I have the need to build it on MinGW and unfortunately, neither MinGW `pacman` nor Cygwin have kakasi binary anymore, and I cannot handle the memory-hogging WSL to compete on RAM consumptions with other memory-hoggers (mainly static analysis language services such as `rust-analyzer` and `ionide` (F#) and `omnisharp` (C#) that commonly eats up gobs of RAM).
 
