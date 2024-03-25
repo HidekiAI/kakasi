@@ -8,7 +8,13 @@ The license as stated on the following pages:
 
 indicates that original source was/is of GPL v2 and later.
 
-## Other modification
+Please note: If you're just trying to build on Linux, either use your own distro package (i.e. even on latest Debian you *SHOULD* be able to do `$ apt install kakasi kakasi-dic libkakasi2` and get all working), so do NOT bother.  And even if you are in need to build/compile it by hand (i.e. perhaps you need to have an image on Docker?), you can just download the tar file from the original site (kakasi.namazu.org) and just `$ configure && make && sudo make install` and be done (it takes less than 5 minutes to compile and install this C project)!  IF you can handle the memory-hogging Windows WSL, then just install any of your favorite distro supporting WSL (for me, that would be Debian) and just `$ apt install kakasi kakasi-dic` and be done!
+
+I've only created this repos because I have the need to build it on MinGW and unfortunately, neither MinGW `pacman` nor Cygwin have kakasi binary anymore, and I cannot handle the memory-hogging WSL to compete on RAM consumptions with other memory-hoggers (mainly static analysis language services such as `rust-analyzer` and `ionide` (F#) and `omnisharp` (C#) that commonly eats up gobs of RAM).
+
+If and when the authors from namazu.org ever decides to create their own account to preserve kakasi, I will then make sure to put this repos in private mode.
+
+## Minor modifications
 
 I'd like to preserve the original as much as possible, but unfortunately the Windows version (at least on MinGW) does not build
 
