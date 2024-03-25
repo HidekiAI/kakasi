@@ -51,6 +51,23 @@ level.o  Makefile.am  mkkanwa      mkkanwa.o  rdic-conv.c  wx2_conv     wx2-conv
 
 ~/projects/github/kakasi/build$ echo "最近人気の\nデスクトップな\nリナックスです!" | iconv -t UTF-8 -f UTF-8 | src/kakasi -f -i utf8 -o utf8 -JH
 最近[さいきん]人気[にんき]の\nデスクトップな\nリナックスです!
+
+$ locale
+LANG=en_US.UTF-8
+LANGUAGE=
+LC_CTYPE="en_US.UTF-8"
+LC_NUMERIC="en_US.UTF-8"
+LC_TIME=C.UTF-8
+LC_COLLATE="en_US.UTF-8"
+LC_MONETARY="en_US.UTF-8"
+LC_MESSAGES="en_US.UTF-8"
+LC_PAPER="en_US.UTF-8"
+LC_NAME="en_US.UTF-8"
+LC_ADDRESS="en_US.UTF-8"
+LC_TELEPHONE="en_US.UTF-8"
+LC_MEASUREMENT="en_US.UTF-8"
+LC_IDENTIFICATION="en_US.UTF-8"
+LC_ALL=
 ```
 
 On MinGW:
@@ -82,6 +99,26 @@ $ echo "最近人気の\nデスクトップな\nリナックスです!" | iconv 
 MINGW64 ~/projects/github/kakasi/build (main)
 $ echo "最近人気の\nデスクトップな\nリナックスです!" | iconv -t UTF-8 -f UTF-8 | src/kakasi.exe -f -i utf8 -o utf8 -JH
 µ£ÇΦ┐æ[πüòπüäπüìπéô]Σ║║µ░ù[πü½πéôπüì]πü«\nπâçπé╣πé»πâêπââπâùπü¬\nπâ¬πâèπââπé»πé╣πüºπüÖ!
+
+MSYS ~/projects/github/kakasi/build
+$ locale
+LANG=en_US.UTF-8
+LC_CTYPE="en_US.UTF-8"
+LC_NUMERIC="en_US.UTF-8"
+LC_TIME="en_US.UTF-8"
+LC_COLLATE="en_US.UTF-8"
+LC_MONETARY="en_US.UTF-8"
+LC_MESSAGES="en_US.UTF-8"
+LC_ALL=
 ```
 
 The usage of iconv here are redundant, but it's to prove that it's not iconv (on MinGW) that is the problem, nor is it MinGW (or Windows) itself, for it can handle UTF-8 based Japanese texts.
+
+Another kind of test, to verify that kakasi is correctly interpreting kanji+hiragana+katakana, here are the proofs:
+
+```bash
+$ /mingw64/bin/kakasi -Ja -Ka -Ha  -i utf8 -o utf8  <<< "最近人気の\nデスクトップな\nリナックスです!"
+saikinninkino\ndesukutoppuna\nrinakkusudesu!
+```
+
+All in all, this tells me that it's actually (only) how kakasi no longer understands how to render as `-o utf8`
