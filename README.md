@@ -119,6 +119,10 @@ Another kind of test, to verify that kakasi is correctly interpreting kanji+hira
 ```bash
 $ /mingw64/bin/kakasi -Ja -Ka -Ha  -i utf8 -o utf8  <<< "最近人気の\nデスクトップな\nリナックスです!"
 saikinninkino\ndesukutoppuna\nrinakkusudesu!
+
+# blending kanji to output:
+$ /mingw64/bin/kakasi -Ja -Ka -Ha  -i utf8 -o utf8 -f ./kakasidict ./itaijidict <<< "最近人気の\nデスクトップな\nリナックスです!"
+µ£ÇΦ┐æ[saikin]Σ║║µ░ù[ninki]no\ndesukutoppuna\nrinakkusudesu!
 ```
 
 All in all, this tells me that it's actually (only) how kakasi no longer understands how to render as `-o utf8`
