@@ -1,6 +1,23 @@
-# kakasi
-kakasi-2.3.6 source preserved from http://kakasi.namazu.org/stable/kakasi-2.3.6.tar.gz
+# KAKASI
 
+KAKASI は、 漢字かなまじり文をひらがな文やローマ字文に変換することを目的として 作成したプログラムと辞書の総称です。
+
+"KAKASI" という名称は、"kanji kana simple inverter" の略です。 また、東北大学(現: 京都大学)の佐藤雅彦先生によって開発された SKK - simple kana kanji converter を逆から読んだものでもあります。 KAKASI の辞書のエントリのほとんどは SKK 辞書起源のものです。
+
+KAKASI はフリーソフトウェアです。 あなたは、Free Software Foundation が公表した GNU General Public License (GNU 一般公有使用許諾) バージョン 2 あるいはそれ以降の各バージョンの中からいずれかを選択し、 そのバージョンが定める条項に従って本プログラムを 再頒布または変更することができます。
+
+KAKASI は有用とは思いますが、頒布にあたっては、 市場性及び特定目的適合性についての暗黙の保証を含めて、 いかなる保証も行ないません。 詳細については GNU General Public License をお読みください。
+
+KAKASI に関する情報は http://kakasi.namazu.org/ から得ることができます。
+
+コメントやバグの報告は bug-kakasi@namazu.org 宛に、日本語か英語でお送り下さい。 注意: このメールアドレスは開発用のメーリングリストになっています。
+
+KAKASI project <kakasi-dev@namazu.org>
+Copyright (C) 1999-2001 KAKASI project. All rights reserved.
+
+- kakasi-2.3.6 source preserved from http://kakasi.namazu.org/stable/kakasi-2.3.6.tar.gz
+
+## LICENSE
 The license as stated on the following pages:
 
 - http://kakasi.namazu.org/index.html.ja
@@ -8,6 +25,7 @@ The license as stated on the following pages:
 
 indicates that original source was/is of GPL v2 and later.
 
+## Installations and Building
 Please note: If you're just trying to build on Linux, either use your own distro package (i.e. even on latest Debian you *SHOULD* be able to do `$ apt install kakasi kakasi-dic libkakasi2` and get all working), so do NOT bother.  And even if you are in need to build/compile it by hand (i.e. perhaps you need to have an image on Docker?), you can just download the tar file from the original site (kakasi.namazu.org) and just `$ configure && make && sudo make install` and be done (it takes less than 5 minutes to compile and install this C project)!  IF you can handle the memory-hogging Windows WSL, then just install any of your favorite distro supporting WSL (for me, that would be Debian) and just `$ apt install kakasi kakasi-dic` and be done!
 
 I've only created this repos because I have the need to build it on MinGW and unfortunately, neither MinGW `pacman` nor Cygwin have kakasi binary anymore, and I cannot handle the memory-hogging WSL to compete on RAM consumptions with other memory-hoggers (mainly static analysis language services such as `rust-analyzer` and `ionide` (F#) and `omnisharp` (C#) that commonly eats up gobs of RAM).
@@ -23,6 +41,8 @@ I'd like to preserve the original as much as possible, but unfortunately the Win
 - Though it works on `make` (via autoconf) I would like to either update the `make` to output build artifacts outside `src` directory, or at least, wish to have it not pollute the original folders that the authors have written their source files to, so I am in the process of seeing if I can convert automake files to cmake on my spare time.
 
 ## Caveats
+
+NOTE: The "kakasi.exe" found in the wild also has the following issues; there are other incomplete conversion of KAKASI (such as the rust kakasi crate) that only converts to either romaji or hiragana as well.
 
 As for the current moment, though it compiles on both Linux and MinGW, when tested, Linux version works fine but MinGW version has issues with transforming back to UTF-8 even with the `-i utf8` flag set.  At first, I thought maybe the MinGW version of `iconv` is broken but this is what I get:
 
