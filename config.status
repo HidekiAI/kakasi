@@ -437,7 +437,7 @@ Copyright (C) 2012 Free Software Foundation, Inc.
 This config.status script is free software; the Free Software Foundation
 gives unlimited permission to copy, distribute and modify it."
 
-ac_pwd='/home/hidekiai/projects/github/test/kakasi'
+ac_pwd='/home/hidekiai/projects/github/kakasi'
 srcdir='.'
 INSTALL='/usr/bin/install -c'
 MKDIR_P='/usr/bin/mkdir -p'
@@ -888,12 +888,12 @@ S["mkdir_p"]="/usr/bin/mkdir -p"
 S["MKDIR_P"]="/usr/bin/mkdir -p"
 S["INSTALL_STRIP_PROGRAM"]="$(install_sh) -c -s"
 S["STRIP"]="strip"
-S["install_sh"]="${SHELL} /home/hidekiai/projects/github/test/kakasi/install-sh"
-S["MAKEINFO"]="${SHELL} /home/hidekiai/projects/github/test/kakasi/missing --run makeinfo"
-S["AUTOHEADER"]="${SHELL} /home/hidekiai/projects/github/test/kakasi/missing --run autoheader"
-S["AUTOMAKE"]="${SHELL} /home/hidekiai/projects/github/test/kakasi/missing --run automake-1.11"
-S["AUTOCONF"]="${SHELL} /home/hidekiai/projects/github/test/kakasi/missing --run autoconf"
-S["ACLOCAL"]="${SHELL} /home/hidekiai/projects/github/test/kakasi/missing --run aclocal-1.11"
+S["install_sh"]="${SHELL} /home/hidekiai/projects/github/kakasi/install-sh"
+S["MAKEINFO"]="${SHELL} /home/hidekiai/projects/github/kakasi/missing --run makeinfo"
+S["AUTOHEADER"]="${SHELL} /home/hidekiai/projects/github/kakasi/missing --run autoheader"
+S["AUTOMAKE"]="${SHELL} /home/hidekiai/projects/github/kakasi/missing --run automake-1.11"
+S["AUTOCONF"]="${SHELL} /home/hidekiai/projects/github/kakasi/missing --run autoconf"
+S["ACLOCAL"]="${SHELL} /home/hidekiai/projects/github/kakasi/missing --run aclocal-1.11"
 S["VERSION"]="2.3.6"
 S["PACKAGE"]="kakasi"
 S["CYGPATH_W"]="echo"
