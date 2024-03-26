@@ -203,10 +203,10 @@ With `make install` now working, all works as expected on MinGW (note that you m
 
 ```bash
 MINGW64 ~/projects/lenzu/kakasi/share/kakasi
-# export LANG="en_US.UTF-8"
+$ export LANG="en_US.UTF-8"
 
 MINGW64 ~/projects/lenzu/kakasi/share/kakasi
-# locale
+$ locale
 LANG=en_US.UTF-8
 LC_CTYPE="en_US.UTF-8"
 LC_NUMERIC="en_US.UTF-8"
@@ -217,7 +217,7 @@ LC_MESSAGES="en_US.UTF-8"
 LC_ALL=
 
 MINGW64 ~/projects/lenzu/kakasi/share/kakasi
-# kakasi -JH -f  -i utf-8 -o utf-8 <<< "最近人気の\nデスクトップな\nリナックスです!"
+$ kakasi -JH -f  -i utf-8 -o utf-8 <<< "最近人気の\nデスクトップな\nリナックスです!"
 最近[さいきん]人気[にんき]の\nデスクトップな\nリナックスです!
 ```
 
