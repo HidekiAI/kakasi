@@ -196,10 +196,10 @@ I cannot push what I have, but if you want to build your own, look in my W.I.P. 
 
 ## Final update
 
-- The issue regarding the `.libs/kakasi.exe` aartifact turns out be because I was mixing Git-For-Windows "git-bash.exe" based MinGW environment.  By making sure to open the terminal with `/msys64/usr/bin/bash.exe` instead, it built without the artifacts, and `make install` successfully installs as-is (and copies the `kanwadict` and `itaijidict` at `/share/kakasi` dir (unsure why it's not `/usr/share/kakasi`)
+- The issue regarding the `.libs/kakasi.exe` artifact turns out be because I was mixing Git-For-Windows "git-bash.exe" based MinGW environment.  By making sure to open the terminal with `/msys64/usr/bin/bash.exe` instead, it built without the artifacts, and `make install` successfully installs as-is (and copies the `kanwadict` and `itaijidict` at `/share/kakasi` dir (unsure why it's not `/usr/share/kakasi`)
 - When running the `autoconf`, when in the `msys64` environment, you'd want to do `$ configure --build=x86_64` (note that if you did `$ configure --build=x86_64 --host=msys`, it will fail with a remark that it cannot build/run tests in cross-compile mode, so leave the `--host` as-is and let it guess)
 
-With `make install` now working, all works as expected (though terminal seems to turn my UTF-8 as escape):
+With `make install` now working, all works as expected on MinGW (note that you may want to `export LANG` if you're getting UTF-8 input escaped):
 
 ```bash
 MINGW64 ~/projects/lenzu/kakasi/share/kakasi
