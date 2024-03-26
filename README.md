@@ -157,7 +157,16 @@ $ /mingw64/bin/kakasi -Ja -Ka -Ha  -i utf8 -o utf8 -f ./kakasidict ./itaijidict 
 
 All in all, this tells me that it's actually (only) how kakasi no longer understands how to render as `-o utf8`
 
-After tweaking here and there (only on MinGW side), it turns out somehow the EUC support on `iconv` (I think only on MinGW?  MinGW version of iconv is v1.17 while Debian is v2.36) no longer is supported, causing `configure` script to fail...  But with few adjustments to it, I'm now able to see something promising:
+After tweaking here and there (only on MinGW side), it turns out the test on `iconv` to EUC-JP support (I think only on MinGW?  MinGW version of iconv is v1.17 while Debian is v2.36) is possibly broken, causing `configure` script to fail...  But to verify that, I've tried this:
+
+```bash
+MSYS ~/projects/lenzu
+$ iconv -t EUC-JP -f UTF-8 <<< "最近人気の デスクトップな リナックスです!" > /tmp/iconv_out.txt ; iconv -f EUC-JP -t UTF-8 < /tmp/iconv_out.txt
+最近人気の デスクトップな リナックスです!
+```
+And as you can see, it does properly convert from UTF-8 -> EUC-JP -> UTF-8...
+
+In any case, for now, by removing the test on iconv in configure script, I'm now able to see something promising:
 
 ```bash
  MINGW64 ~/projects/github/kakasi
@@ -177,6 +186,9 @@ MINGW64 ~/projects/github/kakasi
 $ ./configure CC=/clang64/bin/clang.exe CFLAGS="-Wall -O2" LDFLAGS="-L/clang64/lib" LIBS="-liconv" CPPFLAGS="-I/clang64/include" CPP=/clang64/bin/clang-cpp.exe
 ```
 
-I cannot push what I have, but if you want to build your own, look in my W.I.P. branch under `WIP/build/mingw` and grab the `configure` script (I think that's all you need).
+I cannot push what I have, but if you want to build your own, look in my W.I.P. branch under `WIP/build/mingw` and grab the `configure` script (I think that's all you need).  Reason why I cannot push it are two reasons:
+
+- It ONLY works when I open MSYS terminal, when I try it on other MinGW terminal (i.e. Git-for-Windows MSYS terminal), it outputs incorrectly.  `locale` command shows all to be same, so I've no clue what this is (if you know, please let me know)
+- The output creates a "./.libs/kakasi.exe" on the same directory as "./kakasi.exe" which I've no clue what it is, but if the ".libs/kakasi.exe" directory and filename does not exist on same directory as "kakasi.exe", it will just output complete blank line.  Hence, `$ make install` will not work because it will not copy the `.libs/kakasi.exe` to target `/usr/bin` directory.  I've done quick research on what this `.libs/` artifacts are, but I'm not able to get a concrete answer (if you know what it is, please let me know, I need help getting `make install` to work again)
 
 ~ PEACE!
