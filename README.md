@@ -195,16 +195,16 @@ I cannot push what I have, but if you want to build your own, look in my W.I.P. 
 
 ## Edit (Post-mortem)
 
-- The issue regarding the `.libs/kakasi.exe` artificat turns out be because I was mixing Git-For-Windows "git-bash.exe" based MinGW environment.  by making sure to open the terminal with `/msys64/usr/bin/bash.exe` instead, it built without the artifacts, and `make install` successfully installs as-is (and copies the `kanwadict` and `itaijidict` at `/share/kakasi` dir (unsure why it's not `/usr/share/kakasi`)
+- The issue regarding the `.libs/kakasi.exe` aartifact turns out be because I was mixing Git-For-Windows "git-bash.exe" based MinGW environment.  By making sure to open the terminal with `/msys64/usr/bin/bash.exe` instead, it built without the artifacts, and `make install` successfully installs as-is (and copies the `kanwadict` and `itaijidict` at `/share/kakasi` dir (unsure why it's not `/usr/share/kakasi`)
 - When running the `autoconf`, when in the `msys64` environment, you'd want to do `$ configure --build=x86_64` (note that if you did `$ configure --build=x86_64 --host=msys`, it will fail with a remark that it cannot build/run tests in cross-compile mode, so leave the `--host` as-is and let it guess)
 
 With `make install` now working, all works as expected (though terminal seems to turn my UTF-8 as escape):
 
 ```bash
-~/projects/lenzu/kakasi/share/kakasi
+MINGW64 ~/projects/lenzu/kakasi/share/kakasi
 # export LANG="en_US.UTF-8"
 
-~/projects/lenzu/kakasi/share/kakasi
+MINGW64 ~/projects/lenzu/kakasi/share/kakasi
 # locale
 LANG=en_US.UTF-8
 LC_CTYPE="en_US.UTF-8"
@@ -215,7 +215,7 @@ LC_MONETARY="en_US.UTF-8"
 LC_MESSAGES="en_US.UTF-8"
 LC_ALL=
 
-~/projects/lenzu/kakasi/share/kakasi
+MINGW64 ~/projects/lenzu/kakasi/share/kakasi
 # kakasi -JH -f  -i utf-8 -o utf-8 <<< "最近人気の\nデスクトップな\nリナックスです!"
 最近[さいきん]人気[にんき]の\nデスクトップな\nリナックスです!
 ```
