@@ -192,3 +192,30 @@ I cannot push what I have, but if you want to build your own, look in my W.I.P. 
 - The output creates a "./.libs/kakasi.exe" on the same directory as "./kakasi.exe" which I've no clue what it is, but if the ".libs/kakasi.exe" directory and filename does not exist on same directory as "kakasi.exe", it will just output complete blank line.  Hence, `$ make install` will not work because it will not copy the `.libs/kakasi.exe` to target `/usr/bin` directory.  I've done quick research on what this `.libs/` artifacts are (note that neither `gcc` nor `clang` on Debian will create the artifacts, only on MinGW), but I'm not able to get a concrete answer (if you know what it is, please let me know, I need help getting `make install` to work again)
 
 ~ PEACE!
+
+## Edit (Post-mortem)
+
+- The issue regarding the `.libs/kakasi.exe` artificat turns out be because I was mixing Git-For-Windows "git-bash.exe" based MinGW environment.  by making sure to open the terminal with `/msys64/usr/bin/bash.exe` instead, it built without the artifacts, and `make install` successfully installs as-is (and copies the `kanwadict` and `itaijidict` at `/share/kakasi` dir (unsure why it's not `/usr/share/kakasi`)
+- When running the `autoconf`, when in the `msys64` environment, you'd want to do `$ configure --build=x86_64` (note that if you did `$ configure --build=x86_64 --host=msys`, it will fail with a remark that it cannot build/run tests in cross-compile mode, so leave the `--host` as-is and let it guess)
+
+With `make install` now working, all works as expected (though terminal seems to turn my UTF-8 as escape):
+
+```bash
+~/projects/lenzu/kakasi/share/kakasi
+# export LANG="en_US.UTF-8"
+
+~/projects/lenzu/kakasi/share/kakasi
+# locale
+LANG=en_US.UTF-8
+LC_CTYPE="en_US.UTF-8"
+LC_NUMERIC="en_US.UTF-8"
+LC_TIME="en_US.UTF-8"
+LC_COLLATE="en_US.UTF-8"
+LC_MONETARY="en_US.UTF-8"
+LC_MESSAGES="en_US.UTF-8"
+LC_ALL=
+
+~/projects/lenzu/kakasi/share/kakasi
+# kakasi -JH -f  -i utf-8 -o utf-8 <<< "最近人気の\nデスクトップな\nリナックスです!"
+最近[さいきん]人気[にんき]の\nデスクトップな\nリナックスです!
+```
