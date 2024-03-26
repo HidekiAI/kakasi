@@ -32,6 +32,11 @@ The license (above) as stated on the following pages:
 
 indicates that original source was/is of GPL v2 and later.
 
+## IMPORTANT
+
+- Because the original project is GPL, I'm not allowed to alter the source code unless the authors can acquire the changes, but unfortunately, the source repository of the original is no longer available.  Because I do not wish to break the license agreement, I've decided to just create a repos here based off of the snapshot of v2.3.6 and record as much as possible of what was/is needed to make it compiling on MinGW
+- If and when the authors from namazu.org ever decides to create their own account to preserve kakasi, I will then make sure to put this repos in private mode.
+
 ## Installations and Building
 
 kakasi-2.3.6 source preserved from [kakasi-2.3.6.tar.gz](http://kakasi.namazu.org/stable/kakasi-2.3.6.tar.gz)
@@ -39,8 +44,6 @@ kakasi-2.3.6 source preserved from [kakasi-2.3.6.tar.gz](http://kakasi.namazu.or
 If you're just trying to build on Linux, either use your own distro package (i.e. even on latest Debian you *SHOULD* be able to do `$ apt install kakasi kakasi-dic libkakasi2` and get all working), so do NOT bother.  And even if you are in need to build/compile it by hand (i.e. perhaps you need to have an image on Docker?), you can just download the tar file from the original site (kakasi.namazu.org) and just `$ configure && make && sudo make install` and be done (it takes less than 5 minutes to compile and install this C project)!  IF you can handle the memory-hogging Windows WSL, then just install any of your favorite distro supporting WSL (for me, that would be Debian) and just `$ apt install kakasi kakasi-dic` and be done!
 
 I've only created this repos because I have the need to build it on MinGW and unfortunately, neither MinGW `pacman` nor Cygwin have kakasi binary anymore, and I cannot handle the memory-hogging WSL to compete on RAM consumptions with other memory-hoggers (mainly static analysis language services such as `rust-analyzer` and `ionide` (F#) and `omnisharp` (C#) that commonly eats up gobs of RAM).
-
-If and when the authors from namazu.org ever decides to create their own account to preserve kakasi, I will then make sure to put this repos in private mode.
 
 ## Minor modifications and alterations
 
