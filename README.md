@@ -34,7 +34,7 @@ indicates that original source was/is of GPL v2 and later.
 
 ## Installations and Building
 
-kakasi-2.3.6 source preserved from http://kakasi.namazu.org/stable/kakasi-2.3.6.tar.gz
+kakasi-2.3.6 source preserved from [kakasi-2.3.4.tar.gz](http://kakasi.namazu.org/stable/kakasi-2.3.4.tar.gz)
 
 If you're just trying to build on Linux, either use your own distro package (i.e. even on latest Debian you *SHOULD* be able to do `$ apt install kakasi kakasi-dic libkakasi2` and get all working), so do NOT bother.  And even if you are in need to build/compile it by hand (i.e. perhaps you need to have an image on Docker?), you can just download the tar file from the original site (kakasi.namazu.org) and just `$ configure && make && sudo make install` and be done (it takes less than 5 minutes to compile and install this C project)!  IF you can handle the memory-hogging Windows WSL, then just install any of your favorite distro supporting WSL (for me, that would be Debian) and just `$ apt install kakasi kakasi-dic` and be done!
 
