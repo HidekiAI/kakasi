@@ -32,15 +32,18 @@ The license (above) as stated on the following pages:
 
 indicates that original source was/is of GPL v2 and later.
 
+## IMPORTANT
+
+- Because the original project is GPL, I'm not allowed to alter the source code unless the authors can acquire the changes, but unfortunately, the source repository of the original is no longer available.  Because I do not wish to break the license agreement, I've decided to just create a repos here based off of the snapshot of v2.3.6 and record as much as possible of what was/is needed to make it compiling on MinGW
+- If and when the authors from namazu.org ever decides to create their own account to preserve kakasi, I will then make sure to put this repos in private mode.
+
 ## Installations and Building
 
-kakasi-2.3.6 source preserved from http://kakasi.namazu.org/stable/kakasi-2.3.6.tar.gz
+kakasi-2.3.6 source preserved from [kakasi-2.3.6.tar.gz](http://kakasi.namazu.org/stable/kakasi-2.3.6.tar.gz)
 
 If you're just trying to build on Linux, either use your own distro package (i.e. even on latest Debian you *SHOULD* be able to do `$ apt install kakasi kakasi-dic libkakasi2` and get all working), so do NOT bother.  And even if you are in need to build/compile it by hand (i.e. perhaps you need to have an image on Docker?), you can just download the tar file from the original site (kakasi.namazu.org) and just `$ configure && make && sudo make install` and be done (it takes less than 5 minutes to compile and install this C project)!  IF you can handle the memory-hogging Windows WSL, then just install any of your favorite distro supporting WSL (for me, that would be Debian) and just `$ apt install kakasi kakasi-dic` and be done!
 
 I've only created this repos because I have the need to build it on MinGW and unfortunately, neither MinGW `pacman` nor Cygwin have kakasi binary anymore, and I cannot handle the memory-hogging WSL to compete on RAM consumptions with other memory-hoggers (mainly static analysis language services such as `rust-analyzer` and `ionide` (F#) and `omnisharp` (C#) that commonly eats up gobs of RAM).
-
-If and when the authors from namazu.org ever decides to create their own account to preserve kakasi, I will then make sure to put this repos in private mode.
 
 ## Minor modifications and alterations
 
@@ -156,3 +159,67 @@ $ /mingw64/bin/kakasi -Ja -Ka -Ha  -i utf8 -o utf8 -f ./kakasidict ./itaijidict 
 ```
 
 All in all, this tells me that it's actually (only) how kakasi no longer understands how to render as `-o utf8`
+
+After tweaking here and there (only on MinGW side), it turns out the test on `iconv` to EUC-JP support (I think only on MinGW?  MinGW version of iconv is v1.17 while Debian is v2.36) is possibly broken, causing `configure` script to fail...  But to verify that, I've tried this:
+
+```bash
+MSYS ~/projects/lenzu
+$ iconv -t EUC-JP -f UTF-8 <<< "最近人気の デスクトップな リナックスです!" > /tmp/iconv_out.txt ; iconv -f EUC-JP -t UTF-8 < /tmp/iconv_out.txt
+最近人気の デスクトップな リナックスです!
+```
+And as you can see, it does properly convert from UTF-8 -> EUC-JP -> UTF-8...
+
+In any case, for now, by removing the test on iconv in configure script, I'm now able to see something promising:
+
+```bash
+ MINGW64 ~/projects/github/kakasi
+$ src/kakasi -JH -f -Ka -Ha  -i utf-8 -o utf-8 ./kakasidict ./itaijidict  <<< "最近人気の\nデスクトップな\nリナックスです!"
+最近[さいきん]人気[にんき]no\ndesukutoppuna\nrinakkusudesu!
+
+MINGW64 ~/projects/github/kakasi
+$ src/kakasi -JH -f  -i utf-8 -o utf-8 ./kakasidict ./itaijidict  <<< "最近人気の\nデスクトップな\nリナックスです!"
+最近[さいきん]人気[にんき]の\nデスクトップな\nリナックスです!
+
+```
+
+Just for the record, my build in MinGW had to do this (I'm using `clang64` as my choice to match my Debian):
+
+```bash
+MINGW64 ~/projects/github/kakasi
+$ ./configure CC=/clang64/bin/clang.exe CFLAGS="-Wall -O2" LDFLAGS="-L/clang64/lib" LIBS="-liconv" CPPFLAGS="-I/clang64/include" CPP=/clang64/bin/clang-cpp.exe
+```
+
+I cannot push what I have, but if you want to build your own, look in my W.I.P. branch under `WIP/build/mingw` and grab the `configure` script (I think that's all you need).  Reason why I cannot push it are two reasons:
+
+- It ONLY works when I open MSYS terminal, when I try it on other MinGW terminal (i.e. Git-for-Windows MSYS terminal), it outputs incorrectly.  `locale` command shows all to be same, so I've no clue what this is (if you know, please let me know)
+- The output creates a "./.libs/kakasi.exe" on the same directory as "./kakasi.exe" which I've no clue what it is, but if the ".libs/kakasi.exe" directory and filename does not exist on same directory as "kakasi.exe", it will just output complete blank line.  Hence, `$ make install` will not work because it will not copy the `.libs/kakasi.exe` to target `/usr/bin` directory.  I've done quick research on what this `.libs/` artifacts are (note that neither `gcc` nor `clang` on Debian will create the artifacts, only on MinGW), but I'm not able to get a concrete answer (if you know what it is, please let me know, I need help getting `make install` to work again)
+
+## Final update
+
+- The issue regarding the `.libs/kakasi.exe` artifact turns out be because I was mixing Git-For-Windows "git-bash.exe" based MinGW environment.  By making sure to open the terminal with `/msys64/usr/bin/bash.exe` instead, it built without the artifacts, and `make install` successfully installs as-is (and copies the `kanwadict` and `itaijidict` at `/share/kakasi` dir (unsure why it's not `/usr/share/kakasi`)
+- When running the `autoconf`, when in the `msys64` environment, you'd want to do `$ configure --build=x86_64` (note that if you did `$ configure --build=x86_64 --host=msys`, it will fail with a remark that it cannot build/run tests in cross-compile mode, so leave the `--host` as-is and let it guess)
+
+With `make install` now working, all works as expected on MinGW (note that you may want to `export LANG` if you're getting UTF-8 input escaped):
+
+```bash
+MINGW64 ~/projects/lenzu/kakasi/share/kakasi
+$ export LANG="en_US.UTF-8"
+
+MINGW64 ~/projects/lenzu/kakasi/share/kakasi
+$ locale
+LANG=en_US.UTF-8
+LC_CTYPE="en_US.UTF-8"
+LC_NUMERIC="en_US.UTF-8"
+LC_TIME="en_US.UTF-8"
+LC_COLLATE="en_US.UTF-8"
+LC_MONETARY="en_US.UTF-8"
+LC_MESSAGES="en_US.UTF-8"
+LC_ALL=
+
+MINGW64 ~/projects/lenzu/kakasi/share/kakasi
+$ kakasi -JH -f  -i utf-8 -o utf-8 <<< "最近人気の\nデスクトップな\nリナックスです!"
+最近[さいきん]人気[にんき]の\nデスクトップな\nリナックスです!
+```
+
+
+~ PEACE!

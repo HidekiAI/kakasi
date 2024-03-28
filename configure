@@ -9101,9 +9101,7 @@ fi
 	# The linker will automatically build a .lib file if we build a DLL.
 	old_archive_from_new_cmds='true'
 	# FIXME: Should let the user specify the lib program.
-#	old_archive_cmds='lib -OUT:$oldlib$oldobjs$old_deplibs'   ################### THIS IS BROKEN! (at least it'll fail on MINGW)
-  # The following, which is copied from Linux version, works on MinGW:
-  old_archive_cmds='$AR $AR_FLAGS $oldlib$oldobjs'
+	old_archive_cmds='lib -OUT:$oldlib$oldobjs$old_deplibs'
 	enable_shared_with_static_runtimes=yes
 	;;
       esac
