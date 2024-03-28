@@ -43,3 +43,5 @@ target/
 
 .libs/
 
+*log
+
