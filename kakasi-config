@@ -1,6 +1,6 @@
 #!/bin/sh
 
-prefix=/mingw64
+prefix=/usr
 exec_prefix=${prefix}
 exec_prefix_set=no
 

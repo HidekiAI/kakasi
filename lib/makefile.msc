@@ -8,8 +8,8 @@ OPTIMIZE = /O1
 # Debugging:
 #OPTIMIZE = /Zi
 
-libdir = /mingw64/lib
-dictdir = /mingw64/share/kakasi
+libdir = /usr/lib
+dictdir = /usr/share/kakasi
 
 KAKASI = ..\src
 KANWADICT = $(dictdir)/kanwadict

@@ -5,7 +5,7 @@
 #define EACH_YOMI 1
 
 /* Define to 1 if you have the <dlfcn.h> header file. */
-/* #undef HAVE_DLFCN_H */
+#define HAVE_DLFCN_H 1
 
 /* Define if you have the iconv() function and it works. */
 #define HAVE_ICONV 1

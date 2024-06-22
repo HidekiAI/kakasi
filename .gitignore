@@ -39,3 +39,7 @@ build/
 target/
 
 .vscode/
+config.log
+
+*.log
+
