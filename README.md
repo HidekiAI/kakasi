@@ -32,9 +32,11 @@ The license (above) as stated on the following pages:
 
 indicates that original source was/is of GPL v2 and later.
 
+---
+
 ## IMPORTANT
 
-- Because the original project is GPL, I'm not allowed to alter the source code unless the authors can acquire the changes, but unfortunately, the source repository of the original is no longer available.  Because I do not wish to break the license agreement, I've decided to just create a repos here based off of the snapshot of v2.3.6 and record as much as possible of what was/is needed to make it compiling on MinGW
+- Because the original project is GPL, I'm not allowed to alter the source code unless the authors can acquire the changes (fork, alter, and merge back), but unfortunately, the source repository of the original is no longer available (clone and alter).  Because I do not wish to break the license agreement, I've decided to just create a repos here based off of the snapshot of v2.3.6 and record as much as possible of what was/is needed to make it compiling on MinGW
 - If and when the authors from namazu.org ever decides to create their own account to preserve kakasi, I will then make sure to put this repos in private mode.
 
 ## Installations and Building
