@@ -30,7 +30,7 @@ The license (above) as stated on the following pages:
 - http://kakasi.namazu.org/index.html.ja
 - http://kakasi.namazu.org/index.html.en
 
-There are no license files which indicates that original source was/is of GPL v2 and later, but some of the source files have the following as its header:
+There are no license file(s) from original tar-file (the [LICENSE](./LICENSE) file commited here with GPLv2 is auto-included from github) other than here and there, in different files, it has mentioning of GPL (in some cases, v2 and later), and here is a copy from one of the source code:
 
 ```
  * KAKASI (Kanji Kana Simple inversion program)
