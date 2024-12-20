@@ -28,9 +28,11 @@ Mail comments and bug reports to bug-kakasi@namazu.org in Japanese or English.
 The license (above) as stated on the following pages:
 
 - http://kakasi.namazu.org/index.html.ja
-- http://kakasi.namazu.org/index.html.en - there are no 
+- http://kakasi.namazu.org/index.html.en - there are no license files which indicates that original source was/is of GPL v2 and later.
 
-indicates that original source was/is of GPL v2 and later.
+## Project History
+
+Please refer to [ChangeLog](./ChangeLog) (or from original location: [namazu.org](http://kakasi.namazu.org/ChangeLog))
 
 ---
 
